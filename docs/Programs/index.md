@@ -327,6 +327,7 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | **Shiny Hunting:** |
 | [Shiny Hunt - Bench Sit](PokemonLZA/ShinyHunt-BenchSit.md)             | Shiny hunt using the bench reset method.               | Video + Audio | All |
 | [Shiny Hunt - Overworld Reset](PokemonLZA/ShinyHunt-OverworldReset.md) | Shiny hunt using the overworld reset method.           | Video + Audio | All |
+| [Shiny Hunt - Wild Zone Entrance](PokemonLZA/ShinyHunt-WildZoneEntrance.md) | Shiny hunt at wild zone entrance using fast travel method.           | Video + Audio | All |
 
 
 ## Zelda: Tears of the Kingdom
