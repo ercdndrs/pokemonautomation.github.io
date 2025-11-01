@@ -227,6 +227,7 @@ When to pick each restaurant:
 ## Credits
 
 - **Author:** Kuroneko/Mysticial
+- **Stats Table:** Gimikyu/Ericzklm
 
 
 <hr>
@@ -234,6 +235,7 @@ When to pick each restaurant:
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
