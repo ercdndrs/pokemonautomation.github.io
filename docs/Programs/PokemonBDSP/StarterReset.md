@@ -6,8 +6,6 @@ Reset for a shiny starter.
 
 <img src="images/StarterReset-0.png">
 
-Demo Video: https://cdn.discordapp.com/attachments/755635697737531544/911525673414303744/2021-11-20_01-27-36.mp4
-
 
 ### Setup of Settings
 
@@ -57,6 +55,7 @@ The starter you are picking.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
