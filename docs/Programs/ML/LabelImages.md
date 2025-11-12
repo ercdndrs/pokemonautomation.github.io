@@ -74,21 +74,15 @@ When you finish annotating every image, check the button "Open Saved Annotation 
 #### If you want to train with YOLOv5
 
 If you want to train the image detection yourself with YOLOv5, then you will need to export the annotations to a format recognized by YOLOv5.
+
 - Create a YAML file. Make sure it has a names field, with a line for all the different labels. It should look something like this:
+
 ```
 # Classes
 names:
-  0: rock-1
-  1: rock-2
-  2: rock-3
-  3: rock-4
-  4: rock-5
-  5: rock-6
-  6: station-1
-  7: stream
-  8: tree-tera
-  9: tree-1
-  # 10: other-rock
+  0: object-0
+  1: object-1
+  2: object-2
 ```
 
 - Click the button `Export Image To YOLOv5`.  Select the folder with all the images/screenshots. Then select the YAML file.
@@ -118,6 +112,7 @@ Note: SAM has its limits. It may fail to create the correct mask even after incl
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
