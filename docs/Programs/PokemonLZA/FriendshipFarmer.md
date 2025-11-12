@@ -1,4 +1,4 @@
-# Friendship Farmer 
+# Friendship Farmer (In Beta, Not Released Yet)
 
 ## Program Description
 
