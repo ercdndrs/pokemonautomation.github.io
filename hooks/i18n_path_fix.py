@@ -87,11 +87,8 @@ def on_page_markdown(markdown: str, page, config, files) -> str:
     # e.g., "SetupGuide/Controllers/" → ["SetupGuide", "Controllers"]
     src_parts = src_dir.split('/') if src_dir else []
 
-    # Fix both types of paths:
-    # 1. Paths starting with '../' (e.g., "../Images/foo.jpg")
-    # 2. Paths without '../' (e.g., "SetupGuide/Images/foo.jpg")
-    markdown = _fix_relative_image_paths(markdown, src_parts)
-    markdown = _fix_root_relative_image_paths(markdown)
+    # Fix all image paths in a single pass
+    markdown = _fix_image_paths(markdown, src_parts)
 
     # Note: We do NOT modify markdown links ([text](page.md))
     # MkDocs expects links to stay as .md and converts them to .html automatically
@@ -100,100 +97,75 @@ def on_page_markdown(markdown: str, page, config, files) -> str:
     return markdown
 
 
-def _fix_relative_image_paths(markdown: str, src_parts: list[str]) -> str:
+def _fix_image_paths(markdown: str, src_parts: list[str]) -> str:
     """
-    Fix image paths that start with '../' (relative paths going up directories).
+    Fix all image src paths to work correctly with multi-language sites.
 
-    Example:
-        Source file: SetupGuide/Controllers/Controller-ESP32-S3.md
-        Original path: "../Images/foo.jpg" (goes up to SetupGuide, then to Images)
-        Chinese URL: /zh-CN/SetupGuide/Controllers/Controller-ESP32-S3.html
-        Fixed path: "../../../SetupGuide/Images/foo.jpg" (up 3 levels to root, then down)
+    This function handles four types of image paths:
+    1. External links (http://, https://) → No changes
+    2. Absolute paths starting with '/' → Add '../' to escape language directory
+    3. Relative paths  → add "../" to to to root, add one more "../" to escape language directory,
+       then back to the target file
+
+    Examples:
+        Source file: Programs/PokemonBDSP/EggFetcher.md (depth=2)
+
+        Type 1: external link:
+            "https://example.com/image.png" → no change
+
+        Type 2: absolute path:
+            "/SetupGuide/Images/foo.jpg" → no change
+
+        Type 3 relative path:
+            "../images/foo.jpg" → "../../../Programs/images/foo.jpg"
+            use "../.." to go back to root, add another "../" to escape the language directory, then
+            "Programs/images/foo.jpg" to reach the target file.
 
     Args:
         markdown: The markdown content
-        src_parts: Directories of the source file (e.g.,
-            "SetupGuide/Controllers/Controller-ESP32-S3.md" → ["SetupGuide", "Controllers"])
+        src_parts: Directory components of source file (e.g., ["Programs", "PokemonBDSP"])
+        src_dir: Source directory string (e.g., "Programs/PokemonBDSP")
 
     Returns:
-        Markdown with fixed relative image paths
+        Markdown with all image paths fixed for multi-language support
     """
     def fix_path(match):
-        original_path = match.group(1)  # e.g., "../Images/foo.jpg"
+        original_path = match.group(1)
 
-        # Count how many '../' are in the original path
+        # Type 1: External links: no change
+        if original_path.startswith('http://') or original_path.startswith('https://'):
+            return match.group(0)
+
+        # Type 2: Absolute paths starting with '/': no change
+        if original_path.startswith('/'):
+            return match.group(0)
+
+        # Type 3: Relative paths (starting with '../' or simple paths like "images/foo.png")
+        
+        # Count how many levels we go up in the original path
         up_count = 0
-        path_remainder = original_path # path after ../
+        path_remainder = original_path
         while path_remainder.startswith('../'):
             up_count += 1
             path_remainder = path_remainder[3:]  # Remove '../'
 
-        # Calculate which directory we'd be in after going up 'up_count' levels
-        # e.g., from "SetupGuide/Controllers/", going up 1 level → "SetupGuide/"
-        if up_count > 0 and up_count <= len(src_parts):
-            parent_parts = src_parts[:-up_count] if up_count < len(src_parts) else []
-        else:
-            parent_parts = []
+        # Calculate the parent directory after going up 'up_count' levels
+        # e.g., from ["Programs", "PokemonBDSP"], going up 1 level → ["Programs"]
+        parent_parts = src_parts[:-up_count] if up_count > 0 else src_parts
 
-        # Build the new path for non-English builds:
-        # 1. Go up enough levels to reach root (escape /zh-CN/ and directory structure)
-        #    Need: len(src_parts) + 1 levels (directory depth + 1 for /zh-CN/)
-        # 2. Go back down to the parent directory (if any)
-        # 3. Append the remainder of the path
-        new_up_count = len(src_parts) + 1  # +1 for the /<lang>/ prefix
+        # Build new path:
+        # 1. Go up to root: '../' x (depth + 1) for language support
+        # 2. Go back down to parent directory (if any)
+        # 3. Append the remainder
+        new_up_count = len(src_parts) + 1  # +1 to escape the language directory
         new_path = '../' * new_up_count
 
         if parent_parts:
             new_path += '/'.join(parent_parts) + '/'
 
         new_path += path_remainder
-
         return f'src="{new_path}"'
 
-    # Find all image src attributes with relative paths starting with '../'
-    # Regex: src="(\.\./[^"]+)" matches src="../anything"
-    return re.sub(r'src="(\.\./[^"]+)"', fix_path, markdown)
-
-
-def _fix_root_relative_image_paths(markdown):
-    """
-    Fix image paths that don't start with '../' (relative from page location).
-
-    Example:
-        Source file: ControllerList.md (at root level)
-        Original path: "SetupGuide/Images/foo.jpg"
-        Chinese URL: /zh-CN/ControllerList.html
-        Fixed path: "../SetupGuide/Images/foo.jpg" (escape /zh-CN/, then down to target)
-
-    Args:
-        markdown: The markdown content
-
-    Returns:
-        Markdown with fixed root-relative image paths
-    """
-    def fix_path(match):
-        original_path = match.group(1)
-
-        # Skip paths that are already handled or shouldn't be modified:
-        # - Already relative: starts with '../'
-        # - Absolute: starts with '/'
-        # - External: starts with 'http'
-        if (original_path.startswith('../') or
-            original_path.startswith('/') or
-            original_path.startswith('http')):
-            return match.group(0)  # Return unchanged
-
-        # Add '../' prefix to escape the /<lang>/ directory
-        # e.g., "SetupGuide/Images/foo.jpg" → "../SetupGuide/Images/foo.jpg"
-        return f'src="../{original_path}"'
-
-    # Find all image src attributes
-    # Regex: src="([^"]+)" matches src="anything"
-    # The function above filters which ones to modify
+    # Find all image src attributes and fix them
+    # Regex: src="([^"]+)" matches all src="anything"
     return re.sub(r'src="([^"]+)"', fix_path, markdown)
-
-
-# Future enhancement ideas:
-# - Auto-detect LANGUAGES by scanning for .{lang}.md files
-# - Add support for different path strategies (absolute paths, CDN, etc.)
-# - Add validation/logging to help debug path issues
