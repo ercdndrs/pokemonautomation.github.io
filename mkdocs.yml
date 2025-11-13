@@ -54,14 +54,14 @@ nav:
   - Programs: 
       - Programs/index.md
       - NintendoSwitch: Programs/NintendoSwitch
-      - PokemonBDSP: Programs/PokemonBDSP
-      - PokemonHome: Programs/PokemonHome
       - PokemonLGPE: Programs/PokemonLGPE
-      - PokemonLZA: Programs/PokemonLZA
-      - PokemonSV: Programs/PokemonSV
       - PokemonSwSh: Programs/PokemonSwSh
+      - PokemonBDSP: Programs/PokemonBDSP
+      - PokemonLA: Programs/PokemonLA
+      - PokemonSV: Programs/PokemonSV
+      - PokemonLZA: Programs/PokemonLZA
+      - PokemonHome: Programs/PokemonHome
       - ZeldaTotK: Programs/ZeldaTotK
-      - ML: Programs/ML
   - Controllers: ControllerList.md
   - Discord Integration:
       - Overview: DiscordIntegration/index.md
