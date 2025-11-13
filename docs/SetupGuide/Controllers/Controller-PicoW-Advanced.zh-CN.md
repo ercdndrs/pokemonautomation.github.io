@@ -1,3 +1,8 @@
+---
+social:
+  cards: false
+---
+
 # 树莓派: Pico W 和 Pico 2 W（高级配置）
 
 这高级配置在功能上与[UART模式](Controller-PicoW-UART.md)相同，但在从底座插拔Switch时单片机既不会故障也不会重置。

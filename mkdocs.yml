@@ -79,6 +79,7 @@ plugins:
   # Create social cards for link preview
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/
   # This only works if "site_url" is set in mkdocs.yml.
+  # Note: Chinese pages disable social cards (via frontmatter) due to the fonts are broken on the cards
   - social
   - search
   - i18n:
