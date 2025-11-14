@@ -1,5 +1,7 @@
 # Shiny Hunt - Bench Sit
 
+See also: [Shiny Hunting Recommendations](ShinyHuntRecommendations.md)
+
 ## Program Description
 
 Shiny hunt by repeatedly sitting on a bench. This will shiny hunt all spawns within 50m of the bench.
@@ -63,6 +65,7 @@ When a shiny is detected, wait this long before you take a screenshot and record
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
