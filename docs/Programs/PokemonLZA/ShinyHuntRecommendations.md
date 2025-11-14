@@ -17,11 +17,10 @@ Right click -> Open Image for larger size.
 | Spritzee (Alpha) | Rooftop of Rouge Sector 7, next to Wild Zone 13| <img src="images/ShinyHuntLocations/BenchSit-Spritzee.png" width="300"> |
 | Manectric (Alpha)<br>Meowstic (Alpha)<br>Carbink<br>Sableye<br>Espurr<br>Mawil (downstairs)<br>Flechinder| Bench beside static Alpha Manectric on rooftop, in Wild Zone 9<br>**Run Forward Direction:** 2000 ms| <img src="images/ShinyHuntLocations/BenchSit-WZ9.png" width="300"> |
 | Banette (Alpha)<br>Beedrill (Alpha)<br>Gourgeist (Alpha)<br>Scolipede| Bench inside Wild Zone 15 | 
-| Espurr | Bench South of Wild Zone 13. There are two spawns within range of the bench, located in the ally behind the building.<br><br>**Run Forward Direction:** 0 | <img src="images/ShinyHuntLocations/BenchSit-EspurrBench.png" width="300"><br><img src="images/ShinyHuntLocations/BenchSit-EspurrAlley.png" width="300"> |
+| Espurr | Bench South of Wild Zone 13. There are two spawns within range of the bench, located in the alley behind the building.<br><br>**Run Forward Direction:** 0 | <img src="images/ShinyHuntLocations/BenchSit-EspurrBench.png" width="300"><br><img src="images/ShinyHuntLocations/BenchSit-EspurrAlley.png" width="300"> |
 | Espurr<br> Meowstic (Alpha)<br> Carbink<br> Manectric (Alpha) | Bench on a building, West side of Wild Zone 9.<br><br>**Run Forward Direction:** 0 | <img src="images/ShinyHuntLocations/BenchSit-Manectric.png" width="300"> |
-| Manectric (Alpha)<br> Pansage | Bench on a building, West of Wild Zone 19.<br><br>**Run Forward Direction:** 0 | <img src="images/ShinyHuntLocations/BenchSit-Absol.png" width="300"><br><img src="images/ShinyHuntLocations/BenchSit-AbsolMap.png" width="300">|
+| Absol (Alpha)<br> Pansage | Bench on a building, West of Wild Zone 19.<br><br>**Run Forward Direction:** 0 | <img src="images/ShinyHuntLocations/BenchSit-Absol.png" width="300"><br><img src="images/ShinyHuntLocations/BenchSit-AbsolMap.png" width="300">|
 | Slowpoke<br> Carvanha<br> Sharpedo (Alpha)<br> Tynamo | Bench looking over the water, center of Wild Zone 10.<br><br>**Run Forward Direction:** 0 | <br><img src="images/ShinyHuntLocations/BenchSit-Sharpedo.png" width="300">|
-| Delibird<br> Snorunt<br> Snover<br> Abomasnow (Alpha)<br> Machop| Bench looking over the water, center of Wild Zone 10.<br><br>**Run Forward Direction:** 0 | <br><img src="images/ShinyHuntLocations/BenchSit-Sharpedo.png" width="300">|
 | Pyroar (Alpha)<br> Skarmory| Bench East side of Wild Zone 17. Due to the aggressive Pyroar you will need to be quick to start the program.<br><br>**Run Forward Direction:** 0 | <br><img src="images/ShinyHuntLocations/BenchSit-Pyroar.png" width="300">|  |
 
 ## Shiny Hunt - Wild Zone Entrance
@@ -32,7 +31,7 @@ Program: [Shiny Hunt - Wild Zone Entrance](ShinyHunt-WildZoneEntrance.md)
 | --- | --- | --- |
 | Fletchling<br>Bunnelby| **Wild Zone 1**<br> **Walk Time in Zone:** 0 ms | <img src="images/ShinyHuntLocations/WildZone1-FletchlingBunnelby.png" width="300"> |
 | Magikarp (Alpha)<br>Staryu (Alpha) | **Wild Zone 2**<br>**Walk Time in Zone:** 0 ms | <img src="images/ShinyHunt-WildZoneEntrance-ShalphaMagikarp.png" width="300> |
-| Flabébé<br>Skiddo<br>Pikachu<br>Litleo (Alpha)<br>Pancham | **Wild Zone 3**<br> **Walk Time in Zone:** 2000 ms<br> | <img src="images/ShinyHuntLocations/WildZone3-FlabébéLitleo.png" width="300"> |
+| Flabébé<br>Skiddo<br>Pikachu<br>Litleo (Alpha)<br>Pancham | **Wild Zone 3**<br> **Walk Time in Zone:** 2000 ms<br> | <img src="images/ShinyHuntLocations/WildZone3-FlabebeLitleo.png" width="300"> |
 | Weedle<br>Kakuna<br>Spinarak<br>Gastly| **Wild Zone 4**<br> **Movement:** Approach Gate But Don't Enter.<br> Weedle and Kakuna spawn in the tree to the North. Spinarak and Gastly will spawn just inside the gate.  | <img src="images/ShinyHuntLocations/WildZone4-WeedleKakuna.png" width="300"> |
 | Ampharos (Alpha)<br>Froakie<br>Florges (Blue)| **Wild Zone 5**<br>**Walk Time in Zone:** 0 ms<br><br>Located in Zone 16 but flying to Wild Zone 5 covers it. | <img src="images/ShinyHuntLocations/WildZone16-Ampharos.png" width="300"><br><img src="images/ShinyHuntLocations/WildZone16-Froakie.png" width="300"> |
 | Whirlipede  (Alpha)<br>Bellsprout (Alpha)<br>Venepede<br>Pidgey<br>Bunnelby | **Wild Zone 5**<br>**Walk Time in Zone:** 3000 ms<br><br>Whirlipede  will be in the sewers below. | <img src="images/ShinyHuntLocations/WildZone5-Whirlpede.png" width="300"> |
