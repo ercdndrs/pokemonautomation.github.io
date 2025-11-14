@@ -22,6 +22,7 @@ To develop the website locally on your PC, you need to install MkDocs Material. 
 ```
 pip install mkdocs-material "mkdocs-material[imaging]"
 pip install mkdocs-include-dir-to-nav
+pip install mkdocs-static-i18n
 ```
 
 See this page for more information/troubleshooting tips:
