@@ -20,7 +20,7 @@ Program: [Shiny Hunt - Wild Zone Entrance](ShinyHunt-WildZoneEntrance.md)
 | **Pokemon** | **Instructions/Settings** | **Screenshots** |
 | --- | --- | --- |
 | Ampharos (Alpha)<br>Froakie| **Wild Zone 5**<br>**Walk Time in Zone:** 0 ms<br><br>Located in Zone 16 but flying to Wild Zone 5 covers it. |  |
-| Whirlpede (Alpha)<br>Bellsprout (Alpha)<br>Venepede<br>Pidgey<br>Buneary | **Wild Zone 5**<br>**Walk Time in Zone:** 3000 ms<br><br>Whirlpede will be in the sewers below. | <img src="images/ShinyHuntLocations/WildZone5-Whirlpede.png" width="300"> |
+| Whirlpede (Alpha)<br>Bellsprout (Alpha)<br>Venepede<br>Pidgey<br>Bunnelby | **Wild Zone 5**<br>**Walk Time in Zone:** 3000 ms<br><br>Whirlpede will be in the sewers below. | <img src="images/ShinyHuntLocations/WildZone5-Whirlpede.png" width="300"> |
 | Magikarp (Alpha)<br>Staryu (Alpha) | **Wild Zone 2**<br>**Walk Time in Zone:** 0 ms | |
 | Salamence (Alpha)<Bagon> | **Wild Zone 18**<br>Walk Time only needed for the Bagon. |  |
 
