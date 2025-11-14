@@ -30,8 +30,8 @@ Program: [Shiny Hunt - Wild Zone Entrance](ShinyHunt-WildZoneEntrance.md)
 
 | **Pokemon** | **Instructions/Settings** | **Screenshots** |
 | --- | --- | --- |
-| Magikarp (Alpha)<br>Staryu (Alpha) | **Wild Zone 2**<br>**Walk Time in Zone:** 0 ms | <img src="images/ShinyHunt-WildZoneEntrance-ShalphaMagikarp.png" width="300> |
 | Fletchling<br>Bunnelby| **Wild Zone 1**<br> **Walk Time in Zone:** 0 ms | <img src="images/ShinyHuntLocations/WildZone1-FletchlingBunnelby.png" width="300"> |
+| Magikarp (Alpha)<br>Staryu (Alpha) | **Wild Zone 2**<br>**Walk Time in Zone:** 0 ms | <img src="images/ShinyHunt-WildZoneEntrance-ShalphaMagikarp.png" width="300> |
 | Flabébé<br>Skiddo<br>Pikachu<br>Litleo (Alpha)<br>Pancham | **Wild Zone 3**<br> **Walk Time in Zone:** 2000 ms<br> | <img src="images/ShinyHuntLocations/WildZone3-FlabébéLitleo.png" width="300"> |
 | Weedle<br>Kakuna<br>Spinarak<br>Gastly| **Wild Zone 4**<br> **Movement:** Approach Gate But Don't Enter.<br> Weedle and Kakuna spawn in the tree to the North. Spinarak and Gastly will spawn just inside the gate.  | <img src="images/ShinyHuntLocations/WildZone4-WeedleKakuna.png" width="300"> |
 | Ampharos (Alpha)<br>Froakie<br>Florges (Blue)| **Wild Zone 5**<br>**Walk Time in Zone:** 0 ms<br><br>Located in Zone 16 but flying to Wild Zone 5 covers it. | <img src="images/ShinyHuntLocations/WildZone16-Ampharos.png" width="300"><br><img src="images/ShinyHuntLocations/WildZone16-Froakie.png" width="300"> |
