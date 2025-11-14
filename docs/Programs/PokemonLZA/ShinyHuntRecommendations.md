@@ -8,10 +8,10 @@ Right click -> Open Image for larger size.
 
 | **Pokemon**  | **Instructions/Settings** | **Screenshots** |
 | --- | --- | --- |
-| Wild Zone 20 Alphas | Use the East side benches near the fly entrance of Wild Zone 20.<br>**Run Forward Direction:** 3000 ms<br><br>This method hits both spawners and will reset all 6 spawns with spawner overloading. | <img src="images/ShinyHuntLocations/BenchSit-WZ20.png" width="300"> |
-| Ralts | There are 2 Ralts spawns in the building just north of Magenta Sector 7. On the roof of that building are benches.<br>**Run Forward Direction:** 0 | <img src="images/ShinyHuntLocations/BenchSit-Ralts.png" width="300"> |
-| Larvitar,<br>Pansear (Alpha),<br>Pansage (Alpha),<br>Panpour (Alpha)  | In Rouge Sector 7. Use the northmost bench.<br>**Run Forward Direction:** 0 | <img src="images/ShinyHuntLocations/BenchSit-Larvitar.png" width="300"> |
-| Fennekin,<br>Lopunny (Alpha),<br>Noibat,<br>Noivern,<br>Swablu,<br>Alteria  | Enter the Zone from the fly point, head down the left alleyway and out the exit near the scaffolding. Climb the scaffolding.<br>**Run Forward Direction:** 0 | <img src="images/ShinyHuntLocations/BenchSit-Fennekin.png" width="300"> |
+| Zone 20 Alphas | Use the East side benches near the fly entrance of Wild Zone 20.<br><br>**Run Forward Direction:** 3000 ms<br><br>This method will hit all 6 [spawner overloads.](https://www.youtube.com/watch?v=OuX9lfo_bKA) | <img src="images/ShinyHuntLocations/BenchSit-WZ20.png" width="300"> |
+| Ralts | There are 2 Ralts spawners just north of Magenta Sector 7.<br>On the roof of that building are benches.<br><br>**Run Forward Direction:** 0 | <img src="images/ShinyHuntLocations/BenchSit-Ralts.png" width="300"> |
+| Larvitar<br>Pansear (Alpha)<br>Pansage (Alpha)<br>Panpour (Alpha)  | In Rouge Sector 7. Use the northmost bench.<br><br>**Run Forward Direction:** 0 | <img src="images/ShinyHuntLocations/BenchSit-Larvitar.png" width="300"> |
+| Fennekin<br>Lopunny (Alpha)<br>Noibat<br>Noivern<br>Swablu<br>Alteria  | 1. Enter the Zone from the fly point.<br>2. Head down the left alleyway and out the exit near the scaffolding.<br>3. Climb the scaffolding.<br><br>**Run Forward Direction:** 0 | <img src="images/ShinyHuntLocations/BenchSit-Fennekin.png" width="300"> |
 
 ## Shiny Hunt - Wild Zone Entrance
 
