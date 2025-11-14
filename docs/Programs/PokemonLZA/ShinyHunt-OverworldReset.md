@@ -1,5 +1,7 @@
 # Shiny Hunt - Overworld Reset
 
+See also: [Shiny Hunting Recommendations](ShinyHuntRecommendations.md)
+
 ## Program Description
 
 Automate this shiny hunting method: [https://x.com/astephen68/status/1981218146041438527](https://x.com/astephen68/status/1981218146041438527)
@@ -69,6 +71,7 @@ When a shiny is detected, wait this long before you take a screenshot and record
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
