@@ -124,6 +124,8 @@ Record a video of the encounter. This will happen each time a notification is se
 
 # Beta: Shiny Hunt - Wild Zone Entrance
 
+See also: [Shiny Hunting Recommendations](ShinyHuntRecommendations.md)
+
 ## Program Description
 
 Shiny hunt by repeatedly fast traveling to a wild zone entrance. This will shiny hunt all spawns within 50m of the entrance and further if you also set to walk into the zone for a short period of time. Unlike blind macros, this program will tolerate the day/night cycle and will detect audible shinies that are nearby.
@@ -229,6 +231,7 @@ Do not choose *Keep running. Notify on all shiny sounds*.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
