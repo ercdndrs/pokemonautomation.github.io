@@ -4,7 +4,9 @@ A new beta version of the program is available [below](#beta-shiny-hunt-wild-zon
 
 ## Program Description
 
-Shiny hunt by repeatedly walking into a wild zone and flying back to the entrance. This will shiny hunt all spawns within 50m of the entrance and further if you set to also walk forward in zone for a short period of time. Since this program will move your character into the zone, it's not appropriate for some zones (e.g. *Zone 19*). And to avoid being target by Pokemon near the entrance, walking in the zone should be as short as possible.
+Shiny hunt by repeatedly walking into a wild zone and flying back to the entrance. This will shiny hunt all spawns within 50m of the entrance and further if you set to also walk forward in zone for a short period of time. Unlike blind macros, this program will tolerate the day/night cycle and will detect audible shinies that are nearby.
+
+Since this program will move your character into the zone, it's not appropriate for some zones (e.g. *Zone 19*). And to avoid being target by Pokemon near the entrance, walking in the zone should be as short as possible.
 
 With Shiny Charm you'll get a shiny quite fast if there are many Pokemon spawn in the range. So you should not let it run for too long to avoid some shiny getting overwritten/discarded by the game.
 
@@ -122,7 +124,9 @@ Record a video of the encounter. This will happen each time a notification is se
 
 ## Program Description
 
-Shiny hunt by repeatedly fast traveling to a wild zone entrance. This will shiny hunt all spawns within 50m of the entrance and further if you also set to walk into the zone for a short period of time. Currently the program cannot reliably resolve being chased by wild Pokémon. Therefore it is not appropriate to take a long walk in a zone or even enter at all for some zones (e.g. *Zone 19*).
+Shiny hunt by repeatedly fast traveling to a wild zone entrance. This will shiny hunt all spawns within 50m of the entrance and further if you also set to walk into the zone for a short period of time. Unlike blind macros, this program will tolerate the day/night cycle and will detect audible shinies that are nearby.
+
+Currently the program cannot reliably resolve being chased by wild Pokémon. Therefore it is not appropriate to take a long walk in a zone or even enter at all for some zones (e.g. *Zone 19*).
 
 With the Shiny Charm you will get a shiny Pokémon quite fast if there are many Pokémon spawned around the entrance. Don't let the program run for too long or have old shinies overwritten by new ones.
 
@@ -223,6 +227,7 @@ Do not choose *Keep running. Notify on all shiny sounds*.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
