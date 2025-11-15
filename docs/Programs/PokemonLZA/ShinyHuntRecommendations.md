@@ -8,7 +8,7 @@ Right click -> Open Image for larger size.
 
 | **Pokemon**  | **Instructions/Settings** | **Screenshots** |
 | --- | --- | --- |
-| Zone 20 Alphas | Use the East side benches near the fly entrance of Wild Zone 20.<br><br>**Run Forward Direction:** 3000 ms<br><br>This method will hit all 6 [spawner overloads.](https://www.youtube.com/watch?v=OuX9lfo_bKA) | <img src="images/ShinyHuntLocations/BenchSit-WZ20.png" width="300"> |
+| Zone 20 Alphas | Use the East side benches near the fly entrance of Wild Zone 20.<br><br>**Run Forward Direction:** 3000 ms<br><br>This method will hit all 6 [spawner overloads.](https://www.youtube.com/watch?v=OuX9lfo_bKA) | [<img src="images/ShinyHuntLocations/BenchSit-WZ20-small.png" width="300">](images/ShinyHuntLocations/BenchSit-WZ20.png) |
 | Chikorita<br>Bulbasaur | Bench in the North East corner of Wild Zone 20<br><br>**Run Forward Direction:** 0 | <img src="images/ShinyHuntLocations/BenchSit-ChikoritaBulbasaur.png" width="300"> |
 | Ralts | There are 2 Ralts spawners just north of Magenta Sector 7.<br>On the roof of that building are benches.<br><br>**Run Forward Direction:** 0 | <img src="images/ShinyHuntLocations/BenchSit-Ralts.png" width="300"> |
 | Larvitar<br>Pansear (Alpha)<br>Pansage (Alpha)<br>Panpour (Alpha)  | In Rouge Sector 7. Use the northmost bench.<br><br>**Run Forward Direction:** 0 | <img src="images/ShinyHuntLocations/BenchSit-Larvitar.png" width="300"> |
