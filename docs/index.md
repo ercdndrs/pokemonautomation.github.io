@@ -86,6 +86,7 @@ Main Page: [FAQ](FAQ.md)
 
 - [Do I need a hacked or modified Switch?](FAQ.md#do-i-need-a-hacked-or-modified-switch)
 - [Does this work on the Switch 2?](FAQ.md#does-this-work-on-the-switch-2)
+- [Is there any ban risk of this project?](FAQ.md#is-there-any-ban-risk-of-this-project)
 - [Can I use a Raspberry Pi instead of a computer?](FAQ.md#can-i-use-a-raspberry-pi-instead-of-a-computer)
 - [Why can't you connect directly to the Switch over USB? Why do you need a microcontroller?](FAQ.md#why-cant-you-connect-directly-to-the-switch-over-usb-why-do-you-need-a-microcontroller)
 - [Why can't you connect directly to the Switch using the computer's Bluetooth? NXBT and joycontrol can do this!](FAQ.md#why-cant-you-connect-directly-to-the-switch-using-the-computers-bluetooth-nxbt-and-joycontrol-can-do-this)
@@ -137,6 +138,7 @@ Do not try to profit from these programs. It's just a game; keep the money out o
 For all other uses, please reach out to the administrators of the Pokémon Automation discord server.
 
 This software is provided "as is" and the developers disclaim all warranties with regard to this software including all implied warranties of merchantability and fitness. In no event shall the developers be liable for any special, direct, indirect, or consequential damages, or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software.
+
 
 
 
