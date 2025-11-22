@@ -25,11 +25,11 @@ Yes! We have had full support for the Switch 2 since version 0.56.
 To date, there are no known cases of anyone getting banned for using capture cards and 3rd party controllers.
 
 
-### Are Pokemon caught with this project safe to use?
+### Are Pokémon caught with this project safe to use?
 
-Yes. Pokemon found with automation are completely indistinguishable from manually found Pokemon. This is because it is done with the same controller inputs that are done with manual game play.
+Yes. Pokémon found with automation are completely indistinguishable from manually found Pokémon. This is because it is done with the same controller inputs that are done with manual game play.
 
-In contrast, hacked Pokemon are not always legal or safe to use. An incorrectly hacked Pokemon can "look legitimate", but may have subtle issues that prove it illegal in the future and get you disqualified from tournaments.
+In contrast, hacked Pokémon are not always legal or safe to use. An incorrectly hacked Pokemon can "look legitimate", but may have subtle issues that prove it illegal in the future and get you disqualified from tournaments.
 
 
 ### What platforms and operating systems are supported?
