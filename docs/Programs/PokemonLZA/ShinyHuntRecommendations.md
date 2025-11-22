@@ -55,6 +55,7 @@ Program: [Shiny Hunt - Cafe Reset](ShinyHunt-CafeReset.md)
 | **Pokemon** | **Instructions/Settings** | **Screenshots** |
 | --- | --- | --- |
 | Swirlix<br>Swirlix (Alpha) | Nouveau Cafe (Truck No. 3) | [<img src="images/ShinyHuntLocations/CafeReset3-small.jpg" width="300">](images/ShinyHunt-CafeReset3.png) |
+| Dedenne<br>Emolga | Magenta Pokémon Center | [<img src="images/ShinyHuntLocations/CafeReset-Dedenne-small.jpg" width="300">](images/ShinyHuntLocations/CafeReset-Dedenne.png) |
 
 
 ## Turbo A
