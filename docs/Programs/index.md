@@ -333,6 +333,7 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | [Mega Shard Farmer](PokemonLZA/MegaShardFarmer.md)                     | Farm Mega Shards.                                      | Video         | All |
 | [Jacinthe Infinite Farmer](PokemonLZA/JacintheInfiniteFarmer.md)       | Repeatedly battle Jacinthe for exp and money.          | Video         | All |
 | [Friendship Farmer](PokemonLZA/FriendshipFarmer.md)                    | Farm friendship via cafes or benches.                  | Video         | All |
+| [In-Place Catcher](PokemonLZA/InPlaceCatcher.md)                       | Catch everything in one place to fill your boxes.      | Video + Audio | All |
 ||
 | **Shiny Hunting:** |
 | [Shiny Hunt - Bench Sit](PokemonLZA/ShinyHunt-BenchSit.md)             | Shiny hunt using the bench reset method.               | Video + Audio | All |
@@ -359,6 +360,7 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
