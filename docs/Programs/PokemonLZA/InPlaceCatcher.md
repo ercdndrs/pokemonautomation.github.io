@@ -47,7 +47,7 @@ The program will rotate in place and throw Poké Balls at everything it can lock
 - The program will start off using whatever ball you currently have selected. If you die and it resets, it will use whatever it defaults to (usually Poké Balls).
 - When the program is done (reaches max balls used), it will go the Home menu to pause the game.
 
-Note that this program isn't "very good" at throwing balls. Many balls will miss, and many catches will fail. So expect to pick up a lot of lost balls at the Pokémon center.
+Note that this program isn't particularly skilled at throwing balls. Many balls will miss, and many catches will fail. So expect to pick up a lot of lost balls at the Pokémon center.
 
 
 ## Options
