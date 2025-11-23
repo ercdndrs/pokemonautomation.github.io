@@ -1,4 +1,4 @@
-# In-Place Catcher
+# In-Place Catcher (beta testing, not available yet)
 
 ## Program Description
 
