@@ -1,4 +1,4 @@
-# Shiny Hunt - Cafe Reset (Will Be in Next Beta, Not Released Yet)
+# Shiny Hunt - Cafe Reset (beta testing, not available yet)
 
 See also: [Shiny Hunting Recommendations](ShinyHuntRecommendations.md)
 
@@ -46,6 +46,7 @@ When a shiny sound is heard, perform one of the following actions:
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
