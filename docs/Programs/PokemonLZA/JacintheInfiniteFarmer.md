@@ -46,12 +46,12 @@ In this mode, the program will choose the move with the best type effectiveness 
 
 **Without Battle AI:**
 
-In this mode, the program will spam 2 moves in the following priority:
+In this mode, the program will the 4 moves in the following priority:
 
 - Top
 - Left
-
-It will never use the Right and Bottom move slots as those are the A and B button which interfere with parts of the program.
+- Right
+- Bottom
 
 
 In both modes, if your Pokémon faints, it will automatically timeout and switch to the next Pokémon in your party. The move priority is the same for all members of your party.
@@ -89,6 +89,7 @@ In both modes, if your Pokémon faints, it will automatically timeout and switch
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 

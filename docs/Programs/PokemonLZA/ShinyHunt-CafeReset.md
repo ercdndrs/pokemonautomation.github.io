@@ -1,4 +1,4 @@
-# Shiny Hunt - Cafe Reset (In Beta, Not Released Yet)
+# Shiny Hunt - Cafe Reset (beta testing, not available yet)
 
 See also: [Shiny Hunting Recommendations](ShinyHuntRecommendations.md)
 
@@ -6,7 +6,7 @@ See also: [Shiny Hunting Recommendations](ShinyHuntRecommendations.md)
 
 Shiny hunt by repeatedly fast traveling to a cafe or other fast travel location outside Wild Zones. This will shiny hunt all spawns within 50m of the fast travel location. Unlike blind macros, this program will tolerate the day/night cycle and will detect audible shinies that are nearby.
 
-This program is mostly for a single spawner: the alpha Swirlix near Nouveau Cafe (Truck No. 3). It also hunts a non-alpha Swirlix near the same cafe.
+This program is mostly for a single spawner: the alpha Swirlix near Nouveau Cafe (Truck No. 3). It also hunts a non-alpha Swirlix near the same cafe and a Dedenne/Emolga spawner near Magenta Pokémon Center.
 
 To shiny hunt Pokémon in wild zones, use our [Shiny Hunt - Wild Zone Entrance](ShinyHunt-WildZoneEntrance.md) program.
 
@@ -46,6 +46,7 @@ When a shiny sound is heard, perform one of the following actions:
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
