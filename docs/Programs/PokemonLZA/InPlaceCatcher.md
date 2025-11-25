@@ -11,6 +11,8 @@ The purpose of this program is to fill your boxes up.
 
 Running out of box space is a huge problem in this game. So you will want to mass transfer all your shinies out of your main and into secondary save files. But to do that, you need a lot of trade fodder to facilitate that transfer. As of this writing, Pokémon Home connectivity has not been released for this game.
 
+This program can also be used to (inefficiently) grind Mable's research for catching each type of Pokémon 50 times.
+
 <img src="images/InPlaceCatcher.png">
 
 
