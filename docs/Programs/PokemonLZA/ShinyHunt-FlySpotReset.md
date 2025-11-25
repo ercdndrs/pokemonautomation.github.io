@@ -1,27 +1,27 @@
-# Shiny Hunt - Cafe Reset (beta testing, not available yet)
+# Shiny Hunt - Fly Spot Reset (beta testing, not available yet)
 
 See also: [Shiny Hunting Recommendations](ShinyHuntRecommendations.md)
 
 ## Program Description
 
-Shiny hunt by repeatedly fast traveling to a cafe or other fast travel location outside Wild Zones. This will shiny hunt all spawns within 50m of the fast travel location. Unlike blind macros, this program will tolerate the day/night cycle and will detect audible shinies that are nearby.
+Shiny hunt by repeatedly fast traveling to the same spot outside Wild Zones. This will shiny hunt all spawns within 50m of the spot. Unlike blind macros, this program will tolerate the day/night cycle and will detect audible shinies that are nearby.
 
 This program is mostly for a single spawner: the alpha Swirlix near Nouveau Cafe (Truck No. 3). It also hunts a non-alpha Swirlix near the same cafe and a Dedenne/Emolga spawner near Magenta Pokémon Center.
 
-To shiny hunt Pokémon in wild zones, use our [Shiny Hunt - Wild Zone Entrance](ShinyHunt-WildZoneEntrance.md) program.
+This program only works for fly spots outside Wild Zones. To shiny hunt Pokémon in a Wild Zone, use our [Shiny Hunt - Wild Zone Entrance](ShinyHunt-WildZoneEntrance.md) program.
 
 With the Shiny Charm you will get a shiny Pokémon quite fast if there are many Pokémon spawned around you. Don't let the program run for too long or have old shinies overwritten by new ones.
 
 Shiny sound detection will happen at most once to avoid detecting the same shiny Pokémon over and over.
 
 
-<img src="images/ShinyHunt-CafeReset1.png">
-<img src="images/ShinyHunt-CafeReset2.png">
-<img src="images/ShinyHunt-CafeReset3.png">
+<img src="images/ShinyHunt-FlySpotReset1.png">
+<img src="images/ShinyHunt-FlySpotReset2.png">
+<img src="images/ShinyHunt-FlySpotReset3.png">
 
 ### Instructions
 
-1. Fast travel to a cafe or other fast travel location.
+1. Fast travel to a fly spot outside Wild Zones.
 2. Start the program in the game.
 
 

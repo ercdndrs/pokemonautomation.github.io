@@ -49,14 +49,14 @@ Numel has a chance to be alpha and will agro the moment you enter the gate. Need
 -->
 
 
-## Shiny Hunt - Cafe Reset (Still In Beta, Not Released Yet)
+## Shiny Hunt - Fly Spot Reset (Still In Beta, Not Released Yet)
 
-Program: [Shiny Hunt - Cafe Reset](ShinyHunt-CafeReset.md)
+Program: [Shiny Hunt - Fly Spot Reset](ShinyHunt-FlySpotReset.md)
 
 | **Pokemon** | **Instructions/Settings** | **Screenshots** |
 | --- | --- | --- |
-| Swirlix<br>Swirlix (Alpha) | Nouveau Cafe (Truck No. 3) | [<img src="images/ShinyHuntLocations/CafeReset3-small.jpg" width="300">](images/ShinyHunt-CafeReset3.png) |
-| Dedenne<br>Emolga | Magenta Pokémon Center | [<img src="images/ShinyHuntLocations/CafeReset-Dedenne-small.jpg" width="300">](images/ShinyHuntLocations/CafeReset-Dedenne.png) |
+| Swirlix<br>Swirlix (Alpha) | Nouveau Cafe (Truck No. 3) | [<img src="images/ShinyHuntLocations/FlySpotReset3-small.jpg" width="300">](images/ShinyHunt-FlySpotReset3.png) |
+| Dedenne<br>Emolga | Magenta Pokémon Center | [<img src="images/ShinyHuntLocations/FlySpotReset-Dedenne-small.jpg" width="300">](images/ShinyHuntLocations/FlySpotReset-Dedenne.png) |
 
 
 ## Turbo A
