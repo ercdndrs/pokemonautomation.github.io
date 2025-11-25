@@ -196,6 +196,17 @@ When to pick each restaurant:
           - Hydro Pump    (Bottom)<br>
           <i>[Move Selection AI enabled, Plus Moves disabled]</i>
         </td>
+        <td>
+          <b>Dragalge</b> @ Shell Bell<br>
+          Level 100<br>
+          EVs: 252 HP / 252 SpA<br>
+          Modest Nature<br>
+          - Sludge Bomb   (Top)<br>
+          - Dragon Pulse  (Left)<br>
+          - Thunderbolt   (Right)<br>
+          - Focus Blast   (Bottom)<br>
+          <i>[Move Selection AI enabled, Plus Moves disabled]</i>
+        </td>
       </tr>
     </table>
   
@@ -251,6 +262,7 @@ When to pick each restaurant:
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
