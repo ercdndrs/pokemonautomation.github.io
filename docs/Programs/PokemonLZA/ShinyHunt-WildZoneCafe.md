@@ -23,6 +23,13 @@ Shiny sound detection will happen at most once to avoid detecting the same shiny
 
 Check the maps from [Serebii](https://www.serebii.net/pokearth/lumiosecity/) and [game8](https://game8.co/games/Pokemon-Legends-Z-A/archives/557774) to know what Pokémon are near the Cafés.
 
+**WARNING**: there is a bug in how the game stores shiny Pumpkaboo in Wild Zone 15 near Café Ultimo ([Video](https://youtu.be/xf9PpqWtCds?t=325)).
+
+In most cases the game stores up to 10 shinies internally so players won't lose a shiny if they leave the shiny hunting area or time of day changes.
+But if a shiny Pumpkaboo in Wild Zone 15 is near the player when time of day changes, that shiny Pumpkaboo will not be stored internally. It is lost.
+
+When using this program, don't aim to shiny hunt Pumpkaboo in Wild Zone 15. You can still shiny hunt other spawns like the alpha medium-variety Gourgeist, alpha Beedrill and alpha Banette. If you aim to shiny hunt Pumpkaboo with the current program, make sure you stop the program before any day/night change.
+
 
 ## Options
 
