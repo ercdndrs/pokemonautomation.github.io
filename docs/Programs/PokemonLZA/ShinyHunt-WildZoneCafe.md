@@ -1,0 +1,59 @@
+# Shiny Hunt - Wild Zone Café (beta testing, not available yet)
+
+See also: [Shiny Hunting Recommendations](ShinyHuntRecommendations.md)
+
+## Program Description
+
+Shiny hunt by repeatedly fast traveling to one of the two in-wild-zone cafés. This will shiny hunt all spawns within 50m of the café entrance. Unlike blind macros, this program will tolerate the day/night cycle and will detect audible shinies that are nearby.
+
+With the Shiny Charm you will get a shiny Pokémon quite fast if there are many Pokémon spawned around the entrance. Don't let the program run for too long or have old shinies overwritten by new ones.
+
+This program would detect the day/night change. When such change occurs, the program would try to recover after the cutscene.
+
+Shiny sound detection will happen at most once to avoid detecting the same shiny Pokémon over and over.
+
+
+### Instructions
+
+1. Fast travel to Café Bataille in Wild Zone 6 or Café Ultimo in Wild Zone 15.
+2. Start the program in the game.
+
+
+### Hunt Guide
+
+Check the maps from [Serebii](https://www.serebii.net/pokearth/lumiosecity/) and [game8](https://game8.co/games/Pokemon-Legends-Z-A/archives/557774) to know what Pokémon are near the Cafés.
+
+
+## Options
+
+### Café
+
+Pick which Café you are hunting.
+
+### Shiny Sound Detected Action
+
+When a shiny sound is heard, perform one of the following actions:
+
+- Stop program and go Home. Send notification.
+- Keep running. Notify on first shiny sound only. (default)
+
+
+## Credits
+
+- **Author:** Gin
+
+
+<hr>
+
+**Discord Server:** 
+
+[<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
+
+
+
+
+
+
+
+

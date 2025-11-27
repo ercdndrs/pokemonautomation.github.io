@@ -2,6 +2,8 @@
 
 See also: [Shiny Hunting Recommendations](ShinyHuntRecommendations.md)
 
+Note: If you have access to the newest beta version of the program, the beta will handle being chased by wild Pokémon reliably. You can ignore the warning of avoiding wild Pokémon below.
+
 ## Program Description
 
 Shiny hunt by repeatedly fast traveling to a wild zone entrance. This will shiny hunt all spawns within 50m of the entrance and further if you also set to walk into the zone for a short period of time. Unlike blind macros, this program will tolerate the day/night cycle and will detect audible shinies that are nearby.
