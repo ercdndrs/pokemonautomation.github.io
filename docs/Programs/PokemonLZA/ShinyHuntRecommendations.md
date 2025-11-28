@@ -58,6 +58,7 @@ Program: [Shiny Hunt - Fly Spot Reset](ShinyHunt-FlySpotReset.md)
 | --- | --- | --- |
 | Swirlix<br>Swirlix (Alpha) | Nouveau Cafe (Truck No. 3) | [<img src="images/ShinyHuntLocations/FlySpotReset3-small.jpg" width="300">](images/ShinyHunt-FlySpotReset3.png) |
 | Dedenne<br>Emolga | Magenta Pokémon Center | [<img src="images/ShinyHuntLocations/FlySpotReset-Dedenne-small.jpg" width="300">](images/ShinyHuntLocations/FlySpotReset-Dedenne.png) |
+| Mareep and Pichu<br> in Wild Zone 1 | Pokémon Research Lab | [<img src="images/ShinyHuntLocations/FlySpotReset-Mareep-small.jpg" width="300">](images/ShinyHuntLocations/FlySpotReset-Mareep.png) |
 
 
 ## Turbo A

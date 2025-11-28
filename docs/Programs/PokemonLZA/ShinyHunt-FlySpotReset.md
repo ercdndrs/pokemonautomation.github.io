@@ -6,9 +6,14 @@ See also: [Shiny Hunting Recommendations](ShinyHuntRecommendations.md)
 
 Shiny hunt by repeatedly fast traveling to the same spot outside Wild Zones. This will shiny hunt all spawns within 50m of the spot. Unlike blind macros, this program will tolerate the day/night cycle and will detect audible shinies that are nearby.
 
-This program is mostly for a single spawner: the alpha Swirlix near Nouveau Cafe (Truck No. 3). It also hunts a non-alpha Swirlix near the same cafe and a Dedenne/Emolga spawner near Magenta Pokémon Center.
+This program can shiny hunt:
 
-This program only works for fly spots outside Wild Zones. To shiny hunt Pokémon in a Wild Zone, use our [Shiny Hunt - Wild Zone Entrance](ShinyHunt-WildZoneEntrance.md) program.
+- An alpha Swirlix near Nouveau Cafe (Truck No. 3).
+- A non-alpha Swirlix near the same cafe
+- A Dedenne/Emolga spawner on the street near Magenta Pokémon Center.
+- Two Mareep and a Pichu in Wild Zone 1 near Pokémon Research Lab. (The Mareep are about 50m from the lab. They can be hunt on Switch 2. Unclear on Switch 1.)
+
+This program only works for fly spots outside Wild Zones. To shiny hunt more Pokémon in Wild Zones, use our [Shiny Hunt - Wild Zone Entrance](ShinyHunt-WildZoneEntrance.md) program.
 
 With the Shiny Charm you will get a shiny Pokémon quite fast if there are many Pokémon spawned around you. Don't let the program run for too long or have old shinies overwritten by new ones.
 
@@ -16,7 +21,6 @@ Shiny sound detection will happen at most once to avoid detecting the same shiny
 
 
 <img src="images/ShinyHunt-FlySpotReset1.png">
-<img src="images/ShinyHunt-FlySpotReset2.png">
 <img src="images/ShinyHunt-FlySpotReset3.png">
 
 
