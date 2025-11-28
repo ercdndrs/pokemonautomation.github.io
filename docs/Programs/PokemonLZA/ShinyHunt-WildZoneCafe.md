@@ -30,6 +30,9 @@ But if a shiny Pumpkaboo in Wild Zone 15 is near the player when time of day cha
 
 When using this program, don't aim to shiny hunt Pumpkaboo in Wild Zone 15. You can still shiny hunt other spawns like the alpha medium-variety Gourgeist, alpha Beedrill and alpha Banette. If you aim to shiny hunt Pumpkaboo with the current program, make sure you stop the program before any day/night change.
 
+<img src="images/ShinyHunt-WildZoneCafe-1.jpg">
+<img src="images/ShinyHunt-WildZoneCafe-2.jpg">
+<img src="images/ShinyHunt-WildZoneCafe-3.jpg">
 
 ## Options
 
