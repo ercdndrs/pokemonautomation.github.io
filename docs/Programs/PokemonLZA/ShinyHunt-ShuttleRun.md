@@ -16,7 +16,7 @@ Currently the program mainly hunts pokemon in the Lumiose Sewers. We may extend 
 6. Sewers: Skrelp + Ariados
 
 
-More routes and even customised route are in planning.
+More routes and even customised routes are in planning.
 
 ## Instructions/Hunt Route
 
@@ -62,7 +62,7 @@ NOTE: you need to move forward a bit to make sure the Skrelp spawns, after which
 
 ### Sewers: Skrelp + Inkay
 
-Stand at the entrance of the sewers (at the west of the city). This route does similar as the above one, with running forward to reach the Inkay.
+Stand at the entrance of the sewers (at the west of the city). This route is similar as the one above with additional running forward to reach the Inkay.
 
 [<img src="images/ShinyHunt-ShuttleRun-Skrelp-1.jpg" width="800">](images/ShinyHunt-ShuttleRun-Skrelp-1.jpg)
 [<img src="images/ShinyHunt-ShuttleRun-Skrelp-2.jpg" width="800">](images/ShinyHunt-ShuttleRun-Skrelp-2.jpg)
@@ -70,7 +70,7 @@ Stand at the entrance of the sewers (at the west of the city). This route does s
 
 ### Sewers: Skrelp + Ariados
 
-Inside the sewers (at the west of the city), stand as shown in below screenshots. KO alpla Skrelp or alpha Inkay if any are nearby the beginning of the route.
+Inside the sewers (at the west of the city), stand as shown in the screenshots below. KO alpla Skrelp or alpha Inkay if any are near the beginning of the route.
 
 [<img src="images/ShinyHunt-ShuttleRun-SkrelpAriados-1.jpg" width="800">](images/ShinyHunt-ShuttleRun-SkrelpAriados-1.jpg)
 [<img src="images/ShinyHunt-ShuttleRun-SkrelpAriados-2.jpg" width="800">](images/ShinyHunt-ShuttleRun-SkrelpAriados-2.jpg)
