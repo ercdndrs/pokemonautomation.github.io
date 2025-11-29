@@ -15,6 +15,7 @@ Currently the program mainly hunts Pokémon in the Lumiose Sewers. We may extend
 5. Sewers: Skrelp
 6. Sewers: Skrelp + Inkay
 7. Sewers: Skrelp + Ariados
+8. Wild Zone 19
 
 
 More routes and even customised routes are in planning.
@@ -83,6 +84,12 @@ Inside the sewers (at the west of the city), stand as shown in the screenshots b
 [<img src="images/ShinyHunt-ShuttleRun-SkrelpAriados-1.jpg" width="800">](images/ShinyHunt-ShuttleRun-SkrelpAriados-1.jpg)
 [<img src="images/ShinyHunt-ShuttleRun-SkrelpAriados-2.jpg" width="800">](images/ShinyHunt-ShuttleRun-SkrelpAriados-2.jpg)
 
+### Wild Zone 19
+
+Fast travel to Wild Zone 19, standing in front of the entrance. This route covers right half of the wild zone, including Furfrou, Audino, Eevee, Kangaskhan, Cleffa/Clefairy (night only), Drampa (daytime only), and a Patrat outside of the wild zone.
+
+[<img src="images/ShinyHunt-ShuttleRun-WildZone19.jpg" width="800">](images/ShinyHunt-ShuttleRun-WildZone19.jpg)
+
 
 ## Options
 
@@ -102,6 +109,7 @@ Run the program for this long and then go to Home screen.
 [<img src="images/ShinyHunt-ShuttleRun-Goomy.jpg" width="800">](images/ShinyHunt-ShuttleRun-Goomy.jpg)
 [<img src="images/ShinyHunt-ShuttleRun-Inkay.jpg" width="800">](images/ShinyHunt-ShuttleRun-Inkay.jpg)
 [<img src="images/ShinyHunt-ShuttleRun-Klefki.jpg" width="800">](images/ShinyHunt-ShuttleRun-Klefki.jpg)
+[<img src="images/ShinyHunt-ShuttleRun-Skrelp-Shiny.jpg" width="800">](images/ShinyHunt-ShuttleRun-Skrelp-Shiny.jpg)
 
 
 ## Credits
