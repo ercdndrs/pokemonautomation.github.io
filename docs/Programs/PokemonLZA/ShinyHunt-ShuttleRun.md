@@ -4,16 +4,17 @@
 
 Shiny hunt by repeatedly running back and forth or running with fast travel.
 
-Currently the program mainly hunts pokemon in the Lumiose Sewers. We may extend it for hunting in the Lumiose City as well.
+Currently the program mainly hunts Pokémon in the Lumiose Sewers. We may extend it for hunting in the Lumiose City as well.
 
 ## Supported Hunting Route
 
 1. Sewers: Klefki
 2. Sewers: Klefki + Inkay + Goomy
 3. Sewers: Litwick
-4. Sewers: Skrelp
-5. Sewers: Skrelp + Inkay
-6. Sewers: Skrelp + Ariados
+4. Sewers: Litwick + Skrelp
+5. Sewers: Skrelp
+6. Sewers: Skrelp + Inkay
+7. Sewers: Skrelp + Ariados
 
 
 More routes and even customised routes are in planning.
@@ -50,6 +51,13 @@ Inside the sewers (near Wild Zone 5), stand as shown in below screenshots. KO al
 
 [<img src="images/ShinyHunt-ShuttleRun-Litwick-1.jpg" width="800">](images/ShinyHunt-ShuttleRun-Litwick-1.jpg)
 [<img src="images/ShinyHunt-ShuttleRun-Litwick-2.jpg" width="800">](images/ShinyHunt-ShuttleRun-Litwick-2.jpg)
+
+### Sewers: Litwick + Skrelp
+
+Inside the sewers (near Wild Zone 5), stand as shown in below screenshots. KO Dragalge and alpha Pokémon around the route beforehand.
+
+[<img src="images/ShinyHunt-ShuttleRun-Litwick-Skrelp-1.jpg" width="800">](images/ShinyHunt-ShuttleRun-Litwick-Skrelp-1.jpg)
+[<img src="images/ShinyHunt-ShuttleRun-Litwick-Skrelp-2.jpg" width="800">](images/ShinyHunt-ShuttleRun-Litwick-Skrelp-2.jpg)
 
 ### Sewers: Skrelp
 
