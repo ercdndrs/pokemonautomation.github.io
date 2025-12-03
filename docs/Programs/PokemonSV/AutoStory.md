@@ -40,7 +40,7 @@ Your main team needs to consist of 3 pokemon. A Gardevoir and two other strong p
 
 ## Gardevoir
 
-The Gardevoir should be level 100, with the moves in the following order:  Moonblast, Dazzling Gleam, Mystical Fire, Misty Terrain. All PP should be maxed. Max Speed and Special Attack EVs. Max IVs except for Attack. Ability: Synchronize or Telepathy (we don't want Trace). Tera Fairy. Modest nature.
+The Gardevoir should be level 100, with the moves in the following order:  Moonblast, Mystical Fire, Psychic, Misty Terrain. All PP should be maxed. Max Speed and Special Attack EVs. Max IVs except for Attack. Ability: Synchronize or Telepathy (we don't want Trace). Tera Fairy. Modest nature.
 
 Gardevoir <br>
 Ability: Synchronize <br>
@@ -49,8 +49,8 @@ EVs: 252 SpA / 252 Spe<br>
 Modest Nature<br>
 IVs: 0 Atk<br>
 \- Moonblast<br>
-\- Dazzling Gleam<br>
 \- Mystical Fire<br>
+\- Psychic<br>
 \- Misty Terrain
 
 ### How to train up the Gardevoir
@@ -80,8 +80,8 @@ NOTE 2: I recommend disabling Move learning. So you skip all the dialog boxes fr
 
 - Set the moves to the following (in this order):<br>
 \- Moonblast<br>
-\- Dazzling Gleam<br>
 \- Mystical Fire<br>
+\- Psychic<br>
 \- Misty Terrain
 
 - Give 26 carbos and 26 Calcium to maximize Speed and Special Attack EVs. Afterwards, give 1 Iron to give an extra point of Defense (make sure to do this after giving the Carbos and Calcium)
@@ -133,6 +133,7 @@ End the autostory program at this segment in the story.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
