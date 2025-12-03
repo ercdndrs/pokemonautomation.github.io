@@ -120,6 +120,8 @@ extra:
       link: /zh-CN/
       lang: zh-CN
 
+extra_css: [style.css]
+
 # extensions
 markdown_extensions:
   - toc:

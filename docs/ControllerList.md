@@ -18,12 +18,12 @@ This table lists all the device and controller combinations that we support in t
 
 | | **Device Type** | **Supported Controllers** | **Setup Difficulty<br>(Scale 1-10)** | **Guides** |
 | --- | --- | --- | --- | --- |
-| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(USB Mode) | Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 1 | [Guide](SetupGuide/Controllers/Controller-PicoW-USB.md) |
-| <img src="SetupGuide/Images/ESP32/ControllerSetup-ESP32-WROOM.jpg" width="200"> | ESP32 | Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 3 | [Windows](SetupGuide/Controllers/Controller-ESP32-WROOM.md)<br>[Mac](SetupGuide/Controllers/Controller-ESP32-WROOM-MacOS.md)<br>[Video Tutorial](https://youtu.be/YzGyQQOGjl8) |
-| <img src="SetupGuide/Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="200"> | ESP32-S3 | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller | 3 | [Windows](SetupGuide/Controllers/Controller-ESP32-S3.md)<br>[Video Tutorial](https://youtu.be/ezBuwk48z8w) |
-| <img src="SetupGuide/Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 2<br>CFW: sys-botbase 3 | Switch 1: Wired Pro Controller | 2 | [Guide](SetupGuide/Controllers/Controller-sys-botbase.md) |
-| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(UART Mode) | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller<br>Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 5 | [Guide](SetupGuide/Controllers/Controller-PicoW-UART.md) |
-| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(Advanced UART Mode) | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller<br>Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 10 | [Guide](SetupGuide/Controllers/Controller-PicoW-Advanced.md) |
+| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(USB Mode) {.nowrap} | Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon {.nowrap} | 1 | [Guide](SetupGuide/Controllers/Controller-PicoW-USB.md) {.nowrap} |
+| <img src="SetupGuide/Images/ESP32/ControllerSetup-ESP32-WROOM.jpg" width="200"> | ESP32 {.nowrap} | Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon {.nowrap} | 3 | [Windows](SetupGuide/Controllers/Controller-ESP32-WROOM.md)<br>[Mac](SetupGuide/Controllers/Controller-ESP32-WROOM-MacOS.md)<br>[Video Tutorial](https://youtu.be/YzGyQQOGjl8) {.nowrap} |
+| <img src="SetupGuide/Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="200"> | ESP32-S3 {.nowrap} | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller {.nowrap} | 3 | [Windows](SetupGuide/Controllers/Controller-ESP32-S3.md)<br>[Video Tutorial](https://youtu.be/ezBuwk48z8w) {.nowrap} |
+| <img src="SetupGuide/Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 2<br>CFW: sys-botbase 3 {.nowrap} | Switch 1: Wired Pro Controller {.nowrap} | 2 | [Guide](SetupGuide/Controllers/Controller-sys-botbase.md) {.nowrap} |
+| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(UART Mode) {.nowrap} | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller<br>Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon {.nowrap} | 5 | [Guide](SetupGuide/Controllers/Controller-PicoW-UART.md) {.nowrap} |
+| <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(Advanced UART Mode) {.nowrap} | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller<br>Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon {.nowrap} | 10 | [Guide](SetupGuide/Controllers/Controller-PicoW-Advanced.md) {.nowrap} |
 
 ### Deprecated Setups:
 
@@ -31,26 +31,26 @@ These are older setups that are still supported, but no longer recommended for n
 
 | | **Device Type** | **Supported Controllers** | **Setup Difficulty<br>(Scale 1-10)** | **Guides** |
 | --- | --- | --- | --- | --- |
-| <img src="SetupGuide/Images/ArduinoUnoR3/ControllerSetup-UnoR3.jpg" width="200"> | Arduino Uno R3 | Switch 2: Wired Controller<br>(compatible with Switch 1) | 6 | [Guide](SetupGuide/Controllers/Controller-ArduinoUnoR3.md) |
-| <img src="SetupGuide/Images/ArduinoLeonardo/ControllerSetup-Leonardo.jpg" width="200"> | Arduino Leonardo | Switch 2: Wired Controller<br>(compatible with Switch 1) | 6 | [Guide](SetupGuide/Controllers/Controller-ArduinoLeonardo.md) |
-| <img src="SetupGuide/Images/ProMicro/ControllerSetup-ProMicro-HammerHeaders.jpg" width="200"> | Pro Micro | Switch 2: Wired Controller<br>(compatible with Switch 1) | 7 - (Mini Grabber)<br>9 - (Hammer Header) | [Mini-Grabbers](SetupGuide/Controllers/Controller-ProMicro-MiniGrabbers.md)<br>[Hammer Headers](SetupGuide/Controllers/Controller-ProMicro-HammerHeaders.md) |
-| <img src="SetupGuide/Images/Teensy2/ControllerSetup-Teensy2-HammerHeaders.jpg" width="200"> | Teensy 2.0<br>Teensy++ 2.0 | Switch 2: Wired Controller<br>(compatible with Switch 1) | 7 - (Mini Grabber)<br>9 - (Hammer Header) | [Mini-Grabbers](SetupGuide/Controllers/Controller-Teensy2-MiniGrabbers.md)<br>[Hammer Headers](SetupGuide/Controllers/Controller-Teensy2-HammerHeaders.md) |
+| <img src="SetupGuide/Images/ArduinoUnoR3/ControllerSetup-UnoR3.jpg" width="200"> | Arduino Uno R3 {.nowrap} | Switch 2: Wired Controller<br>(compatible with Switch 1) {.nowrap} | 6 | [Guide](SetupGuide/Controllers/Controller-ArduinoUnoR3.md) {.nowrap} |
+| <img src="SetupGuide/Images/ArduinoLeonardo/ControllerSetup-Leonardo.jpg" width="200"> | Arduino Leonardo {.nowrap} | Switch 2: Wired Controller<br>(compatible with Switch 1) {.nowrap} | 6 | [Guide](SetupGuide/Controllers/Controller-ArduinoLeonardo.md) {.nowrap} |
+| <img src="SetupGuide/Images/ProMicro/ControllerSetup-ProMicro-HammerHeaders.jpg" width="200"> | Pro Micro {.nowrap} | Switch 2: Wired Controller<br>(compatible with Switch 1) {.nowrap} | 7 - (Mini Grabber)<br>9 - (Hammer Header) {.nowrap} | [Mini-Grabbers](SetupGuide/Controllers/Controller-ProMicro-MiniGrabbers.md)<br>[Hammer Headers](SetupGuide/Controllers/Controller-ProMicro-HammerHeaders.md) {.nowrap} |
+| <img src="SetupGuide/Images/Teensy2/ControllerSetup-Teensy2-HammerHeaders.jpg" width="200"> | Teensy 2.0<br>Teensy++ 2.0 {.nowrap} | Switch 2: Wired Controller<br>(compatible with Switch 1) {.nowrap} | 7 - (Mini Grabber)<br>9 - (Hammer Header) {.nowrap} | [Mini-Grabbers](SetupGuide/Controllers/Controller-Teensy2-MiniGrabbers.md)<br>[Hammer Headers](SetupGuide/Controllers/Controller-Teensy2-HammerHeaders.md) {.nowrap} |
 
 ### Setup Comparison Table:
 
 | Setup | **Supported Controllers** | **Price (per Unit)** | **Setup Difficulty<br>(Scale 1-10)** | **Notes:** |
 | --- | --- | --- | --- | --- |
-| Raspberry Pi Pico W<br>(USB Mode) | NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon | Single: $8<br>Volume: $7 | 1 | Upgradable to UART mode.<br><br>Unresolved Bugs:<br>- [Issue 818](https://github.com/PokemonAutomation/Arduino-Source/issues/818) |
-| ESP32 | NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon | Single: $10<br>Volume: $4 | 3 | Unresolved Bugs:<br>- [Issue 800](https://github.com/PokemonAutomation/Arduino-Source/issues/800)<br>- [Issue 694](https://github.com/PokemonAutomation/Arduino-Source/issues/694) |
-| ESP32-S3 | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller | Single: $15<br>Volume: $8 | 3 | Best wired setup by far.<br>Workhorse for most seasoned users. |
-| Raspberry Pi Pico W<br>(UART Mode) | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon | Single: $19<br>Volume: $10 | 5 | [Vulnerable to power glitching.](PowerGlitching.md)<br>Exposed pins can be annoying. |
-| Raspberry Pi Pico W<br>(Advanced UART Mode) | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon | Single: $30+<br>Volume: $12 | 10 | Best final product.<br>Hardest to build. |
-| Arduino Uno R3 | NS2: Wired Controller | Single: $20 | 6 | [Vulnerable to power glitching.](PowerGlitching.md) |
-| Arduino Leonardo | NS2: Wired Controller | Single: $25 | 6 | [Vulnerable to power glitching.](PowerGlitching.md) |
-| Teensy 2/Teensy++ 2<br>(Mini Grabbers) | NS2: Wired Controller | (discontinued) | 7 | [Vulnerable to power glitching.](PowerGlitching.md)<br>Final product is bulky and fragile. |
-| Teensy 2/Teensy++ 2<br>(Hammer Headers) | NS2: Wired Controller | (discontinued) | 9 | [Vulnerable to power glitching.](PowerGlitching.md) |
-| Pro Micro<br>(Mini Grabbers) | NS2: Wired Controller | Single: $25<br>Volume: $10 | 7 | [Vulnerable to power glitching.](PowerGlitching.md)<br>Final product is bulky and fragile. |
-| Pro Micro<br>(Hammer Headers) | NS2: Wired Controller | Single: $25<br>Volume: $8 | 9 | [Vulnerable to power glitching.](PowerGlitching.md) |
+| Raspberry Pi Pico W<br>(USB Mode) {.nowrap} | NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon {.nowrap} | Single: $8<br>Volume: $7 {.nowrap} | 1 | Upgradable to UART mode.<br><br>Unresolved Bugs:<br>- [Issue 818](https://github.com/PokemonAutomation/Arduino-Source/issues/818) {.nowrap} |
+| ESP32 {.nowrap} | NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon {.nowrap} | Single: $10<br>Volume: $4 {.nowrap} | 3 | Unresolved Bugs:<br>- [Issue 800](https://github.com/PokemonAutomation/Arduino-Source/issues/800)<br>- [Issue 694](https://github.com/PokemonAutomation/Arduino-Source/issues/694) {.nowrap} |
+| ESP32-S3 {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller {.nowrap} | Single: $15<br>Volume: $8 {.nowrap} | 3 | Best wired setup by far.<br>Workhorse for most seasoned users. {.nowrap} |
+| Raspberry Pi Pico W<br>(UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon {.nowrap} | Single: $19<br>Volume: $10 {.nowrap} | 5 | [Vulnerable to power glitching.](PowerGlitching.md)<br>Exposed pins can be annoying. {.nowrap} |
+| Raspberry Pi Pico W<br>(Advanced UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wireless Pro Controller<br>NS1: Left Joycon<br>NS1: Right Joycon {.nowrap} | Single: $30+<br>Volume: $12 {.nowrap} | 10 | Best final product.<br>Hardest to build. {.nowrap} |
+| Arduino Uno R3 {.nowrap} | NS2: Wired Controller {.nowrap} | Single: $20 {.nowrap} | 6 | [Vulnerable to power glitching.](PowerGlitching.md) {.nowrap} |
+| Arduino Leonardo {.nowrap} | NS2: Wired Controller {.nowrap} | Single: $25 {.nowrap} | 6 | [Vulnerable to power glitching.](PowerGlitching.md) {.nowrap} |
+| Teensy 2/Teensy++ 2<br>(Mini Grabbers) {.nowrap} | NS2: Wired Controller {.nowrap} | (discontinued) | 7 | [Vulnerable to power glitching.](PowerGlitching.md)<br>Final product is bulky and fragile. {.nowrap} |
+| Teensy 2/Teensy++ 2<br>(Hammer Headers) {.nowrap} | NS2: Wired Controller {.nowrap} | (discontinued) | 9 | [Vulnerable to power glitching.](PowerGlitching.md) {.nowrap} |
+| Pro Micro<br>(Mini Grabbers) {.nowrap} | NS2: Wired Controller {.nowrap} | Single: $25<br>Volume: $10 {.nowrap} | 7 | [Vulnerable to power glitching.](PowerGlitching.md)<br>Final product is bulky and fragile. {.nowrap} |
+| Pro Micro<br>(Hammer Headers) {.nowrap} | NS2: Wired Controller {.nowrap} | Single: $25<br>Volume: $8 {.nowrap} | 9 | [Vulnerable to power glitching.](PowerGlitching.md) {.nowrap} |
 
 
 ## Device Types
@@ -59,7 +59,7 @@ A "device" is a microcontroller or development board that we will use to impleme
 
 | Image | Description |
 | :---: | --- |
-| <img src="SetupGuide/Images/ESP32/ControllerSetup-ESP32-WROOM-Board-2.jpg" width="200"> | **ESP32**<br><br>Supported Controllers:<br>- Switch 1: Wireless Pro Controller<br>- Switch 1: Left Joycon<br>- Switch 1: Right Joycon<br><br>The ESP32 is a microcontroller that supports Bluetooth. It is one of the few microcontrollers that supports Bluetooth Classic (BTC) since the world has moved onto Bluetooth LE (BLE). Thus it is (almost) uniquely suited to implement the Switch 1 wireless controllers which are also BTC.<br><br>The USB port on it is a built-in UART intended for debugging, but we hijack it as the main line of communication with CC to eliminate the need for an external UART. This makes it super convenient since a simgle USB adapter turns it into fully wireless dongle that allows your computer full control of your Switch without the hassle of any cables at all.<br><br>The ESP32 also supports BLE which is what the Switch 2 wireless controllers use. So it has the potential to implement the Switch 2 wireless controllers in the future. |
+| <img src="SetupGuide/Images/ESP32/ControllerSetup-ESP32-WROOM-Board-2.jpg" width="200"> | **ESP32**<br><br>Supported Controllers:<br>- Switch 1: Wireless Pro Controller<br>- Switch 1: Left Joycon<br>- Switch 1: Right Joycon<br><br>The ESP32 is a microcontroller that supports Bluetooth. It is one of the few microcontrollers that supports Bluetooth Classic (BTC) since the world has moved onto Bluetooth LE (BLE). Thus it is (almost) uniquely suited to implement the Switch 1 wireless controllers which are also BTC.<br><br>The USB port on it is a built-in UART intended for debugging, but we hijack it as the main line of communication with CC to eliminate the need for an external UART. This makes it super convenient since a single USB adapter turns it into fully wireless dongle that allows your computer full control of your Switch without the hassle of any cables at all.<br><br>The ESP32 also supports BLE which is what the Switch 2 wireless controllers use. So it has the potential to implement the Switch 2 wireless controllers in the future. |
 | <img src="Images/Devices/ESP32-S3.jpg" width="200"> | **ESP32-S3**<br><br>Supported Controllers:<br>- HID: Keyboard<br>- Switch 1: Wired controller<br>- Switch 2: Wired controller<br><br>The ESP32-S3 is the by far the best wired controller setup. It has both USB OTG and USB UART as separate ports. The USB OTG can be programmed as a game controller while the USB UART elminates the need for the external UART that was needed by the AVR8 setups (Arduino/Teensy). Thus ESP32-S3 is the perfect replacement for those older setups. Ease of setup is very important as it lowers the technical bar of entry for new users.<br><br>The ESP32-S3 also supports Bluetooth, but only Bluetooth LE (BLE). So while it cannot implement the Switch 1 wireless controllers, it does give us future ambitions of supporting the Switch 2 wireless controllers. |
 | **Pico W**<br><img src="Images/Devices/PicoW.jpg" width="200"><br><br><br>**Pico 2 W**<br><img src="Images/Devices/Pico2W.jpg" width="200"> | **Raspberry Pi: Pico W and Pico 2 W**<br><br>Supported Controllers:<br>- HID: Keyboard<br>- Switch 1: Wired Controller<br>- Switch 2: Wired Controller<br>- Switch 1: Wireless Pro Controller<br>- Switch 1: Left Joycon<br>- Switch 1: Right Joycon<br><br>The Raspberry Pi Pico W is unique in that it can support every single controller. However, accessing the wired controllers is more difficult as it requires more setup.<br><br>The large (silver) chip is a Bluetooth module that supports both BTC and BLE. This allows it to implement wireless controllers. Meanwhile, the USB port on it is USB OTG which allows it to implement the wired controllers. But unlike the ESP32-S3, it does not have a 2nd USB port to use as a UART connection to the computer. <br><br>Therefore we have programmed two operating modes for the Pico W:<br>- USB Mode<br>- UART Mode<br><br>In USB mode, the USB port acts as a serial port that can be plugged directly into the computer. This makes it functionally the same as the ESP32 with only wireless controller support.<br><br>In UART mode, the USB port becomes a wired controller plugged into the console. This unlocks all the remaining (wired) controllers. However, you need to wire up an external UART to UART1 in order for it to communicate with the computer. Thus this setup is similar to that of the Teensy 2 and Pro Micro with the added bonus of the wireless controller support.<br><br>Both operating modes use the same firmware binary. On boot, it starts in USB mode. It automatically switches to UART mode when it sees valid traffic on UART1. |
 | <img src="Images/Devices/ArduinoUnoR3.jpg" width="200"> | **Arduino Uno R3**<br><br>Supported Controllers:<br>- Switch 2: Wired controller<br><br>The Arduino Uno R3 is one of the original boards that spearheaded the Nintendo Switch automation community. However, its ATmega16U2 AVR8 CPU is very weak with only 512 bytes of ram and 12KB of usable program memory.<br><br>This controller is only suitable for emulating the basic wired controllers. It doesn't even have enough memory to hold multiple controller implementations the way that some of the newer controllers can. |
@@ -106,9 +106,9 @@ Wired controllers are by far the most stable with a button timing accuracy of < 
 
 | **Device** | **Controller** |
 | --- | --- |
-| ESP32-S3<br>Pico 1/2 W (UART mode) | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller |
-| Arduino Uno R3<br>Arduino Leonardo<br>Pro Micro<br>Teensy 2.0<br>Teensy++ 2.0 | Switch 2: Wired Controller |
-| sys-botbase 3 (sbb3) | Switch 1: Wired Pro Controller |
+| ESP32-S3<br>Pico 1/2 W (UART mode) {.nowrap} | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller {.nowrap} |
+| Arduino Uno R3<br>Arduino Leonardo<br>Pro Micro<br>Teensy 2.0<br>Teensy++ 2.0 {.nowrap} | Switch 2: Wired Controller {.nowrap} |
+| sys-botbase 3 (sbb3) {.nowrap} | Switch 1: Wired Pro Controller {.nowrap} |
 
 
 ### Wireless:
@@ -119,7 +119,7 @@ The main issue with wireless is that it can only reliably connect to the Switch 
 
 | **Device** | **Controller** |
 | --- | --- |
-| ESP32<br>Pico 1/2 W (both modes) | Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon |
+| ESP32<br>Pico 1/2 W (both modes) {.nowrap} | Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon {.nowrap} |
 
 
 ### sys-botbase 2:
@@ -130,7 +130,7 @@ With the launch of sys-botbase 3 (sbb3), this setup has been deprecated.
 
 | **Device** | **Controller** |
 | --- | --- |
-| sys-botbase 2 (sbb2) | Switch 1: Wired Pro Controller |
+| sys-botbase 2 (sbb2) {.nowrap} | Switch 1: Wired Pro Controller {.nowrap} |
 
 
 <hr>
@@ -138,19 +138,3 @@ With the launch of sys-botbase 3 (sbb3), this setup has been deprecated.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
