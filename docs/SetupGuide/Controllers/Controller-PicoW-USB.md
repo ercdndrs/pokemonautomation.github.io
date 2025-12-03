@@ -45,6 +45,13 @@ There are two operating modes of the Pico W family:
 
 | **Model** | **Quantity** | **Price / Unit** | **Shopping Link** |
 | --- | --- | --- | --- |
+| Pico W | 1 (no pins) | $6 / unit | [Micro Center](https://www.microcenter.com/product/650108/raspberry-pi-pico-w) |
+| Pico W | 1 (no pins) | $6 / unit | [Adafruit](https://www.adafruit.com/product/5526) |
+| Pico 2 W | 1 (no pins) | $7 / unit | [Micro Center](https://www.microcenter.com/product/687384/raspberry-pi-pico-2-w) |
+| Pico 2 W | 1 (no pins) | $7 / unit | [Adafruit](https://www.adafruit.com/product/6087) |
+| Pico W | 1 (no pins) | $12 / unit | [https://www.amazon.com/gp/product/B0FJFLM9DW](https://www.amazon.com/gp/product/B0FJFLM9DW) |
+| Pico W | 2 (no pins) | $10 / unit | [https://www.amazon.com/gp/product/B0B72GV3K3/](https://www.amazon.com/gp/product/B0B72GV3K3/) |
+| Pico 2 W | 1 (no pins) | $13 / unit | [https://www.amazon.com/gp/product/B0DPF9N1MN](https://www.amazon.com/gp/product/B0DPF9N1MN) |
 | Pico WH | 1 (with pins) | $7 / unit | [Micro Center](https://www.microcenter.com/product/650109/raspberry-pi-pico-wh-pico-wireless-with-headers-soldered) |
 | Pico WH | 1 (with pins) | $7 / unit | [Adafruit](https://www.adafruit.com/product/5544) |
 | Pico 2 WH | 1 (with pins) | $8 / unit | [Micro Center](https://www.microcenter.com/product/692334/raspberry-pi-pico-2w-with-header) |
@@ -53,20 +60,15 @@ There are two operating modes of the Pico W family:
 | Pico WH | 2 (with pins) | $11 / unit | [https://www.amazon.com/gp/product/B0BHM7TH1C](https://www.amazon.com/gp/product/B0BHM7TH1C) |
 | Pico 2 WH | 1 (with pins + cable) | $15 / unit | [https://www.amazon.com/gp/product/B0F4W9J5CC](https://www.amazon.com/gp/product/B0F4W9J5CC) |
 | Pico 2 WH | 1 (with pins) | $14 / unit | [https://www.amazon.com/gp/product/B0FGVQPZP6](https://www.amazon.com/gp/product/B0FGVQPZP6) |
-| Pico W | 1 (no pins) | $6 / unit | [Micro Center](https://www.microcenter.com/product/650108/raspberry-pi-pico-w) |
-| Pico W | 1 (no pins) | $6 / unit | [Adafruit](https://www.adafruit.com/product/5526) |
-| Pico 2 W | 1 (no pins) | $7 / unit | [Micro Center](https://www.microcenter.com/product/687384/raspberry-pi-pico-2-w) |
-| Pico 2 W | 1 (no pins) | $7 / unit | [Adafruit](https://www.adafruit.com/product/6087) |
-| Pico W | 1 (no pins) | $12 / unit | [https://www.amazon.com/gp/product/B0FJFLM9DW](https://www.amazon.com/gp/product/B0FJFLM9DW) |
-| Pico W | 2 (no pins) | $10 / unit | [https://www.amazon.com/gp/product/B0B72GV3K3/](https://www.amazon.com/gp/product/B0B72GV3K3/) |
-| Pico 2 W | 1 (no pins) | $13 / unit | [https://www.amazon.com/gp/product/B0DPF9N1MN](https://www.amazon.com/gp/product/B0DPF9N1MN) |
 
 Notes:
 
 - You must get a Pico with "W" in its name. The "W" stands for "wireless". The Picos without the "W" lack the wireless module needed for the wireless connection! The "H" doesn't matter, though most of the boards with pins are also "H".
 - There is no difference between the Pico W and the Pico 2 W. Both work identically for this project. The Pico 2 is newer and $1 more expensive. This project is unaffected by Pico 2 errata RP2350-E9.
 
-Unlike other controllers, we recommend the ones with pins because it becomes much easier to upgrade to [UART Mode](Controller-PicoW-UART.md) in the future. Without the pins, it becomes very difficult to attach the UART. We only recommend the pinless boards if you either never intend to do UART mode, or if you have another way to connect to the holes (such as soldering, mini-grabbers, hammer headers, etc...)
+The question of pins vs. no pins will depend on whether you wish to upgrade to [UART Mode](Controller-PicoW-UART.md) in the future. Pins makes it much easier to upgrade to UART mode, but will make the Pico harder to handle since the pins are annoying and are a liability for shorting out the board. If you can't decide or don't know, go with no pins.
+
+In the past, we recommended getting pins for the upgrade path to UART mode. But we've since found that UART mode to be vulnerable to power glitching. Thus this upgrade path makes less sense.
 
 **A micro-USB  cable:**
 
@@ -226,6 +228,7 @@ It is as cute as it is stupid, and it will give you problems. We tried it so you
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
