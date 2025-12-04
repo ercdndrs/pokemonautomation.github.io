@@ -2,6 +2,6 @@
     white-space: nowrap;
 }
 
-.md-typeset__table, .md-typeset img{
+.md-typeset__table img{
     max-width: none;
 }
