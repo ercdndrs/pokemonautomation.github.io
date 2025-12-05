@@ -9,7 +9,7 @@ Sometimes we would like to achieve the following actions:
 
 To wait for a visual or audio event, we use `wait_until()`.
 To send some button commands until a visual or audio event happens, we use `run_until()`.
-Both functions are declared in [InferenceRoutines.h](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/CommonFramework/InferenceInfra/InferenceRoutines.h). An example usage of both functions is in [`mash_A_to_change_region()`](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/PokemonLA/Programs/PokemonLA_RegionNavigation.cpp).
+Both functions are declared in [InferenceRoutines.h](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/CommonTools/Async/InferenceRoutines.h). An example usage of both functions is in [`mash_A_to_change_region()`](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/PokemonLA/Programs/PokemonLA_RegionNavigation.cpp).
 
 ## wait_until()
 
@@ -21,12 +21,12 @@ If the wait times out, the main thread also wakes up and the inference thread fi
 You can pass a `vector` of `PeriodicInferenceCallback` to the function.
 Those callbacks are the visual or audio inference
 objects.
-The base class for a callback object is [`InferenceCallback`](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/CommonFramework/InferenceInfra/InferenceCallback.h).
-The base visual inference callback class is [`VisualInferenceCallback`](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/CommonFramework/InferenceInfra/VisualInferenceCallback.h).
-The base audio inference callback class is [`AudioInferenceCallback`](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/CommonFramework/InferenceInfra/AudioInferenceCallback.h).
+The base class for a callback object is [`InferenceCallback`](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/CommonTools/InferenceCallbacks/InferenceCallback.h).
+The base visual inference callback class is [`VisualInferenceCallback`](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/CommonTools/InferenceCallbacks/VisualInferenceCallback.h).
+The base audio inference callback class is [`AudioInferenceCallback`](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/CommonTools/InferenceCallbacks/AudioInferenceCallback.h).
 
 To write a new visual inference class, inherit `VisualInferenceCallback`.
-An example is [`BlackScreenOverWatcher`](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/CommonFramework/Inference/BlackScreenDetector.h) used in `mash_A_to_change_region()`.
+An example is [`BlackScreenOverWatcher`](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/CommonTools/VisualDetectors/BlackScreenDetector.h) used in `mash_A_to_change_region()`.
 For each inference object passed to `wait_until()`, `wait_until()` calls the object's `process_frame()` to do the inference work.
 If the function returns true, the wait is also over.
 `wait_until()` also calls the object's `make_overlays()` to visualize the inference (usually by rendering some boxes on the target regions of the video stream) on the video overlay.

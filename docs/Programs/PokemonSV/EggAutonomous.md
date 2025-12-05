@@ -91,7 +91,7 @@ Note: Pokémon with large parts of bright yellow color (e.g. Skeledirge) may int
 
 - If more than one Pokémon holds Destiny Knot and the rest holds nothing, only the Pokémon with Destiny Knots will pair among themselves. So if you bring two Ditto with Destiny Knots and some other Pokémon without items, you will never get eggs as Ditto won't produce eggs with another Ditto.
 
-For more investigation on Scarlet & Violet egg mechanism and how to optimize egg fetching, visit [https://rotomlabs.net/article/breeding-scarlet-violet.](https://rotomlabs.net/article/breeding-scarlet-violet.)
+For more investigation on Scarlet & Violet egg mechanism and how to optimize egg fetching, visit [https://rotomlabs.net/article/breeding-scarlet-violet.](https://rotomlabs.net/article/breeding-scarlet-violet)
 
 
 

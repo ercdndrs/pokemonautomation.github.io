@@ -7,7 +7,7 @@ Before issuing a button command or doing any visual or audio detection, you woul
 To let the program wait for the button commands issued by the program to finish, use `context.wait_for_all_requests()`. See the [button topic page](Button.md) for more details about this function.
 
 You can also use `context.wait_for(std::chrono::milliseconds())` to let the program wait for a set amount of time.
-There is also a function in the `pbf` button command family, `pbf_wait()`, that you can use to tell the micro-controller to wait for a specified number of ticks (Inside the micro-controller 125 ticks is one second. Access this number via [`TICKS_PER_SECOND`](https://github.com/PokemonAutomation/Arduino-Source/blob/main/Common/NintendoSwitch/NintendoSwitch_ControllerDefs.h)).
+There is also a function in the `pbf` button command family, `pbf_wait()`, that you can use to tell the micro-controller to wait for a specified number of ticks (Inside the micro-controller 125 ticks is one second. Access this number via [`TICKS_PER_SECOND`](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/NintendoSwitch/Controllers/NintendoSwitch_ControllerButtons.h)).
 But remember to call `context.wait_for_all_requests()` after that to make sure the computer program also waits for the `pbf_wait()` command to finish.
 
 ## Important:

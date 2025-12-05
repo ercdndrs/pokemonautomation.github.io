@@ -6,7 +6,7 @@ A simple visual detection method is to check the color of a region of the image.
 
 We use [`image_stats()`](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/CommonFramework/ImageTools/ImageStats.h) to extract color stats from an image.
 An example usage is in [PokemonBDSP_MenuDetector.cpp](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/PokemonBDSP/Inference/PokemonBDSP_MenuDetector.cpp).
-`image_stats()` returns a struct `ImageStats` that stores average per-pixel color, pixel color stddev and pixel count on this image. Then it calls `is_white()` declared in [SolidColorTest.h](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/CommonFramework/ImageTools/SolidColorTest.h) to check whether the stats reflect the image is all white.
+`image_stats()` returns a struct `ImageStats` that stores average per-pixel color, pixel color stddev and pixel count on this image. Then it calls `is_white()` declared in [SolidColorTest.h](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/CommonTools/Images/SolidColorTest.h) to check whether the stats reflect the image is all white.
 
 We also commonly use `is_solid()` in SolidColorTest.h to check whether the image is full of a particular color. 
 For example you can check [PokemonLA_DialogDetector.cpp](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/PokemonLA/Inference/PokemonLA_DialogDetector.cpp).
