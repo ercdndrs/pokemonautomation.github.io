@@ -40,7 +40,7 @@ We are currently exploring ways to detect the running profile and automatically 
 
 ### Japan region-locked Switches have different settings.
 
-<img src="images/Switch2Menu-International.png" width="400"> <img src="images/Switch2Menu-JapanLocked.png" width="400">
+[<img src="images/Switch2Menu-International.png" width="400">](images/Switch2Menu-International.png) [<img src="images/Switch2Menu-JapanLocked.png" width="400">](images/Switch2Menu-JapanLocked.png)
 
 In the regular (international) Switch 2, there are options to set the Switch language and region.
 However, these settings are missing in the Japan region-locked Switch 2s.
@@ -85,7 +85,7 @@ If using an HDR-capable card, we recommend turning it off in System Settings -> 
 
 |HDR Off|HDR On|
 |---|---|
-|<img src="images/Switch2-HDR-Off.png" width="400">|<img src="images/Switch2-HDR-On.png" width="400">|
+|[<img src="images/Switch2-HDR-Off.png" width="400">](images/Switch2-HDR-Off.png)|[<img src="images/Switch2-HDR-On.png" width="400">](images/Switch2-HDR-On.png)|
 
 
 ## For Developers

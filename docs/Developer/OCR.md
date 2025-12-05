@@ -12,7 +12,7 @@ to find a text match from a pre-difined set of candidate texts.
 
 ## SmallDictionaryMatcher
 
-`SmallDictionaryMatcher` loads a JSON file (see the [JSON topic](JSON.md) for more details) in the resource folder. The JSON file contains texts of every language available in a Pokémon game. An example is [BerryNameOCR.json](https://github.com/PokemonAutomation/Packages/blob/master/SerialPrograms/Resources/Pokemon/BerryNameOCR.json). In this file, for each language ("eng", "jpn" and so on) , it stores the mapping from each berry slug (see the [slug topic](Slug.md) for more details) to its text in that language. For example, in English, the text for Cheri Berry (which slug is "cheri-berry") is "Cheri Berry", while in Japanese, the text is "クラボのみ". So we have
+`SmallDictionaryMatcher` loads a JSON file (see the [JSON topic](JSON.md) for more details) in the resource folder. The JSON file contains texts of every language available in a Pokémon game. An example is [BerryNameOCR.json](https://github.com/PokemonAutomation/Packages/blob/master/Resources/Pokemon/BerryNameOCR.json). In this file, for each language ("eng", "jpn" and so on) , it stores the mapping from each berry slug (see the [slug topic](Slug.md) for more details) to its text in that language. For example, in English, the text for Cheri Berry (which slug is "cheri-berry") is "Cheri Berry", while in Japanese, the text is "クラボのみ". So we have
 ```
 "eng": {
     "cheri-berry": [
@@ -32,7 +32,7 @@ to find a text match from a pre-difined set of candidate texts.
 
 ## LargeDictionaryMatcher
 
-`LargeDictionaryMatcher` loads several JSON files to build the dictionary. Each JSON file corresponds to one language. An example group of JSON files is [PokemonNameOCR](https://github.com/PokemonAutomation/Packages/tree/master/SerialPrograms/Resources/Pokemon/PokemonNameOCR). Because there are now many Pokémon, we split the OCR data into separate JSON files based on language:
+`LargeDictionaryMatcher` loads several JSON files to build the dictionary. Each JSON file corresponds to one language. An example group of JSON files is [PokemonNameOCR](https://github.com/PokemonAutomation/Packages/tree/master/Resources/Pokemon/PokemonNameOCR). Because there are now many Pokémon, we split the OCR data into separate JSON files based on language:
 ```
 PokemonOCR-fra.json:
 {
@@ -54,7 +54,7 @@ PokemonOCR-chi_tra.json:
 
 ... (other language JSON files)
 ```
-[PokemonNameReader](https://github.com/PokemonAutomation/Packages/tree/master/SerialPrograms/Source/Pokemon/Inference/Pokemon_NameReader.h) loads this Pokémon name JSON folder to read Pokémon names.
+[PokemonNameReader](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/Pokemon/Inference/Pokemon_NameReader.h) loads this Pokémon name JSON folder to read Pokémon names.
 
 ## Multiple Text Values for One Slug
 Note in the traditional Chinese JSON file, Abomasnow corresponds to three text values "暴雪王", "繁霎王" and "鬘粘王".

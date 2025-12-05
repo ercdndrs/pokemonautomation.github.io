@@ -8,4 +8,4 @@ You can download the folder from our latest [program releases](https://github.co
 You need to place the `Resources` folder at the same folder hierarchy as the folder of the built **SerialPrograms** executable, so that when launching the executable it can correctly find the resource folder.
 For example, if the path of **SerialPrograms** is `C:\git\Arduino-Source\build\SerialPrograms.exe` then the resource folder should be `C:\git\Arduino-Source\Resources`.
 
-If you would like to contribute a new feature to our codebase which relies on a data file, don't forget to upload the data file to our [Packages repo](https://github.com/PokemonAutomation/Packages/tree/master/SerialPrograms/Resources). You can use the same Github development cycle in the [Git guide](Git.md) to submit your new data file.
+If you would like to contribute a new feature to our codebase which relies on a data file, don't forget to upload the data file to our [Packages repo](https://github.com/PokemonAutomation/Packages/tree/master/Resources). You can use the same Github development cycle in the [Git guide](Git.md) to submit your new data file.

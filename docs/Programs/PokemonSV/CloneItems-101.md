@@ -70,7 +70,7 @@ Most people can keep their ride legendary in their party all the time since it's
 
 | **Version 0.21.8**<br>(6th slot in your party) | **Version 0.21.9 and later**<br>(2nd slot in your party) |
 | --- | --- |
-| <img src="images/CloneItems-0.png"> | <img src="images/CloneItems-1.png"> |
+| [<img src="images/CloneItems-0.png" width="450">](images/CloneItems-0.png) | [<img src="images/CloneItems-1.png" width="450">](images/CloneItems-1.png) |
 
 
 ### Recommendations

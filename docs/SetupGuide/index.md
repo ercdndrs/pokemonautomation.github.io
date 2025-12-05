@@ -108,7 +108,7 @@ While we support quite a few different setups, these are the 3 that we recommend
 
 | **Wireless** | **Wired** | **Custom Firmware** |
 | --- | --- | --- |
-| <img src="Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="1000"> | <img src="Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="1000"> | <img src="Images/sys-botbase/ControllerSetup-sbb.jpg" width="1000"> |
+| <img src="Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="300"> | <img src="Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="300"> | <img src="Images/sys-botbase/ControllerSetup-sbb.jpg" width="300"> |
 | **Supported Controller Types:**<br>- Switch 1: Wireless Pro Controller<br>- Switch 1: Left Joycon<br>- Switch 1: Right Joycon | **Supported Controller Types:**<br>- USB Keyboard<br>- Switch 1: Wired Controller<br>- Switch 2: Wired Controller | **Supported Controller Types:**<br>Wired Pro Controller<br><br><br> |
 | **Recommended Microcontrollers:**<br>- Raspberry Pi Pico W<br>- Raspberry Pi Pico 2 W<br>- ESP32 | **Recommended Microcontrollers:**<br>- ESP32-S3<br><br><br> | **Recommended Microcontrollers:**<br>- None required.<br><br><br> |
 | Cheapest. Easiest to setup.<br>Harder to use after setup. | More Expensive. Harder to setup.<br>Easiest to use after setup. | Requires a hacked Switch running custom firmware (CFW). |
@@ -146,7 +146,7 @@ See: [General Setup for macOS](GeneralSetupMac.md)
 
 When you are done, you should have the CC window running and looking like this:
 
-<img src="Images/GeneralSetup-FullSystem.jpg" width="48.5%"> <img src="Images/GeneralSetup-AudioSelected.png" width="45.3%">
+[<img src="Images/GeneralSetup-FullSystem.jpg" width="48.5%">](Images/GeneralSetup-FullSystem.jpg) [<img src="Images/GeneralSetup-AudioSelected.png" width="45.3%">](Images/GeneralSetup-AudioSelected.png)
 
 
 ## Step 3: Controller Setup:

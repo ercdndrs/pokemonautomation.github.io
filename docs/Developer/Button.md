@@ -8,7 +8,7 @@ Those functions are defined in [NintendoSwitch_Commands_PushButtons.h](https://g
 Example button commands are `pbf_press_button()` and `pbf_press_dpad()`.
 You can read the comments of those functions to understand how to use them.
 
-Note we use ticks to measure the amount of time a button action is executed. Inside the micro-controller 125 ticks is one second. Access this number via [`TICKS_PER_SECOND`](https://github.com/PokemonAutomation/Arduino-Source/blob/main/Common/NintendoSwitch/NintendoSwitch_ControllerDefs.h).
+Note we use ticks to measure the amount of time a button action is executed. Inside the micro-controller 125 ticks is one second. Access this number via [`TICKS_PER_SECOND`](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/NintendoSwitch/Controllers/NintendoSwitch_ControllerButtons.h).
 
 An example automation program that uses those functions is [**PokemonLA_BraviaryHeightGlitch**](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/PokemonLA/Programs/General/PokemonLA_BraviaryHeightGlitch.cpp).
 
