@@ -12,7 +12,7 @@ If you have any questions regarding the documentation or find any errors in the 
 - [Example Tutorial: Pokémon Home Sorter](TutorialCC.md)
 - Development Topics
 	- [Build Guide](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/README.md)
-	- [Send Button Commands](Button.md)
+	- [Send Button Commands (pbf, ssf)](Button.md)
 	- [Access Regions of Interest on Images](SubImage.md)
 	- [Wait Some Time](Wait.md)
 	- [Resources Folder](Resources.md)
@@ -20,8 +20,9 @@ If you have any questions regarding the documentation or find any errors in the 
 	- [Slugs](Slug.md)
 	- [Check Color](Color.md)
 	- [OCR](OCR.md)
-	- [Parallel Routines](Parallel.md)
+	- [Parallel Routines (wait_until, run_until)](Parallel.md)
 	- [Exception](Exception.md)
 	- [Image Template Matching](ImageMatching.md)
 	- [Command Line Tests](Tests.md)
 	- [Add New Files](NewFiles.md)
+
