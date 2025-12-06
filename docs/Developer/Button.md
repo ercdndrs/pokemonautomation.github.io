@@ -1,4 +1,4 @@
-# Send Button Commands
+# Send Button Commands (pbf, ssf)
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
 
@@ -37,3 +37,44 @@ This function stops the program from doing anything until all the commands sent 
 An example usage is in [**PokemonLA_PokedexTasksReader**](https://github.com/PokemonAutomation/Arduino-Source/blob/main/SerialPrograms/Source/PokemonLA/Programs/General/PokemonLA_PokedexTasksReader.cpp).
 The program reads Pokédex tasks. After it sends button commands that tells the game to go to the next Pokédex page,
 it calls `context.wait_for_all_requests()` before reading the video stream. In this way, when the program reads the video stream, the game is indeed showing the next page.
+
+## ssf functions
+The `ssf` functions are similar to the `pbf` functions, but they allow for button/joystick overlapping. 
+
+However, the `ssf` functions don't always allow for overlapping. As a general rule for ssf overlapping, overlapping only works as long as you are pressing different buttons/components. As soon as an attempted overlap hits a conflict, (e.g. a button overlapping with itself, or mashing a button), the schedule stalls until the previous press finishes and cools down.
+
+For example, the following code allows for pushing the joystick while mashing the A button.
+
+```
+// example 1
+ssf_press_left_joystick(context, 128, 0, 0ms, 5000ms);
+ssf_mash1_button(context, BUTTON_A, 5000ms);
+```
+
+But if I reverse the order, they will NOT overlap.
+
+```
+// example 2
+ssf_mash1_button(context, BUTTON_A, 5000ms);
+ssf_press_left_joystick(context, 128, 0, 0ms, 5000ms);
+```
+
+In example 1, `ssf_press_left_joystick` immediately returns because it's only one operation that doesn't conflict with anything before or after it, therefore allowing the next command to be run right away.
+Example 2 does not overlap because mashing the button results in the button overlapping with itself, which stalls the schedule until it finishes mashing; `ssf_press_left_joystick` only gets run after it finishes mashing.
+
+Consider another example below:
+
+```
+// example 3
+ssf_press_left_joystick(context, 128, 255, 0ms, 5000ms);
+ssf_press_left_joystick(context, 128, 0, 0ms, 5000ms);
+ssf_mash1_button(context, BUTTON_A, 5000ms);
+```
+
+In example 3, the first two lines moving the joystick conflict. So line 1 goes and finishes, then line 2 and 3 are done simultaneously.
+
+## pbf_controller_state
+
+`pbf_controller_state()` is another function that allows you to hold down multiple buttons at the same time, by exposing the entire controller state.
+
+NOTE: `pbf_controller_state()` will wait until all unfinished `ssf_`commands are finished. `pbf_press_button()` will only wait until the buttons you're trying to use are finished. In other words, `pbf_press_button()` will overlap with `ssf_` while `pbf_controller_state()` will not.
