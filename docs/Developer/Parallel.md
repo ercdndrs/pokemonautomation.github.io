@@ -41,6 +41,8 @@ Another inference thread is used to periodically execute some visual or audio in
 If the inference code returns true, then the run is over, the command thread stops the button command function immediately and the inference thread finishes.
 If the button command function finishes execution, the run is also over, both two threads finish and the main thread moves on.
 
+NOTE: `wait_for_all_requests()` is called automatically by run_until() after the lambda (the command function) returns.
+
 Like `wait_until()`, the function accepts a `vector` of `PeriodicInferenceCallback` for the inference thread to execute.
 See `mash_A_to_change_region()` again as an example.
 
@@ -52,3 +54,4 @@ For the usage of an audio inference callback, see [**PokemonLA_UnownFinder**](ht
 ## Race Condition
 
 Because it involves multithreading, you need to be careful not to create race conditions. For example, don't let the inference thread and the button command thread in `run_until()` access the same variable without a lock.
+
