@@ -1,4 +1,4 @@
-# Parallel Routines
+# Parallel Routines (wait_until, run_until)
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
 
@@ -54,4 +54,5 @@ For the usage of an audio inference callback, see [**PokemonLA_UnownFinder**](ht
 ## Race Condition
 
 Because it involves multithreading, you need to be careful not to create race conditions. For example, don't let the inference thread and the button command thread in `run_until()` access the same variable without a lock.
+
 
