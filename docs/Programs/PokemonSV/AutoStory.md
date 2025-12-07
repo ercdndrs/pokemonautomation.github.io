@@ -92,6 +92,7 @@ NOTE 2: I recommend disabling Move learning. So you skip all the dialog boxes fr
 - Ensure the ability is Synchronize or Telepathy. You may need to use an Ability Capsule or Ability Patch respectively. We don't want the ability Trace.
 - Optional: Go to Treasure eatery in Medali to change the tera type to Fairy
 - NOTE: after vitamins, mint and hypertraining, the stats should be as follows: HP 277, Attack [doesn't matter], Defense 167, Speed 259, Sp. Def 266, Sp. Atk 383
+- NOTE 2: It is very important that the Gardevoir has max PP, particularly for Moonblast. Moonblast should have 24 PP.
 
 **Moving the Gardevoir back to the Autostory account**
 
@@ -126,6 +127,10 @@ End the autostory program at this segment in the story.
 # Credits
 
 - **Author:** jw, Nymphea
+- Special thanks:
+    - Gin: for implementing the machine learning framework.
+    - Japanese automation community: for being the inspiration for this program.
+    - PokemonSV speedrunning community (e.g. halqery): for inspiring ideas on efficiently completing certain segments.
 
 
 <hr>
@@ -133,6 +138,7 @@ End the autostory program at this segment in the story.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
