@@ -6,7 +6,7 @@ There are two operating modes of the Pico W family:
 
 | **Mode** | **Connections** | **Controller Support** | **Setup Difficulty** |
 | --- | --- | --- | --- |
-| [USB Mode](Controller-PicoW-USB.md) | 1. Pico W's USB port -> Computer | Wireless controllers only:<br>- NS1: Wireless Pro Controller<br>- NS1: Left Joycon<br>- NS1: Right Joycon | Very Easy |
+| [USB Mode](Controller-PicoW-USB.md) | 1. Pico W's USB port -> Computer | Wireless controllers only:<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | Very Easy |
 | **UART Mode (this guide)** | 1. Pico W's USB port -> Switch<br>2. Pico W's pins 6/7/8 -> External UART<br>3. External UART -> Computer | Both wired and wireless:<br>- HID: Keyboard<br>- NS1: Wired Controller<br>- NS2: Wired Controller<br>- NS1: Wired Pro Controller<br>- NS1: Wired Left Joycon<br>- NS1: Wired Right Joycon<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | More Difficult |
 | [Advanced UART Mode](Controller-PicoW-Advanced.md) | 1. Pico W's USB port -> Switch<br>2. Pico W's pins 6/7/8/39 -> External UART<br>3. External UART -> Computer | Both wired and wireless:<br>- HID: Keyboard<br>- NS1: Wired Controller<br>- NS2: Wired Controller<br>- NS1: Wired Pro Controller<br>- NS1: Wired Left Joycon<br>- NS1: Wired Right Joycon<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | Most Difficult |
 
@@ -228,8 +228,8 @@ You will notice that there are 7 controller options:
 - NS1: Wired Controller
 - NS2: Wired Controller
 - NS1: Wireless Pro Controller
-- NS1: Left Joycon
-- NS1: Right Joycon
+- NS1: Wireless Left Joycon
+- NS1: Wireless ight Joycon
 
 "None" simply idles the Pico W and turns off its USB and antenna so it isn't trying to connect to a Switch. The others tell the Pico W to act as that controller respectively. Setting to "None" is a convenient way to disconnect the Pico so you can connect your physical controller.
 
@@ -290,6 +290,7 @@ If you are experienced with circuits and would like to attempt a hardware fix, s
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
