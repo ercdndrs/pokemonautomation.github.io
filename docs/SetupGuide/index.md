@@ -109,11 +109,11 @@ While we support quite a few different setups, these are the 3 that we recommend
 | **Wireless** | **Wired** | **Custom Firmware** |
 | --- | --- | --- |
 | <img src="Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="300"> | <img src="Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="300"> | <img src="Images/sys-botbase/ControllerSetup-sbb.jpg" width="300"> |
-| **Supported Controller Types:**<br>- Switch 1: Wireless Pro Controller<br>- Switch 1: Left Joycon<br>- Switch 1: Right Joycon | **Supported Controller Types:**<br>- USB Keyboard<br>- Switch 1: Wired Controller<br>- Switch 2: Wired Controller | **Supported Controller Types:**<br>Wired Pro Controller<br><br><br> |
+| **Supported Controller Types:**<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon<br><br><br><br> | **Supported Controller Types:**<br>- HID: Keyboard<br>- NS1: Wired Controller<br>- NS2: Wired Controller<br>- NS1: Wired Pro Controller<br>- NS1: Wired Left Joycon<br>- NS1: Wired Right Joycon | **Supported Controller Types:**<br>- NS1: Wired Pro Controller<br><br><br><br><br><br> |
 | **Recommended Microcontrollers:**<br>- Raspberry Pi Pico W<br>- Raspberry Pi Pico 2 W<br>- ESP32 | **Recommended Microcontrollers:**<br>- ESP32-S3<br><br><br> | **Recommended Microcontrollers:**<br>- None required.<br><br><br> |
 | Cheapest. Easiest to setup.<br>Harder to use after setup. | More Expensive. Harder to setup.<br>Easiest to use after setup. | Requires a hacked Switch running custom firmware (CFW). |
 | Works on Switch 2. | Works on Switch 2. | Does not work on Switch 2 due to lack of CFW. |
-| Runs nearly all programs - including LGPE.* | Cannot run LGPE programs.<br>Runs all other programs.* | sbb3: Identical to wired controllers.<br>sbb2: Cannot run programs that require timing precision. |
+| Runs nearly all programs - including LGPE.* | Runs all programs - including LGPE.* | sbb3: Runs most programs.<br>sbb2: Cannot run timing precise programs.<br>Neither sbb2 nor sbb3 can run LGPE. |
 | Slower and less reliable than wired. | Fastest and most reliable. | sbb3: Identical to wired controllers.<br>sbb2: Very slow and unreliable. |
 | Not recommended for remote access.<br>Not recommended for high density setups due to wireless interference. | Very good for remote access.<br>Very good for high density setups. | Not recommended for remote access. |
 | Recommended for first time users. | Recommended for heavy users who want maximum reliability. | Recommended for existing CFW users who want to try CC programs with minimal investment. |
@@ -127,7 +127,7 @@ For a complete list of setups - including older ones we no longer recommend, see
 | **User Type** | **Recommendation** | **Comments** |
 | --- | --- | --- |
 | You are completely new to automation. | Pico W | Cheapest. Easiest to setup. |
-| You want to automate LGPE. | Pico W or ESP32 | Wireless is required for LGPE. |
+| You want to automate LGPE. | Pico W, ESP32, or ESP32-S3 | LGPE requires joycons. |
 | You are a heavy user of automation with multiple Switches running 24/7. | ESP32-S3 | Most stable and reliable. No hassle after setup. |
 | You are an existing Computer Control user who already has the Arduino/Teensy setup. | Keep what you have. | See the [Controller List](../ControllerList.md) to find the guide to re-setup your hardware. |
 | You are an experienced CFW user. | sys-botbase 3 | This setup is designed specifically for you at no additional cost (beyond a capture card)! |
@@ -155,12 +155,14 @@ Here the guide will diverge depending on which controller type you have chosen. 
 
 | | **Device Type** | **Supported Controllers** | **Setup Difficulty<br>(Scale 1-10)** | **Guides** |
 | --- | --- | --- | --- | --- |
-| <img src="Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(USB Mode) | Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 1 | [Guide](Controllers/Controller-PicoW-USB.md) |
-| <img src="Images/ESP32/ControllerSetup-ESP32-WROOM.jpg" width="200"> | ESP32 | Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 3 | [Windows](Controllers/Controller-ESP32-WROOM.md)<br>[Mac](Controllers/Controller-ESP32-WROOM-MacOS.md)<br>[Video Tutorial](https://youtu.be/YzGyQQOGjl8) |
-| <img src="Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="200"> | ESP32-S3 | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller | 3 | [Windows](Controllers/Controller-ESP32-S3.md)<br>[Video Tutorial](https://youtu.be/ezBuwk48z8w) |
-| <img src="Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 2<br>CFW: sys-botbase 3 | Switch 1: Wired Pro Controller | 2 | [Guide](Controllers/Controller-sys-botbase.md) |
-| <img src="Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(UART Mode) | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller<br>Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 5 | [Guide](Controllers/Controller-PicoW-UART.md) |
-| <img src="Images/PicoW/ControllerSetup-PicoW-Advanced.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(Advanced UART Mode) | HID: Keyboard<br>Switch 1: Wired Controller<br>Switch 2: Wired Controller<br>Switch 1: Wireless Pro Controller<br>Switch 1: Left Joycon<br>Switch 1: Right Joycon | 10 | [Guide](Controllers/Controller-PicoW-Advanced.md) |
+| <img src="Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(USB Mode) {.nowrap} | NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | 1 | [Guide](Controllers/Controller-PicoW-USB.md) {.nowrap} |
+| <img src="Images/ESP32/ControllerSetup-ESP32-WROOM.jpg" width="200"> | ESP32 {.nowrap} | NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | 3 | [Windows](Controllers/Controller-ESP32-WROOM.md)<br>[Mac](Controllers/Controller-ESP32-WROOM-MacOS.md)<br>[Video Tutorial](https://youtu.be/YzGyQQOGjl8) {.nowrap} |
+| <img src="Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="200"> | ESP32-S3 {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | 3 | [Windows](Controllers/Controller-ESP32-S3.md)<br>[Video Tutorial](https://youtu.be/ezBuwk48z8w) {.nowrap} |
+| <img src="Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 3 {.nowrap} | NS1: Wired Pro Controller {.nowrap} | 2 | [Guide](Controllers/Controller-sys-botbase.md) {.nowrap} |
+| <img src="Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon<br>NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | 5 | [Guide](Controllers/Controller-PicoW-UART.md) {.nowrap} |
+| <img src="Images/PicoW/ControllerSetup-PicoW-Advanced.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(Advanced UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon<br>NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | 10 | [Guide](Controllers/Controller-PicoW-Advanced.md) {.nowrap} |
+
+
 
 The full list can be found in the [Controller List](../ControllerList.md).
 
@@ -193,6 +195,7 @@ Here are some misc. tips/tricks, and other hidden features of the CC programs!
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
