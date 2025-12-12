@@ -8,7 +8,7 @@ This is the most difficult to do serial setup that we've ever done and is reserv
 
 | **Mode** | **Connections** | **Controller Support** | **Setup Difficulty** |
 | --- | --- | --- | --- |
-| [USB Mode](Controller-PicoW-USB.md) | 1. Pico W's USB port -> Computer | Wireless controllers only:<br>- NS1: Wireless Pro Controller<br>- NS1: Left Joycon<br>- NS1: Right Joycon | Very Easy |
+| [USB Mode](Controller-PicoW-USB.md) | 1. Pico W's USB port -> Computer | Wireless controllers only:<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | Very Easy |
 | [UART Mode](Controller-PicoW-UART.md) | 1. Pico W's USB port -> Switch<br>2. Pico W's pins 6/7/8 -> External UART<br>3. External UART -> Computer | Both wired and wireless:<br>- HID: Keyboard<br>- NS1: Wired Controller<br>- NS2: Wired Controller<br>- NS1: Wired Pro Controller<br>- NS1: Wired Left Joycon<br>- NS1: Wired Right Joycon<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | More Difficult |
 | **Advanced UART Mode<br>(this guide)** | 1. Pico W's USB port -> Switch<br>2. Pico W's pins 6/7/8/39 -> External UART<br>3. External UART -> Computer | Both wired and wireless:<br>- HID: Keyboard<br>- NS1: Wired Controller<br>- NS2: Wired Controller<br>- NS1: Wired Pro Controller<br>- NS1: Wired Left Joycon<br>- NS1: Wired Right Joycon<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | Most Difficult |
 
@@ -86,6 +86,7 @@ Everything is the same as the [Pico W UART mode guide](Controller-PicoW-UART.md#
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
