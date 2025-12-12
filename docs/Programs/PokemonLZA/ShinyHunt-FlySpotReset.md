@@ -12,6 +12,7 @@ This program can shiny hunt:
 - A non-alpha Swirlix near the same cafe
 - A Dedenne/Emolga spawner on the street near Magenta Pokémon Center.
 - Two Mareep and a Pichu in Wild Zone 1 near Pokémon Research Lab. (The Mareep are about 50m from the lab. They can be hunt on Switch 2. Unclear on Switch 1.)
+- Pokemon near the entrance of Hyperspace Wild Zones.
 
 This program only works for fly spots outside Wild Zones. To shiny hunt more Pokémon in Wild Zones, use our [Shiny Hunt - Wild Zone Entrance](ShinyHunt-WildZoneEntrance.md) program.
 
@@ -43,6 +44,19 @@ Shiny sound detection will happen at most once to avoid detecting the same shiny
 
 ## Options
 
+### Hunt Route
+
+The route to follow.
+
+- No Movement in Lumiose: You are in Lumiose. (Nouveau Cafe No. 3, Pokémon Research Lab, etc.)
+- Hyperspace Wild Zone: You are in hyperspace and not regular Lumiose. Be sure to set the Hyperspace Resets option below.
+- Wild Zone 19
+- Alpha Pidgey (Wild Zone 1)
+
+### Hyperspace Resets
+
+Number of resets when running the Hyperspace Wild Zone route. This setting does not apply when any other route is selected. Each fly takes about 1 Cal. of time. Make sure to leave enough time to catch found shinies.
+
 ### Shiny Sound Detected Action
 
 When a shiny sound is heard, perform one of the following actions:
@@ -62,6 +76,7 @@ When a shiny sound is heard, perform one of the following actions:
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
