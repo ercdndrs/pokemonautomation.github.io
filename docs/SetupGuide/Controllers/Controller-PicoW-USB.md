@@ -6,8 +6,8 @@ There are two operating modes of the Pico W family:
 
 | **Mode** | **Connections** | **Controller Support** | **Setup Difficulty** |
 | --- | --- | --- | --- |
-| **USB Mode (this guide)** | 1. Pico W's USB port -> Computer | Wireless controllers only:<br>- Switch 1: Wireless Pro Controller<br>- Switch 1: Left Joycon<br>- Switch 1: Right Joycon | Very Easy |
-| [UART Mode](Controller-PicoW-UART.md) | 1. Pico W's USB port -> Switch<br>2. Pico W's pins 6/7/8 -> External UART<br>3. External UART -> Computer | Both wireless and wired:<br>- HID: Keyboard<br>- Switch 1: Wired Controller<br>- Switch 2: Wired Controller<br>- Switch 1: Wireless Pro Controller<br>- Switch 1: Left Joycon<br>- Switch 1: Right Joycon | More Difficult |
+| **USB Mode (this guide)** | 1. Pico W's USB port -> Computer | Wireless controllers only:<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | Very Easy |
+| [UART Mode](Controller-PicoW-UART.md) | 1. Pico W's USB port -> Switch<br>2. Pico W's pins 6/7/8 -> External UART<br>3. External UART -> Computer | Both wired and wireless:<br>- HID: Keyboard<br>- NS1: Wired Controller<br>- NS2: Wired Controller<br>- NS1: Wired Pro Controller<br>- NS1: Wired Left Joycon<br>- NS1: Wired Right Joycon<br>- NS1: Wireless Pro Controller<br>- NS1: Wireless Left Joycon<br>- NS1: Wireless Right Joycon | More Difficult |
 
 <img src="../Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="45%"> <img src="../Images/PicoW/ControllerSetup-PicoW-USB-Setup-Small.jpg" width="45%">
 
@@ -228,6 +228,7 @@ It is as cute as it is stupid, and it will give you problems. We tried it so you
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
