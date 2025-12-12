@@ -60,13 +60,13 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | Game Settings | --- | --- |
 ||
 | **General:** |
-| [Daily Item Farmer](PokemonLGPE/DailyItemFarmer.md) {.nowrap} | Video         | Wireless Only |
+| [Daily Item Farmer](PokemonLGPE/DailyItemFarmer.md) {.nowrap} | Video         | Wired, Wireless |
 ||
 | **Shiny Hunting:** |
-| [Alolan Trade](PokemonLGPE/AlolanTrade.md) {.nowrap}          | Video         | Wireless Only |
-| [Fossil Revival](PokemonLGPE/FossilRevival.md) {.nowrap}      | Video         | Wireless Only |
-| [Gift Reset](PokemonLGPE/GiftReset.md) {.nowrap}              | Video         | Wireless Only |
-| [Legendary Reset](PokemonLGPE/LegendaryReset.md) {.nowrap}    | Video + Audio | Wireless Only |
+| [Alolan Trade](PokemonLGPE/AlolanTrade.md) {.nowrap}          | Video         | Wired, Wireless |
+| [Fossil Revival](PokemonLGPE/FossilRevival.md) {.nowrap}      | Video         | Wired, Wireless |
+| [Gift Reset](PokemonLGPE/GiftReset.md) {.nowrap}              | Video         | Wired, Wireless |
+| [Legendary Reset](PokemonLGPE/LegendaryReset.md) {.nowrap}    | Video + Audio | Wired, Wireless |
 
 
 
@@ -358,5 +358,6 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 <hr>
 
 **Discord Server:** 
+
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
