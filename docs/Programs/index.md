@@ -53,7 +53,7 @@ Read more about [Controller Performance Categories](../ControllerList.md#control
 
 ## Pokémon Let's Go Pikachu/Eevee (LGPE)
 
-This game cannot be played with a Pro Controller and instead requires the use of joycons. Therefore, ESP32 and Pico W are the only supported setup since they are the only ones that implement the wireless joycons.
+This game cannot be played with a Pro Controller and instead requires the use of joycons. In the past, this restricted this game only be playable with the ESP32 and the Pico W. But now that wired joycons are supported, it can now be played on the ESP32-S3 as well.
 
 | **Program** | **Feedback** | **Controllers** |
 | --- | --- | --- |
@@ -361,3 +361,4 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
