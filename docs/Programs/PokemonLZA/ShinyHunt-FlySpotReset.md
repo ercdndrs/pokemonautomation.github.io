@@ -64,7 +64,9 @@ Fast travel to a fly spot in Lumiose City, e.g. Nouveau Cafe No. 3, Pokémon Res
 
 You are in hyperspace and not regular Lumiose. Be sure to set the Hyperspace Resets option below:
 
-Number of resets when running the Hyperspace Wild Zone route. This setting does not apply when any other route is selected. Each fly takes about 1 Cal. of time. Make sure to leave enough time to catch found shinies.
+Hyperspace Resets: Number of resets when running the Hyperspace Wild Zone route. The program will fly reset the specified number of times, then go to home to pause the Cal. timer. This setting does not apply when any other route is selected. Make sure to leave enough time to catch found shinies.
+
+Approximate Cal. per reset (timed on Switch 2): 1 Star/1 Cal, 2 Star/1-1.5 Cal., 3 Star/2-2.5 Cal., 4 Star/5 Cal., 5 Star/6 Cal. Check your setup and add some buffer time when determining how many resets to perform.
 
 #### Wild Zone 19
 
@@ -99,6 +101,7 @@ When a shiny sound is heard, perform one of the following actions:
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
