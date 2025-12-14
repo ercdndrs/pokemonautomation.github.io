@@ -12,7 +12,7 @@ However, if you do have a hacked Switch, you do not need a microcontroller since
 
 Otherwise, having a hacked Switch will not provide any additional functionality. We do not support accessing game or system memory or anything that cannot be done legitimately.
 
-In short, we are not a hacking group and we prefer to keep our distance from the hacking community.
+In short, we are not a hacking group nor are we interested in becoming one.
 
 
 ### Does this work on the Switch 2?
