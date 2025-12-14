@@ -5,6 +5,8 @@ Generate sitemap.xml for MkDocs Material site
 This script walks through the docs directory and creates a sitemap.xml
 file containing all pages that will be built. It can generate either a simple
 format (just URLs) or a detailed format (with lastmod, changefreq, and priority).
+
+Example sitemap XML: https://rotomlabs.net/sitemaps/pokedex.sitemap.xml
 """
 
 import os
