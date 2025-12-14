@@ -30,18 +30,45 @@ I successfuly sorted 18 boxes in 54 minutes with default settings.
 
 ## Options
 
-### Number of boxes to order:
+### Number of Boxes to Sort:
 
-This is the number of box the program will sort going to the right (the first box count in this number)
+The program will sort this many boxes, starting at the current box where you start the program.
 
-### Camera Delay:
+### Capture Card Delay:
 
-This is the delay of your capture card, every capture card have some delay cheap ones tend to have more, you will have to run the program a bit to see what delay works best for you
+Every capture card has some delay. Cheap ones tend to have more. You will have to test the program on a small number of boxes first to see what delay works best for you.
 
-### Game delay:
+### Pokémon Home App Delay:
 
-This is the pokemon home app delay, this delay need to be increased if you plan on doing a lot of boxes (10 is too low for more than 20), the more delay you put the slower the sort will be. 
-Make sure to put some margin if you are not confident with the delay you have chosen
+Maximum delay from when you press a button to Pokémon Home App finishes the action on that action.
+In most cases the program blindly presses buttons to operate Home. You will have to test the program on a small number of boxes first to ensure you have enough delay.
+For robustness, increase this delay further if you plan on doing a lot of box sorting. Do note the more delay you put the slower the sorter will be. 
+
+### Sort Order Rules:
+
+Set up your sorting rules. Each table row is a rule on the Pokémon order. Available rules are:
+
+- National Dex Number: Pokémon with smaller national dex numbers will be placed at front.
+- Shiny: shiny Pokémon will be placed at front.
+- Gigantamax: Gigantamax Pokémon will be placed at front.
+- Alpha: Alpha Pokémon will be placed at front.
+- Ball Type: will place Pokémon based on their Pokéball names' alphabetical order
+- Gender (Male, Female, Genderless): male Pokémon will be placed first, then comes female and at last genderless.
+
+The higher a rule is in the table, the "outer" or "earlier" the rule applies. e.g. for a table of rule "National Dex Number" followed by "Alpha".
+It will have the order: Alpha Bulbasaur, Bulbasaur, Alpha Ivysaur, Ivysaur, ... Basically, the program first sorts Pokémon based on national dex numbers. Then
+for each subgroup of Pokémon with the same dex number, sort them by their alpha-ness.
+
+Each rule also has a "reverse" checkerbox to reverse its ordering. e.g. reversed "Alpha" rule will place Alpha Pokémon at end.
+
+### Output File
+
+The program saves the catalogued Pokémon summary information into `<output_file>.json` and its planned sorted Pokémon order into `<output_file>-sorted.json`.
+
+### Dry Run
+
+If checked, the program will only catalogue Pokémon summary information into `<output_file>.json` and `<output_file>-sorted.json` without sorting the Pokémon in Home.
+This is useful for exporting your Pokémon Home data.
 
 ## Credits
 
