@@ -227,12 +227,12 @@ You will notice that there are 7 controller options:
 - [HID: Keyboard](../ControllerGuide.md#hid-keyboard)
 - [NS1: Wired Controller](../ControllerGuide.md#ns1-wired-controller)
 - [NS2: Wired Controller](../ControllerGuide.md#ns2-wired-controller)
-- [Wired Pro Controller](../ControllerGuide.md#ns1-wired-pro-controller)
-- [Wired Left Joycon](../ControllerGuide.md#ns1-wired-leftright-joycon)
-- [Wired Right Joycon](../ControllerGuide.md#ns1-wired-leftright-joycon)
-- [Wireless Pro Controller](../ControllerGuide.md#ns1-wireless-pro-controller)
-- [Wireless Left Joycon](../ControllerGuide.md#ns1-wireless-leftright-joycon)
-- [Wireless Right Joycon](../ControllerGuide.md#ns1-wireless-leftright-joycon)
+- [NS1: Wired Pro Controller](../ControllerGuide.md#ns1-wired-pro-controller)
+- [NS1: Wired Left Joycon](../ControllerGuide.md#ns1-wired-leftright-joycon)
+- [NS1: Wired Right Joycon](../ControllerGuide.md#ns1-wired-leftright-joycon)
+- [NS1: Wireless Pro Controller](../ControllerGuide.md#ns1-wireless-pro-controller)
+- [NS1: Wireless Left Joycon](../ControllerGuide.md#ns1-wireless-leftright-joycon)
+- [NS1: Wireless Right Joycon](../ControllerGuide.md#ns1-wireless-leftright-joycon)
 
 Click on the link for detailed documentation for the controller type. "None" simply idles the Pico and turns off its antenna so it isn't trying to connect to a Switch. The others tell the Pico to act as that controller respectively. Setting to "None" is a convenient way to disconnect the Pico so you can connect your physical controller.
 
@@ -293,6 +293,7 @@ If you are experienced with circuits and would like to attempt a hardware fix, s
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
