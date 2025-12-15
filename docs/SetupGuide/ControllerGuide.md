@@ -2,6 +2,16 @@
 
 This is a guide for all the differnet controller types that we support.
 
+**Jump To:**
+
+- [HID: Keyboard](#hid-keyboard)
+- [NS1: Wired Controller](#ns1-wired-controller)
+- [NS2: Wired Controller](#ns2-wired-controller)
+- [NS1: Wireless Pro Controller](#ns1-wireless-pro-controller)
+- [NS1: Wireless Left/Right Joycon](#ns1-wireless-leftright-joycon)
+- [NS1: Wired Pro Controller](#ns1-wired-pro-controller)
+- [NS1: Wired Left/Right Joycon](#ns1-wired-leftright-joycon)
+
 ## HID: Keyboard
 
 <img src="../Images/Controllers/HID-Keyboard.jpg" width="600">
@@ -13,7 +23,7 @@ This is a guide for all the differnet controller types that we support.
 - Pico W (UART mode)
 - Pico 2 W (UART mode)
 
-The HID keyboard is just a standard USB keyboard. Since it is not a controller, it cannot be used to play the Nintendo Switch. But it can be used to enter text fields include code entries.
+The HID keyboard is just a standard USB keyboard. Since it is not a controller, it cannot be used to play the Nintendo Switch. But it can be used to enter text fields as well as code entry.
 
 ### How to Connect:
 
@@ -210,11 +220,57 @@ Unlike the 3rd party wired controllers, there is one additional step to use this
 
 <img src="../Images/Controllers/NS-ProControllerEnable.png" width="600">
 
-This extra step is needed because the Pro Controller is naturally a wireless controller. So it intends users to use wirelessly instead of over USB.
+This extra step is needed because the Pro Controller is naturally a wireless controller. So Nintendo intends users to use it wirelessly instead of over USB.
 
-After you have enabled this option, it will connect the same way as any other wired controller. Just press any button and it will connect. You do not need to be in the grip menu. You don't not need pair it.
+After you have enabled this option, it will connect the same way as any other wired controller. Just press any button and it will connect. You do not need to be in the grip menu. You do not need pair it.
 
 Note that if you are in a 1-player game and you already have a controller connected as the 1st controller slot, you will not be able to connect any other controller until you either disconnect that controller or return to the Switch menus.
+
+### Pairing the Wireless Controller:
+
+The Pico W and Pico 2 W (UART) mode is unique in that it support both the wired and wireless versions of this controller. In keeping with the spirit of the real thing, both wired and wireless versions of the controller share the same state. (same colors, same pairing, same MAC address) Thus they share the same entry in the color selection table. If you pair one, you automatically pair the other.
+
+Therefore, once you connect to the Switch using the wired Pro Controller, it automatically pairs it for wireless. So you can connect to it via the wireless Pro Controller outside of the grip menu.
+
+There is one caveat through. Due to [Issue 887](https://github.com/PokemonAutomation/Arduino-Source/issues/887), this only works if you have paired the wiress version of the controller manually (via the grip menu) at least once in the past so that the Switch remembers it. After that, pairing over wired will work correctly even after clearing the pairing on the device (clearing, pairing with a different Switch, power cycling, etc...)
+
+
+
+## NS1: Wired Left/Right Joycon
+
+<img src="../Images/Controllers/Switch1-Joycons.jpg" width="400"> <img src="../Images/Controllers/NS1-WiredRightJoycon.png" width="600">
+
+### Supported Devices/Boards:
+
+- ESP32-S3
+- Pico W (UART mode)
+- Pico 2 W (UART mode)
+
+Despite the fact that Nintendo never released any wired joycons, the protocol for it exists. So like the Pro Controller, there are wired versions of the joycons! It is possible that this is related to the original joycon charging grips which could connect a joycon to the Switch over USB. But we're not sure and it doesn't really matter...
+
+This is the same as the wireless joycons, but rather than wireless, it is connected to the Switch over USB. It supports mostly the same features. (11 buttons, 2 joysticks, rumble, gyro, etc...)
+
+This controller supports custom colors. As a wireless controller, this is useful for determining which device is connected to which Switch when there are multiple setups in the same vicinity.
+
+### How to Connect:
+
+Unlike the 3rd party wired controllers, there is one additional step to use this controller. You must enable the following option:
+
+<img src="../Images/Controllers/NS-ProControllerEnable.png" width="600">
+
+This extra step is needed because joycons are naturally wireless controllers. So Nintendo intends users to use these wirelessly instead of over USB.
+
+After you have enabled this option, it will connect the same way as any other wired controller. Just press any button and it will connect. You do not need to be in the grip menu. You do not need pair it.
+
+Note that if you are in a 1-player game and you already have a controller connected as the 1st controller slot, you will not be able to connect any other controller until you either disconnect that controller or return to the Switch menus.
+
+### Pairing the Wireless Controller:
+
+The Pico W and Pico 2 W (UART) mode is unique in that it support both the wired and wireless versions of this controller. In keeping with the spirit of the real thing, both wired and wireless versions of the controller share the same state. (same colors, same pairing, same MAC address) Thus they share the same entry in the color selection table. If you pair one, you automatically pair the other.
+
+Therefore, once you connect to the Switch using a wired joycon, it automatically pairs it for wireless. So you can connect to it via the wireless version of the same joycon outside of the grip menu.
+
+There is one caveat through. Due to [Issue 887](https://github.com/PokemonAutomation/Arduino-Source/issues/887), this only works if you have paired the wiress version of the controller manually (via the grip menu) at least once in the past so that the Switch remembers it. After that, pairing over wired will work correctly even after clearing the pairing on the device (clearing, pairing with a different Switch, power cycling, etc...)
 
 
 
