@@ -120,6 +120,7 @@ Once you connect the controller to the Switch, it will remember its pairing stat
 
 Keep in mind the following behaviors:
 
+- If the controller is paired with a console, it will show `Paired: Yes`.
 - When you switch from a different controller to a wireless controller that was previous paired, it will reconnect to the same console it is paired with.
 - When you click "Reset Ctrl", it will disconnect and try to reconnect to the console that it was paired with.
 - When you SHIFT + click "Reset Ctrl", not only does it reset, it will clear the pairing state and try to pair with a new console.
@@ -130,7 +131,7 @@ Once the controller is paired with a console, it will be able to reconnect outsi
 ### Troubleshooting:
 
 - If the device to fails connect after multiple attempts, try rebooting the Switch.
-- If you see `Paired: Yes - Connected: No`, it probably means the device is paired with a different Switch. SHIFT + click "Reset Ctrl" to clear the pairing state and re-pair in the grip menu. If you previously paired using the wired version of this controller, you may be hitting [Issue 887](https://github.com/PokemonAutomation/Arduino-Source/issues/887).
+- If it stuck on `Paired: Yes - Connected: No`, it probably means the device is paired with a different Switch. SHIFT + click "Reset Ctrl" to clear the pairing state and re-pair in the grip menu. If you previously paired using the wired version of this controller, you may be hitting [Issue 887](https://github.com/PokemonAutomation/Arduino-Source/issues/887).
 - If you see `Disconnected by console.` when trying to reconnect, you are hitting [Issue 800](https://github.com/PokemonAutomation/Arduino-Source/issues/800). SHIFT + click "Reset Ctrl" to clear the pairing state and re-pair in the grip menu.
 
 
@@ -185,6 +186,7 @@ Once you connect the controller to the Switch, it will remember its pairing stat
 
 Keep in mind the following behaviors:
 
+- If the controller is paired with a console, it will show `Paired: Yes`.
 - When you switch from a different controller to a wireless controller that was previous paired, it will reconnect to the same console it is paired with.
 - When you click "Reset Ctrl", it will disconnect and try to reconnect to the console that it was paired with.
 - When you SHIFT + click "Reset Ctrl", not only does it reset, it will clear the pairing state and try to pair with a new console.
@@ -195,7 +197,7 @@ Once the controller is paired with a console, it will be able to reconnect outsi
 ### Troubleshooting:
 
 - If the device to fails connect after multiple attempts, try rebooting the Switch.
-- If you see `Paired: Yes - Connected: No`, it probably means the device is paired with a different Switch. SHIFT + click "Reset Ctrl" to clear the pairing state and re-pair in the grip menu. If you are using the Pico W (UART) mode and previously paired using the wired version of this controller, you may be hitting [Issue 887](https://github.com/PokemonAutomation/Arduino-Source/issues/887).
+- If it gets stuck on `Paired: Yes - Connected: No`, it probably means the device is paired with a different Switch. SHIFT + click "Reset Ctrl" to clear the pairing state and re-pair in the grip menu. If you are using the Pico W (UART) mode and previously paired using the wired version of this controller, you may be hitting [Issue 887](https://github.com/PokemonAutomation/Arduino-Source/issues/887).
 - If you see `Disconnected by console.` when trying to reconnect, you are hitting [Issue 800](https://github.com/PokemonAutomation/Arduino-Source/issues/800). SHIFT + click "Reset Ctrl" to clear the pairing state and re-pair in the grip menu.
 
 
