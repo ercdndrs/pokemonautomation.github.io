@@ -176,9 +176,22 @@ The default keyboard layout is the English QWERTY layout. If you have a differen
 
 We recommend familiarizing yourself with the keyboard controls as this is the preferred way to control your Switch while setting up to run a program. In effect you can play your Switch from your computer. While it's not as nice as using a native controller, it is good enough to easily setup programs - especially if you're doing this remotely where you do not have physical access to the Switch.
 
-The default layout is the standard WASD setup for FPS games on the most common QWERTY keyboard layout. If you don't like it or you have a different keyboard layout, you can change the key mappings in the "Framework Settings" panel at the top of the program list to the left.
-
 <img src="../Images/ESP32-S3/ControllerSetup-ESP32-S3-Controls.png">
+
+**Controller Types:**
+
+You will notice that there are 7 controller options:
+
+- None
+- [HID: Keyboard](../ControllerGuide.md#hid-keyboard)
+- [NS1: Wired Controller](../ControllerGuide.md#ns1-wired-controller)
+- [NS2: Wired Controller](../ControllerGuide.md#ns2-wired-controller)
+- [NS1: Wired Pro Controller](../ControllerGuide.md#ns1-wired-pro-controller)
+- [NS1: Wired Left Joycon](../ControllerGuide.md#ns1-wired-leftright-joycon)
+- [NS1: Wired Right Joycon](../ControllerGuide.md#ns1-wired-leftright-joycon)
+
+Click on the link for detailed documentation for the controller type. "None" simply idles the ESP32-S3 so it isn't trying to connect to a Switch. The others tell the ESP32-S3 to act as that controller respectively. Setting to "None" is a convenient way to disconnect the Pico so you can connect your physical controller.
+
 
 ### Step 6: You are done!
 
@@ -270,6 +283,7 @@ There can be many causes of this:
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
