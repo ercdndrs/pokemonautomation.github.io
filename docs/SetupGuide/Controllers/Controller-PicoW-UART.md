@@ -221,7 +221,7 @@ Overall, the idea here is that you can play your Switch from your computer. Whil
 
 **Controller Types:**
 
-You will notice that there are 7 controller options:
+You will notice that there are 10 controller options:
 
 - None
 - [HID: Keyboard](../ControllerGuide.md#hid-keyboard)
@@ -293,6 +293,7 @@ If you are experienced with circuits and would like to attempt a hardware fix, s
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
