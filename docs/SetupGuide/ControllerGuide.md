@@ -157,7 +157,7 @@ As of this writing, the right joycon is primarily used for Pokémon Let's Go Pik
 As a wireless controller, it first needs to be paired with the Switch via the grip menu.
 
 1. Navigate to the grip menu by other means.
-2. In the controller dropdown, change the controller to `NS1: Wireless Left Joycon` or `NS1: Right Joycon`.
+2. In the controller dropdown, change the controller to `NS1: Wireless Left Joycon` or `NS1: Wireless Right Joycon`.
 3. Wait a few seconds for it to connect. If successful, it will appear as grey rotating joycon image below.
 
 <img src="../Images/Controllers/NS1-WirelessRightJoycon-Preconnect.png" width="600">
