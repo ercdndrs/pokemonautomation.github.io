@@ -228,7 +228,7 @@ Note that if you are in a 1-player game and you already have a controller connec
 
 ### Pairing the Wireless Controller:
 
-The Pico W and Pico 2 W (UART) mode is unique in that it support both the wired and wireless versions of this controller. In keeping with the spirit of the real thing, both wired and wireless versions of the controller share the same state. (same colors, same pairing, same MAC address) Thus they share the same entry in the color selection table. If you pair one, you automatically pair the other.
+The Pico W and Pico 2 W (UART) mode is unique in that it supports both the wired and wireless versions of this controller. In keeping with the spirit of the real thing, both wired and wireless versions of the controller share the same state. (same colors, same pairing, same MAC address) Thus they share the same entry in the color selection table. If you pair one, you automatically pair the other.
 
 Therefore, once you connect to the Switch using the wired Pro Controller, it automatically pairs it for wireless. So you can connect to it via the wireless Pro Controller outside of the grip menu.
 
@@ -266,7 +266,7 @@ Note that if you are in a 1-player game and you already have a controller connec
 
 ### Pairing the Wireless Controller:
 
-The Pico W and Pico 2 W (UART) mode is unique in that it support both the wired and wireless versions of this controller. In keeping with the spirit of the real thing, both wired and wireless versions of the controller share the same state. (same colors, same pairing, same MAC address) Thus they share the same entry in the color selection table. If you pair one, you automatically pair the other.
+The Pico W and Pico 2 W (UART) mode is unique in that it supports both the wired and wireless versions of this controller. In keeping with the spirit of the real thing, both wired and wireless versions of the controller share the same state. (same colors, same pairing, same MAC address) Thus they share the same entry in the color selection table. If you pair one, you automatically pair the other.
 
 Therefore, once you connect to the Switch using a wired joycon, it automatically pairs it for wireless. So you can connect to it via the wireless version of the same joycon outside of the grip menu.
 
