@@ -4,7 +4,8 @@ This is a guide for all the differnet controller types that we support.
 
 ## HID: Keyboard
 
-<img src="../Images/Controllers/HID-Keyboard.jpg" width="300">
+<img src="../Images/Controllers/HID-Keyboard.jpg" width="600">
+<img src="../Images/Controllers/HID-Keyboard.png" width="600">
 
 ### Supported Devices/Boards:
 
@@ -48,7 +49,7 @@ This is the standard 3rd party wired controller from the likes of Horipad and Po
 
 As a wired controller, you do not need to be in the grip menu to connect. Just press any button and it will connect.
 
-Note that if you are in a one player game and you already have a controller connected as the 1st controller slot, you will not be able to connect any other controller until you either disconnect that controller or return to the Switch menus.
+Note that if you are in a 1-player game and you already have a controller connected as the 1st controller slot, you will not be able to connect any other controller until you either disconnect that controller or return to the Switch menus.
 
 
 
@@ -69,11 +70,13 @@ Note that if you are in a one player game and you already have a controller conn
 
 This is the standard 3rd party wired controller for the Switch 2 from the likes of Horipad and Power A. It supports 17 buttons and 2 joysticks and it backwards compatible with the Switch 1. It does not support rumble or gyro. Furthermore, it always shows up as a black controller in the Switch menus.
 
+As this is a Switch 2 controller, it supports the GL, GR, and C buttons on the Switch 2. These buttons do nothing on the Switch 1. As of this writing, this is the only controller that we support which has the GL, GR, and C buttons.
+
 ### How to Connect:
 
 As a wired controller, you do not need to be in the grip menu to connect. Just press any button and it will connect.
 
-Note that if you are in a one player game and you already have a controller connected as the 1st controller slot, you will not be able to connect any other controller until you either disconnect that controller or return to the Switch menus.
+Note that if you are in a 1-player game and you already have a controller connected as the 1st controller slot, you will not be able to connect any other controller until you either disconnect that controller or return to the Switch menus.
 
 
 
@@ -136,7 +139,7 @@ These are the official OEM Joycons for the Nintendo Switch. They support 11 butt
 
 These joycon controllers support custom colors. As wireless controllers, this is useful for determining which device is connected to which Switch when there are multiple setups in the same vicinity.
 
-As of this writing, the right joycon is primarily used for Pokémon Let's Go Pikachu and Eevee (LGPE). While both joycons can be used to play LGPE, we choose right joycon since it has the Home button for soft resets. No programs use the left joycon.
+As of this writing, the right joycon is primarily used for Pokémon Let's Go Pikachu and Eevee (LGPE). While both joycons can be used to play LGPE, we choose the right joycon since it has the Home button for soft resets. No programs use the left joycon.
 
 ### How to Connect:
 
@@ -184,6 +187,34 @@ Once the controller is paired with a console, it will be able to reconnect outsi
 - If the device to fails connect after multiple attempts, try rebooting the Switch.
 - If you see `Paired: Yes - Connected: No`, it probably means the device is paired with a different Switch. SHIFT + click "Reset Ctrl" to clear the pairing state and re-pair in the grip menu. If you are using the Pico W (UART) mode and previously paired using the wired version of this controller, you may be hitting [Issue 887](https://github.com/PokemonAutomation/Arduino-Source/issues/887).
 - If you see `Disconnected by console.` when trying to reconnect, you are hitting [Issue 800](https://github.com/PokemonAutomation/Arduino-Source/issues/800). SHIFT + click "Reset Ctrl" to clear the pairing state and re-pair in the grip menu.
+
+
+
+## NS1: Wired Pro Controller
+
+<img src="../Images/Controllers/Switch1-ProController.jpg" width="400"> <img src="../Images/Controllers/NS1-WiredProController.png" width="600">
+
+### Supported Devices/Boards:
+
+- ESP32-S3
+- Pico W (UART mode)
+- Pico 2 W (UART mode)
+
+This is the same as the wireless Pro Controller, but rather than wireless, it is connected to the Switch over USB. It supports mostly the same features. (14 buttons, 2 joysticks, rumble, gyro, etc...)
+
+This controller supports custom colors. As a wireless controller, this is useful for determining which device is connected to which Switch when there are multiple setups in the same vicinity.
+
+### How to Connect:
+
+Unlike the 3rd party wired controllers, there is one additional step to use this controller. You must enable the following option:
+
+<img src="../Images/Controllers/NS-ProControllerEnable.png" width="600">
+
+This extra step is needed because the Pro Controller is naturally a wireless controller. So it intends users to use wirelessly instead of over USB.
+
+After you have enabled this option, it will connect the same way as any other wired controller. Just press any button and it will connect. You do not need to be in the grip menu. You don't not need pair it.
+
+Note that if you are in a 1-player game and you already have a controller connected as the 1st controller slot, you will not be able to connect any other controller until you either disconnect that controller or return to the Switch menus.
 
 
 
