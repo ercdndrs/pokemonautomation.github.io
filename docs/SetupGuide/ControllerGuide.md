@@ -210,7 +210,7 @@ Once the controller is paired with a console, it will be able to reconnect outsi
 - Pico W (UART mode)
 - Pico 2 W (UART mode)
 
-This is the same as the wireless Pro Controller, but rather than wireless, it is connected to the Switch over USB. It supports mostly the same features. (14 buttons, 2 joysticks, rumble, gyro, etc...)
+This is the same as the wireless official OEM Pro Controller for the Nintendo Switch, but rather than wireless, it is connected to the Switch over USB. It supports mostly the same features. (14 buttons, 2 joysticks, rumble, gyro, etc...)
 
 This controller supports custom colors. As a wireless controller, this is useful for determining which device is connected to which Switch when there are multiple setups in the same vicinity.
 
@@ -248,7 +248,7 @@ There is one caveat through. Due to [Issue 887](https://github.com/PokemonAutoma
 
 Despite the fact that Nintendo never released any wired joycons, the protocol for it exists. So like the Pro Controller, there are wired versions of the joycons! It is possible that this is related to the original joycon charging grips which could connect a joycon to the Switch over USB. But we're not sure and it doesn't really matter...
 
-This is the same as the wireless joycons, but rather than wireless, it is connected to the Switch over USB. It supports mostly the same features. (11 buttons, 2 joysticks, rumble, gyro, etc...)
+This is the same as the wireless official OEM Joycons for the Nintendo Switch, but rather than wireless, it is connected to the Switch over USB. It supports mostly the same features. (11 buttons, 1 joystick, rumble, gyro, etc...)
 
 This controller supports custom colors. As a wireless controller, this is useful for determining which device is connected to which Switch when there are multiple setups in the same vicinity.
 
