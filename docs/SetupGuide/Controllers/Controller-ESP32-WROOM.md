@@ -168,7 +168,7 @@ If you do not see this or you get an error, then see [troubleshooting](#troubles
 
 ### Step 5: Connect the ESP32 to the Switch
 
-In the 3rd dropdown, choose "Switch: Wireless Pro Controller".
+In the 3rd dropdown, choose "NS1: Wireless Pro Controller".
 
 After 5 seconds, you should see a controller pop-up in the Grip menu on the Switch. If the controller doesn't show up, then press the `EN` or `RESET` button on the ESP32 board, then click "Reset Ctrl." and wait another 5 seconds. Alternatively, unplug/replug the ESP32.
 
@@ -194,27 +194,17 @@ Overall, the idea here is that you can play your Switch from your computer. Whil
 You will notice that there are 4 controller options:
 
 - None
-- Pro Controller
-- Left Joycon
-- Right Joycon
+- [Wireless Pro Controller](../ControllerGuide.md#ns1-wireless-pro-controller)
+- [Wireless Left Joycon](../ControllerGuide.md#ns1-wireless-leftright-joycon)
+- [Wireless Right Joycon](../ControllerGuide.md#ns1-wireless-leftright-joycon)
 
-"None" simply idles the ESP32 and turns off its antenna so it isn't trying to connect to a Switch. The others tell the Pico W to act as that controller respectively. Setting to "None" is a convenient way to disconnect the ESP32 so you can connect your physical controller.
+Click on the link for detailed documentation for the controller type. "None" simply idles the ESP32 and turns off its antenna so it isn't trying to connect to a Switch. The others tell the ESP32 to act as that controller respectively. Setting to "None" is a convenient way to disconnect the ESP32 so you can connect your physical controller.
 
 Every time you press "Reset Ctrl" or change the controller type, it will disconnect from your Switch and try to reconnect using the new controller type. If the new controller has not been previously paired with the Switch, you will need to be in the Grip menu for the new controller to pair. See [Pairing Behavior](#pairing-behavior).
 
 Changing programs (or even closing the application entirely) will not disconnect the ESP32 from the Switch. When you load a program and connect to the ESP32, it will automatically continue its previous connection to the Switch (and change the controller dropdown accordingly). So you can remotely control your Switch if you are careful enough.
 
 If you intend to do a lot of remote access, we recommend that you use a wired setup as a wired controller can connect to the Switch from anywhere and take control.
-
-**Connecting as a Joycon:**
-
-When you connect as a joycon, it will behave like a normal joycon. It doesn't immediately connect and wants you to either pair with a 2nd joycon or press SL+SR to put it into horizontal mode.
-
-For the right joycon, you can press the Home button to immediately leave the grip menu. This will let you easily start LGPE programs which use the right joycon. The left joycon doesn't have this option and will require you to either pair with a right joycon or to enter horizontal mode. There are currently no programs that use the left joycon.
-
-To enter horizontal mode, you can press SL+SR on the keyboard controls by pressing F1 and F3 at the same time. This will let you exit the grip menu and enter a game like LGPE that requires a joycon. But keep in mind that this will also rotate the controls by 90 degrees (IOW, confusing). Check the keyboard mapping for both vertical and horizontal joycon orientations.
-
-*You cannot easily pair two ESP32 joycons anyway since you need to press L+R on them simultaneously and the keyboard controls don't allow you simultaneously press buttons on different controllers. However, you can easily pair an ESP32 joycon with a real joycon.
 
 ### Step 7: You are done!
 
@@ -330,6 +320,7 @@ It is as cute as it is stupid, and it will give you problems. We tried it so you
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
