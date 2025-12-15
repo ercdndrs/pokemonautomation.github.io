@@ -45,7 +45,7 @@ As of this writing, we only support QWERTY and the French AZERTY. We are open to
 
 ## NS1: Wired Controller
 
-<img src="../Images/Controllers/Switch1-Horipad-Wired.jpg" width="400"> <img src="../Images/Controllers/NS1-WiredController.png" width="600">
+<img src="../Images/Controllers/Switch1-Horipad-Wired.jpg" width="300"> <img src="../Images/Controllers/NS1-WiredController.png" width="500">
 
 ### Supported Devices/Boards:
 
@@ -65,7 +65,7 @@ Note that if you are in a 1-player game and you already have a controller connec
 
 ## NS2: Wired Controller
 
-<img src="../Images/Controllers/Switch2-PowerA-Wired.jpg" width="400"> <img src="../Images/Controllers/NS2-WiredController.png" width="600">
+<img src="../Images/Controllers/Switch2-PowerA-Wired.jpg" width="300"> <img src="../Images/Controllers/NS2-WiredController.png" width="500">
 
 ### Supported Devices/Boards:
 
@@ -92,7 +92,7 @@ Note that if you are in a 1-player game and you already have a controller connec
 
 ## NS1: Wireless Pro Controller
 
-<img src="../Images/Controllers/Switch1-ProController.jpg" width="400"> <img src="../Images/Controllers/NS1-WirelessProController.png" width="600">
+<img src="../Images/Controllers/Switch1-ProController.jpg" width="300"> <img src="../Images/Controllers/NS1-WirelessProController.png" width="500">
 
 ### Supported Devices/Boards:
 
@@ -137,7 +137,7 @@ Once the controller is paired with a console, it will be able to reconnect outsi
 
 ## NS1: Wireless Left/Right Joycon
 
-<img src="../Images/Controllers/Switch1-Joycons.jpg" width="400"> <img src="../Images/Controllers/NS1-WirelessRightJoycon.png" width="600">
+<img src="../Images/Controllers/Switch1-Joycons.jpg" width="300"> <img src="../Images/Controllers/NS1-WirelessRightJoycon.png" width="500">
 
 ### Supported Devices/Boards:
 
@@ -202,7 +202,7 @@ Once the controller is paired with a console, it will be able to reconnect outsi
 
 ## NS1: Wired Pro Controller
 
-<img src="../Images/Controllers/Switch1-ProController.jpg" width="400"> <img src="../Images/Controllers/NS1-WiredProController.png" width="600">
+<img src="../Images/Controllers/Switch1-ProController.jpg" width="300"> <img src="../Images/Controllers/NS1-WiredProController.png" width="500">
 
 ### Supported Devices/Boards:
 
@@ -238,7 +238,7 @@ There is one caveat through. Due to [Issue 887](https://github.com/PokemonAutoma
 
 ## NS1: Wired Left/Right Joycon
 
-<img src="../Images/Controllers/Switch1-Joycons.jpg" width="400"> <img src="../Images/Controllers/NS1-WiredRightJoycon.png" width="600">
+<img src="../Images/Controllers/Switch1-Joycons.jpg" width="300"> <img src="../Images/Controllers/NS1-WiredRightJoycon.png" width="500">
 
 ### Supported Devices/Boards:
 
