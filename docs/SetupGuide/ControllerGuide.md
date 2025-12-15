@@ -212,7 +212,7 @@ Once the controller is paired with a console, it will be able to reconnect outsi
 
 This is the same as the wireless official OEM Pro Controller for the Nintendo Switch, but rather than wireless, it is connected to the Switch over USB. It supports mostly the same features. (14 buttons, 2 joysticks, rumble, gyro, etc...)
 
-This controller supports custom colors. As a wireless controller, this is useful for determining which device is connected to which Switch when there are multiple setups in the same vicinity.
+This controller supports custom colors for aesthetic purposes.
 
 ### How to Connect:
 
@@ -250,7 +250,7 @@ Despite the fact that Nintendo never released any wired joycons, the protocol fo
 
 This is the same as the wireless official OEM Joycons for the Nintendo Switch, but rather than wireless, it is connected to the Switch over USB. It supports mostly the same features. (11 buttons, 1 joystick, rumble, gyro, etc...)
 
-This controller supports custom colors. As a wireless controller, this is useful for determining which device is connected to which Switch when there are multiple setups in the same vicinity.
+This controller supports custom colors for aesthetic purposes.
 
 ### How to Connect:
 
