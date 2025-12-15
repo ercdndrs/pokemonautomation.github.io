@@ -202,9 +202,9 @@ Overall, the idea here is that you can play your Switch from your computer. Whil
 You will notice that there are 4 controller options:
 
 - None
-- [Wireless Pro Controller](../ControllerGuide.md#ns1-wireless-pro-controller)
-- [Wireless Left Joycon](../ControllerGuide.md#ns1-wireless-leftright-joycon)
-- [Wireless Right Joycon](../ControllerGuide.md#ns1-wireless-leftright-joycon)
+- [NS1: Wireless Pro Controller](../ControllerGuide.md#ns1-wireless-pro-controller)
+- [NS1: Wireless Left Joycon](../ControllerGuide.md#ns1-wireless-leftright-joycon)
+- [NS1: Wireless Right Joycon](../ControllerGuide.md#ns1-wireless-leftright-joycon)
 
 Click on the link for detailed documentation for the controller type. "None" simply idles the ESP32 and turns off its antenna so it isn't trying to connect to a Switch. The others tell the ESP32 to act as that controller respectively. Setting to "None" is a convenient way to disconnect the ESP32 so you can connect your physical controller.
 
@@ -315,6 +315,7 @@ It is as cute as it is stupid, and it will give you problems. We tried it so you
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
