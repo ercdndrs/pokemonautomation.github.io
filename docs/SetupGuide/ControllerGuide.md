@@ -232,7 +232,7 @@ The Pico W and Pico 2 W (UART) mode is unique in that it support both the wired 
 
 Therefore, once you connect to the Switch using the wired Pro Controller, it automatically pairs it for wireless. So you can connect to it via the wireless Pro Controller outside of the grip menu.
 
-There is one caveat through. Due to [Issue 887](https://github.com/PokemonAutomation/Arduino-Source/issues/887), this only works if you have paired the wiress version of the controller manually (via the grip menu) at least once in the past so that the Switch remembers it. After that, pairing over wired will work correctly even after clearing the pairing on the device (clearing, pairing with a different Switch, power cycling, etc...)
+There is one caveat through. Due to [Issue 887](https://github.com/PokemonAutomation/Arduino-Source/issues/887), this only works if you have paired the wireless version of the controller manually (via the grip menu) at least once in the past so that the Switch remembers it. After that, pairing over wired will work correctly even after clearing the pairing on the device (clearing, pairing with a different Switch, power cycling, etc...)
 
 
 
@@ -270,7 +270,7 @@ The Pico W and Pico 2 W (UART) mode is unique in that it support both the wired 
 
 Therefore, once you connect to the Switch using a wired joycon, it automatically pairs it for wireless. So you can connect to it via the wireless version of the same joycon outside of the grip menu.
 
-There is one caveat through. Due to [Issue 887](https://github.com/PokemonAutomation/Arduino-Source/issues/887), this only works if you have paired the wiress version of the controller manually (via the grip menu) at least once in the past so that the Switch remembers it. After that, pairing over wired will work correctly even after clearing the pairing on the device (clearing, pairing with a different Switch, power cycling, etc...)
+There is one caveat through. Due to [Issue 887](https://github.com/PokemonAutomation/Arduino-Source/issues/887), this only works if you have paired the wireless version of the controller manually (via the grip menu) at least once in the past so that the Switch remembers it. After that, pairing over wired will work correctly even after clearing the pairing on the device (clearing, pairing with a different Switch, power cycling, etc...)
 
 
 
