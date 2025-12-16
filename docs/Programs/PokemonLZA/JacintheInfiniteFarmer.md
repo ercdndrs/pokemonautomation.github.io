@@ -4,7 +4,7 @@
 
 After you clear Side Mission 119, you can use this program to repeatedly battle Jacinthe in Hotel Richissime to farm experience and money.
 
-With max level Canari Plush you will get 8100 Poké Dollar per round.
+With max level Canari Plush you will get 8,100 Poké Dollars per round before finishing Mega Dimension DLC and 20,520 after.
 
 <img src="images/JacintheInfiniteFarmer.png">
 
@@ -27,14 +27,14 @@ With max level Canari Plush you will get 8100 Poké Dollar per round.
 
 ### Instructions
 
-1. Train a strong steel or poison type Pokémon that can defeat Jacinthe's high-level fairy type Pokémon. We recommend Metagross (see below).
+1. Train a strong steel type Pokémon that can defeat Jacinthe's high-level fairy type Pokémon. We recommend Metagross (see below).
 2. Stand facing Jacinthe in Hotel Richissime with Button A icon visible.
-3. Select the strong Pokémon so it will lead the battle.
+3. Select the strong Pokémon in party so it will lead the battle.
 4. Start the program in the game.
 
 This program has 2 modes: With and without a battle AI.
 
-**With Battle AI (new to v0.59.5):**
+**With Battle AI:**
 
 In this mode, the program will choose the move with the best type effectiveness against the opponents. In the event of a tie, they will chosen in this priority order:
 
@@ -43,28 +43,25 @@ In this mode, the program will choose the move with the best type effectiveness 
 - Right
 - Bottom
 
+**Without Battle AI (Blind Mash):**
 
-**Without Battle AI:**
-
-In this mode, the program will the 4 moves in the following priority:
+In this mode, the program will use the 4 moves in the following priority:
 
 - Top
 - Left
 - Right
 - Bottom
 
-
 In both modes, if your Pokémon faints, it will automatically timeout and switch to the next Pokémon in your party. The move priority is the same for all members of your party.
 
 ### Recommended Pokémon
 
-- Level 100, max IV, full HP EV and full attack/special attack EV.
-
-- Bring Shell Bell to recover health.
-
-- Metagross: Heavy Slam
-  - Heavy Slam used by a Lv. 100, full attack IV and EV and adamant nature alpha Metagross, one shots every Jacinthe's Pokémon.
-  - Other good moves: Iron Head and Earthquake. Earthquake is to defeat Mawile that is neutral to steel attacks.
+- Metagross:
+  - Lv. 100, full attack IV and EV, adamant nature. Hold Shell Bell.
+  - Top move: Heavy Slam, left move: Earthquake. right move: Iron Head as a backup.
+  - Heavy Slam one shots every Jacinthe's Pokémon except the after-DLC Mawile that's high level enough to withstand one Heavy Slam. Earthquake is to defeat that Mawile.
+  - Before DLC, you can use the blind mashing mode to save a bit of time by spamming Heavy Slam. But after finishing DLC Jacinthe's team is upgraded to lv. 90+. We recommend using the battle AI mode to pick Heavy Slam or Earthquake according to detected type effectiveness.
+  
 
 ### Notes
 
@@ -72,7 +69,9 @@ In both modes, if your Pokémon faints, it will automatically timeout and switch
 
 - Your party is healed automatically when starting the battle. No need to heal it beforehand.
 
-- Due to randomness during battle, occasionally the program may fail to beat Jacinthe. Unlike the restaurants, it costs nothing to challenge her. So you won't lose money by leaving the program running unattended. But once the program fails the battle, the starting Pokémon may likely not be your strongest counter against Jacinthe any more, reducing farming efficiency until the counter becomes the starting Pokémon again. If you don't care about earning exp, you can bring only the counter in your party to address this.
+- Due to randomness during battle, occasionally the program may fail to beat Jacinthe. The program will recover from the defeat and continue fighting her. Unlike the restaurants, it costs nothing to challenge her. So you won't lose money by leaving the program running unattended.
+
+- Once the program fails the battle, the starting Pokémon may likely not be your strongest counter against Jacinthe any more, reducing farming efficiency until the counter becomes the starting Pokémon again. If you don't care about earning exp, you can bring only counter(s) in your party to address this.
 
 ### Aim for Highest Streak!
 
