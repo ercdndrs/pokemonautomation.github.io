@@ -48,7 +48,7 @@ For robustness, increase this delay further if you plan on doing a lot of box so
 
 Set up your sorting rules. Each table row is a rule on the Pokémon order. Available rules are:
 
-- National Dex Number: Pokémon with smaller national dex numbers will be placed at front.
+- Dex Number: Pokémon with smaller national dex numbers will be placed at front.
 - Shiny: shiny Pokémon will be placed at front.
 - Gigantamax: Gigantamax Pokémon will be placed at front.
 - Alpha: Alpha Pokémon will be placed at front.
@@ -57,7 +57,7 @@ Set up your sorting rules. Each table row is a rule on the Pokémon order. Avail
 
 The higher a rule is in the table, the "outer" or "earlier" the rule applies. e.g. for a table of rule "National Dex Number" followed by "Alpha".
 It will have the order: Alpha Bulbasaur, Bulbasaur, Alpha Ivysaur, Ivysaur, ... Basically, the program first sorts Pokémon based on national dex numbers. Then
-for each subgroup of Pokémon with the same dex number, sort them by their alpha-ness.
+for each subgroup of Pokémon with the same dex number, sort them by their alphaness.
 
 Each rule also has a "reverse" checkerbox to reverse its ordering. e.g. reversed "Alpha" rule will place Alpha Pokémon at end.
 
