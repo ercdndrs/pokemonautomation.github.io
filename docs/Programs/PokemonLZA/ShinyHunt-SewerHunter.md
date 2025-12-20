@@ -1,4 +1,4 @@
-# Shiny Hunt - Sewer Hunter (beta testing, not available yet)
+# Shiny Hunt - Sewer Hunter
 
 ## Program Description
 

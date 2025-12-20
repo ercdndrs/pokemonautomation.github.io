@@ -1,4 +1,4 @@
-# Shiny Hunt - Wild Zone Café (beta testing, not available yet)
+# Shiny Hunt - Wild Zone Café
 
 See also: [Shiny Hunting Recommendations](ShinyHuntRecommendations.md)
 

@@ -1,4 +1,4 @@
-# Shiny Hunt - Fly Spot Reset (beta testing, not available yet)
+# Shiny Hunt - Fly Spot Reset
 
 See also: [Shiny Hunting Recommendations](ShinyHuntRecommendations.md)
 
