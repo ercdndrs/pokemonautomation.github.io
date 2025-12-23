@@ -14,8 +14,8 @@ This is a guide for all the differnet controller types that we support.
 
 ## HID: Keyboard
 
-<img src="../Images/Controllers/HID-Keyboard.jpg" width="600">
-<img src="../Images/Controllers/HID-Keyboard.png" width="600">
+[<img src="../Images/Controllers/HID-Keyboard.jpg" width="600">](../Images/Controllers/HID-Keyboard.jpg)
+[<img src="../Images/Controllers/HID-Keyboard.png" width="600">](../Images/Controllers/HID-Keyboard.png)
 
 ### Supported Devices/Boards:
 
@@ -45,7 +45,7 @@ As of this writing, we only support QWERTY and the French AZERTY. We are open to
 
 ## NS1: Wired Controller
 
-<img src="../Images/Controllers/Switch1-Horipad-Wired.jpg" width="300"> <img src="../Images/Controllers/NS1-WiredController.png" width="500">
+[<img src="../Images/Controllers/Switch1-Horipad-Wired.jpg" width="300">](../Images/Controllers/Switch1-Horipad-Wired.jpg) [<img src="../Images/Controllers/NS1-WiredController.png" width="500">](../Images/Controllers/NS1-WiredController.png)
 
 ### Supported Devices/Boards:
 
@@ -65,7 +65,7 @@ Note that if you are in a 1-player game and you already have a controller connec
 
 ## NS2: Wired Controller
 
-<img src="../Images/Controllers/Switch2-PowerA-Wired.jpg" width="300"> <img src="../Images/Controllers/NS2-WiredController.png" width="500">
+[<img src="../Images/Controllers/Switch2-PowerA-Wired.jpg" width="300">](../Images/Controllers/Switch2-PowerA-Wired.jpg) [<img src="../Images/Controllers/NS2-WiredController.png" width="500">](../Images/Controllers/NS2-WiredController.png)
 
 ### Supported Devices/Boards:
 
@@ -92,7 +92,7 @@ Note that if you are in a 1-player game and you already have a controller connec
 
 ## NS1: Wireless Pro Controller
 
-<img src="../Images/Controllers/Switch1-ProController.jpg" width="300"> <img src="../Images/Controllers/NS1-WirelessProController.png" width="500">
+[<img src="../Images/Controllers/Switch1-ProController.jpg" width="300">](../Images/Controllers/Switch1-ProController.jpg) [<img src="../Images/Controllers/NS1-WirelessProController.png" width="500">](../Images/Controllers/NS1-WirelessProController.png)
 
 ### Supported Devices/Boards:
 
@@ -138,7 +138,7 @@ Once the controller is paired with a console, it will be able to reconnect outsi
 
 ## NS1: Wireless Left/Right Joycon
 
-<img src="../Images/Controllers/Switch1-Joycons.jpg" width="300"> <img src="../Images/Controllers/NS1-WirelessRightJoycon.png" width="500">
+[<img src="../Images/Controllers/Switch1-Joycons.jpg" width="300">](../Images/Controllers/Switch1-Joycons.jpg) [<img src="../Images/Controllers/NS1-WirelessRightJoycon.png" width="500">](../Images/Controllers/NS1-WirelessRightJoycon.png)
 
 ### Supported Devices/Boards:
 
@@ -204,7 +204,7 @@ Once the controller is paired with a console, it will be able to reconnect outsi
 
 ## NS1: Wired Pro Controller
 
-<img src="../Images/Controllers/Switch1-ProController.jpg" width="300"> <img src="../Images/Controllers/NS1-WiredProController.png" width="500">
+[<img src="../Images/Controllers/Switch1-ProController.jpg" width="300">](../Images/Controllers/Switch1-ProController.jpg) [<img src="../Images/Controllers/NS1-WirelessProController.png" width="500">](../Images/Controllers/NS1-WirelessProController.png)
 
 ### Supported Devices/Boards:
 
@@ -220,7 +220,7 @@ This controller supports custom colors for aesthetic purposes.
 
 Unlike the 3rd party wired controllers, there is one additional step to use this controller. You must enable the following option:
 
-<img src="../Images/Controllers/NS-ProControllerEnable.png" width="600">
+[<img src="../Images/Controllers/NS-ProControllerEnable.png" width="600">](../Images/Controllers/NS-ProControllerEnable.png)
 
 This extra step is needed because the Pro Controller is naturally a wireless controller. So Nintendo intends users to use it wirelessly instead of over USB.
 
@@ -240,7 +240,7 @@ There is one caveat through. Due to [Issue 887](https://github.com/PokemonAutoma
 
 ## NS1: Wired Left/Right Joycon
 
-<img src="../Images/Controllers/Switch1-Joycons.jpg" width="300"> <img src="../Images/Controllers/NS1-WiredRightJoycon.png" width="500">
+[<img src="../Images/Controllers/Switch1-Joycons.jpg" width="300">](../Images/Controllers/Switch1-Joycons.jpg) [<img src="../Images/Controllers/NS1-WirelessRightJoycon.png" width="500">](../Images/Controllers/NS1-WirelessRightJoycon.png)
 
 ### Supported Devices/Boards:
 
@@ -258,7 +258,7 @@ This controller supports custom colors for aesthetic purposes.
 
 Unlike the 3rd party wired controllers, there is one additional step to use this controller. You must enable the following option:
 
-<img src="../Images/Controllers/NS-ProControllerEnable.png" width="600">
+[<img src="../Images/Controllers/NS-ProControllerEnable.png" width="600">](../Images/Controllers/NS-ProControllerEnable.png)
 
 This extra step is needed because joycons are naturally wireless controllers. So Nintendo intends users to use these wirelessly instead of over USB.
 
