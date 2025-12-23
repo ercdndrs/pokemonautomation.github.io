@@ -41,11 +41,11 @@ These are older setups that are still supported, but no longer recommended for n
 
 | Setup | **Supported Controllers** | **Price (per Unit)** | **Setup Difficulty<br>(Scale 1-10)** | **Notes:** |
 | --- | --- | --- | --- | --- |
-| Raspberry Pi Pico W<br>(USB Mode) {.nowrap} | NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | Single: $8<br>Volume: $7 {.nowrap} | 1 | Upgradable to UART mode.<br><br>Unresolved Bugs:<br>- [Issue 818](https://github.com/PokemonAutomation/Arduino-Source/issues/800) {.nowrap} |
+| Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(USB Mode) {.nowrap} | NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | Single: $8<br>Volume: $7 {.nowrap} | 1 | Upgradable to UART mode.<br><br>Unresolved Bugs:<br>- [Issue 818](https://github.com/PokemonAutomation/Arduino-Source/issues/800) {.nowrap} |
 | ESP32 {.nowrap} | NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | Single: $10<br>Volume: $4 {.nowrap} | 3 | Unresolved Bugs:<br>- [Issue 800](https://github.com/PokemonAutomation/Arduino-Source/issues/800)<br>- [Issue 694](https://github.com/PokemonAutomation/Arduino-Source/issues/694) {.nowrap} |
 | ESP32-S3 {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | Single: $15<br>Volume: $8 {.nowrap} | 3 | Best wired setup by far.<br>Workhorse for most seasoned users. {.nowrap} |
-| Raspberry Pi Pico W<br>(UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon<br>NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | Single: $19<br>Volume: $10 {.nowrap} | 5 | [Vulnerable to power glitching.](PowerGlitching.md)<br>Exposed pins can be annoying. {.nowrap} |
-| Raspberry Pi Pico W<br>(Advanced UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon<br>NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | Single: $30+<br>Volume: $12 {.nowrap} | 10 | Best final product.<br>Hardest to build. {.nowrap} |
+| Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon<br>NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | Single: $19<br>Volume: $10 {.nowrap} | 5 | [Vulnerable to power glitching.](PowerGlitching.md)<br>Exposed pins can be annoying. {.nowrap} |
+| Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(Advanced UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon<br>NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | Single: $30+<br>Volume: $12 {.nowrap} | 10 | Best final product.<br>Hardest to build. {.nowrap} |
 | Arduino Uno R3 {.nowrap} | NS2: Wired Controller {.nowrap} | Single: $20 {.nowrap} | 6 | [Vulnerable to power glitching.](PowerGlitching.md) {.nowrap} |
 | Arduino Leonardo {.nowrap} | NS2: Wired Controller {.nowrap} | Single: $25 {.nowrap} | 6 | [Vulnerable to power glitching.](PowerGlitching.md) {.nowrap} |
 | Teensy 2/Teensy++ 2<br>(Mini Grabbers) {.nowrap} | NS2: Wired Controller {.nowrap} | (discontinued) | 7 | [Vulnerable to power glitching.](PowerGlitching.md)<br>Final product is bulky and fragile. {.nowrap} |
@@ -140,6 +140,7 @@ With the launch of sys-botbase 3 (sbb3), this setup has been deprecated.
 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
