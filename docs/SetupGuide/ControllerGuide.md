@@ -204,7 +204,7 @@ Once the controller is paired with a console, it will be able to reconnect outsi
 
 ## NS1: Wired Pro Controller
 
-[<img src="../Images/Controllers/Switch1-ProController.jpg" width="300">](../Images/Controllers/Switch1-ProController.jpg) [<img src="../Images/Controllers/NS1-WirelessProController.png" width="500">](../Images/Controllers/NS1-WirelessProController.png)
+[<img src="../Images/Controllers/Switch1-ProController.jpg" width="300">](../Images/Controllers/Switch1-ProController.jpg) [<img src="../Images/Controllers/NS1-WiredProController.png" width="500">](../Images/Controllers/NS1-WiredProController.png)
 
 ### Supported Devices/Boards:
 
@@ -240,7 +240,7 @@ There is one caveat through. Due to [Issue 887](https://github.com/PokemonAutoma
 
 ## NS1: Wired Left/Right Joycon
 
-[<img src="../Images/Controllers/Switch1-Joycons.jpg" width="300">](../Images/Controllers/Switch1-Joycons.jpg) [<img src="../Images/Controllers/NS1-WirelessRightJoycon.png" width="500">](../Images/Controllers/NS1-WirelessRightJoycon.png)
+[<img src="../Images/Controllers/Switch1-Joycons.jpg" width="300">](../Images/Controllers/Switch1-Joycons.jpg) [<img src="../Images/Controllers/NS1-WiredRightJoycon.png" width="500">](../Images/Controllers/NS1-WiredRightJoycon.png)
 
 ### Supported Devices/Boards:
 
