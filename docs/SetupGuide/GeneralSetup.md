@@ -29,10 +29,12 @@ If you want to tinker with this anyway, see: [How to Build (Qt 6.8.2) - Ubuntu 2
 
 At this point you will see a black bar and a white screen. That's because we haven't setup video or audio yet!
 
-If you get errors about missing files like `MSVCP140.dll` or `VCRUNTIME140.dll`, you need to install the Microsoft Redistributable:
+If you get errors about missing files like `MSVCP140.dll` or `VCRUNTIME140.dll`, you need to install the Microsoft redistributable:
 
 - [https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 - Direct Download: [https://aka.ms/vs/17/release/vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+
+If you get an error code (0xc0000142), do the same. Reinstall the latest Microsoft redistributable as linked above.
 
 ## Step 3: Setup video.
 
@@ -137,3 +139,4 @@ Navigate to Settings -> Privacy & security -> Camera
 **Discord Server:**
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
