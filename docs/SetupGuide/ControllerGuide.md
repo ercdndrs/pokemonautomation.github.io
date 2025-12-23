@@ -78,7 +78,7 @@ Note that if you are in a 1-player game and you already have a controller connec
 - Teensy 2.0
 - Teensy++ 2.0
 
-This is the standard 3rd party wired controller for the Switch 2 from the likes of Horipad and Power A. It supports 17 buttons and 2 joysticks and it backwards compatible with the Switch 1. It does not support rumble or gyro. Furthermore, it always shows up as a black controller in the Switch menus.
+This is the standard 3rd party wired controller for the Switch 2 from the likes of Horipad and Power A. It supports 17 buttons and 2 joysticks and is backwards compatible with the Switch 1. It does not support rumble or gyro. Furthermore, it always shows up as a black controller in the Switch menus.
 
 As this is a Switch 2 controller, it supports the GL, GR, and C buttons on the Switch 2. These buttons do nothing on the Switch 1. As of this writing, this is the only controller that we support which has the GL, GR, and C buttons.
 
@@ -164,7 +164,7 @@ As a wireless controller, it first needs to be paired with the Switch via the gr
 
 When the joycon appears as a light grey rotating image, the Switch wants you to pair it with a second joycon before it will show up. For our purposes we do not pair joycons together since you can just use the Pro Controller instead.
 
-There are two ways to exit the gripo menu as a joycon without pairing it with a 2nd joycon:
+There are two ways to exit the grip menu as a joycon without pairing it with a 2nd joycon:
 
 **Enter Horizontal Mode:**
 
