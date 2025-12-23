@@ -2,7 +2,7 @@
 
 ## Program Description
 
-Reset in front of a Hyperspace Battle Zone trainer to receive a specific reward.
+Reset in front of a Hyperspace Battle Zone trainer to receive a specific reward. Go to Switch Home scren when the reward is found.
 
 <img src="images/HyperspaceRewardReset.png">
 
@@ -41,10 +41,6 @@ Select the language that matches what you are using in-game. This setting is req
 ### Items Table:
 
 Use this table to specify which rewards you want to be notified for.
-
-### Go Home when Done:
-
-Go to the Switch Home to idle when finished.
 
 ## Credits
 
