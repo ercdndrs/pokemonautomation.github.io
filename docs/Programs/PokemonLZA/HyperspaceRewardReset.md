@@ -2,7 +2,7 @@
 
 ## Program Description
 
-Reset in front of a Hyperspace Battle Zone trainer to receive a specific reward. Go to Switch Home scren when the reward is found.
+Reset in front of a Hyperspace Battle Zone trainer to receive a specific reward. Go to Switch Home screen when the reward is found.
 
 <img src="images/HyperspaceRewardReset.png">
 
@@ -25,9 +25,9 @@ Reset in front of a Hyperspace Battle Zone trainer to receive a specific reward.
 ### Instructions
 
 1. In a Hyperspace Battle Zone, win against a trainer that gives a prize. Do not talk to the trainer afterwards.
-   * Make sure the trainer can give the target item(s). For example, Couriers will not give you Pokéballs.
-3. Save the game and reset. (Reset is required because the trainer position will move.)
-4. Re-enter the game and then save again, this time in front of the trainer. Make sure you will not be spotted by another trainer.
+   * Make sure the trainer can give the target item(s). For example, Couriers will not give you Pokéballs. [This Serebii page](https://www.serebii.net/legendsz-a/hyperspacelumiose.shtml) has all the Hyperspace battle zone trainer gift tables.
+3. Save the game and reset. (Reset is required because the trainer position will change to the spawn location when reloaded.)
+4. Re-enter the game and save again, this time in front of the trainer. Make sure you will not be spotted by another trainer.
 5. Start the program.
 
 The program will talk to the trainer and check the reward. If the reward is not selected in the table below, it will reset the game.
