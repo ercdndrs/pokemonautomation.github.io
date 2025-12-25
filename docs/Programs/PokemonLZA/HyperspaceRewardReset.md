@@ -1,4 +1,4 @@
-# Hyperspace Reward Reset
+# Hyperspace Reward Reset (Currently In Beta. Not Released to Public Yet)
 
 ## Program Description
 
