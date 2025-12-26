@@ -55,6 +55,7 @@ Farm Blueberry Quests in the Terarium for BP.
 7. Your current box in storage is filled with eggs and the number is correctly set (see the options below). Run [Egg Fetcher](EggFetcher.md) to fill a box.
 8. You have space to catch Pokemon in your boxes.
 9. You have plenty of TM crafting materials and LP (use [LP Farmer](LPFarmer.md) if needed), ideally for lower-numbered TMs.
+10. The DPad left menu must be set to the BBQ: Available Quests page.
 
 ## Instructions
 
@@ -156,4 +157,5 @@ Go to the Switch Home to idle when finished.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
