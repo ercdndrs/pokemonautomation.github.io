@@ -327,6 +327,8 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | [Stall Buyer](PokemonLZA/StallBuyer.md) {.nowrap}                               | Purchase items from stalls.                            | Video         | All |
 | [Self Box Trade](PokemonLZA/SelfBoxTrade.md) {.nowrap}                          | Trade boxes of Pokémon between two Switches locally.   | Video         | All |
 | [Post-Kill Catcher](PokemonLZA/PostKillCatcher.md) {.nowrap}                    | Reset and throw balls at something until it catches.   | Video         | All |
+| [Box Sorter (beta only)](PokemonLZA/BoxSorter.md) {.nowrap}                                 | Sort your boxes.                                       | Video         | All |
+| [Weather Finder (beta only)](PokemonLZA/WeatherFinder.md) {.nowrap}                         | Reset the day until you get the desired weather.       | Video         | All |
 ||
 | **Farming:** |
 | [Restaurant Farmer](PokemonLZA/RestaurantFarmer.md) {.nowrap}                   | Farm the restaurant battles for exp, items, and money. | Video         | All |
@@ -334,16 +336,18 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | [Jacinthe Infinite Farmer](PokemonLZA/JacintheInfiniteFarmer.md) {.nowrap}      | Repeatedly battle Jacinthe for exp and money.          | Video         | All |
 | [Friendship Farmer](PokemonLZA/FriendshipFarmer.md) {.nowrap}                   | Farm friendship via cafes or benches.                  | Video         | All |
 | [In-Place Catcher](PokemonLZA/InPlaceCatcher.md) {.nowrap}                      | Catch everything in one place to fill your boxes.      | Video + Audio | All |
-| [Hyperspace Reward Reset](PokemonLZA/HyperspaceRewardReset.md) {.nowrap}        | Reset in front of a Hyperspace Battle Zone trainer to receive a specific reward. | Video | All |
+| [Wigglytuff Farmer (beta only)](PokemonLZA/WigglytuffFarmer.md) {.nowrap}                   | Farm the Rich Boy's Wigglytuff for exp and money.      | Video + Audio | All |
+| [Hyperspace Reward Reset (beta only)](PokemonLZA/HyperspaceRewardReset.md) {.nowrap}        | Reset in front of a Hyperspace Battle Zone trainer to receive a specific reward. | Video | All |
 ||
 | **Shiny Hunting:** |
-| [Shiny Hunt - Bench Sit](PokemonLZA/ShinyHunt-BenchSit.md) {.nowrap}            | Shiny hunt using the bench reset method.               | Video + Audio | All |
-| [Shiny Hunt - Overworld Reset](PokemonLZA/ShinyHunt-OverworldReset.md) {.nowrap} | Shiny hunt using the overworld reset method.           | Video + Audio | All |
-| [Shiny Hunt - Wild Zone Entrance](PokemonLZA/ShinyHunt-WildZoneEntrance.md) {.nowrap} | Shiny hunt at wild zone entrance using fast travel method. | Video + Audio | All |
-| [Auto Fossil](PokemonLZA/AutoFossil.md) {.nowrap}                               | Find shiny or alpha fossil Pokémon, by repeatedly reviving fossils. | Video         | All |
+| [Bench Sit](PokemonLZA/ShinyHunt-BenchSit.md) {.nowrap}                      | Shiny hunt using the bench reset method.               | Video + Audio | All |
+| [Overworld Reset](PokemonLZA/ShinyHunt-OverworldReset.md) {.nowrap}          | Shiny hunt using the overworld reset method.           | Video + Audio | All |
+| [Wild Zone Entrance](PokemonLZA/ShinyHunt-WildZoneEntrance.md) {.nowrap}     | Shiny hunt at wild zone entrance using fast travel method. | Video + Audio | All |
+| [Auto Fossil](PokemonLZA/AutoFossil.md) {.nowrap}                            | Find shiny or alpha fossil Pokémon, by repeatedly reviving fossils. | Video         | All |
+| [Sewer Hunter](PokemonLZA/ShinyHunt-SewerHunter.md) {.nowrap}                | Shiny hunt the sewers.                                 | Video + Audio | All |
 ||
 | **Non-Shiny Hunting:** |
-| [Stats Reset](PokemonLZA/StatsReset.md) {.nowrap}                               | Reset for stats on gift Pokémon like Eternal Flower Floette. | Video         | All |
+| [Stats Reset](PokemonLZA/StatsReset.md) {.nowrap}                            | Reset for stats on gift Pokémon like Eternal Flower Floette. | Video         | All |
 
 
 ## Zelda: Tears of the Kingdom
@@ -362,4 +366,5 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
