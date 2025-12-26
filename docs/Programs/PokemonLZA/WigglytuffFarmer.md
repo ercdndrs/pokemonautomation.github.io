@@ -1,4 +1,4 @@
-# Wigglytuff Farmer
+# Wigglytuff Farmer (Currently In Beta. Not Released to Public Yet)
 
 ## Program Description
 
@@ -9,8 +9,7 @@ NOTE:
 - you'll need DLC to unlock this quest (Side Mission 157)
 - do **NOT** complete this quest
 
-<img src="images/WigglytuffFarmer.jpg" width=400>
-<img src="images/WigglytuffFarmer-location.jpg" width=400>
+<img src="images/WigglytuffFarmer.jpg" width=500> <img src="images/WigglytuffFarmer-location.jpg" width=500>
 
 
 ### Setup of Settings
@@ -84,6 +83,7 @@ Code for Wigglytuff Farmer heavily relies on [Restraurant Farmer](RestaurantFarm
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
