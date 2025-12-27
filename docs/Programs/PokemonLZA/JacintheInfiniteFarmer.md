@@ -62,6 +62,103 @@ In both modes, if your Pokémon faints, it will automatically timeout and switch
   - Heavy Slam one shots every Jacinthe's Pokémon except the after-DLC Mawile that's high level enough to withstand one Heavy Slam. Earthquake is to defeat that Mawile.
   - Before DLC, you can use the blind mashing mode to save a bit of time by spamming Heavy Slam. But after finishing DLC Jacinthe's team is upgraded to lv. 90+. We recommend using the battle AI mode to pick Heavy Slam or Earthquake according to detected type effectiveness.
   
+### Earnings
+<Table>
+  <tr>
+    <th></th>
+    <th>Le Super-Tournoi de Jacinthe Infinite</th>
+    <th>Le Super-Tournoi de Jacinthe Infinite (DLC)</th>
+    <th>Restaurant Le Wow</th>
+    <th>Sushi High Roller</th>
+  </tr>
+  <tr>
+    <th>Difficulty</th>
+    <td>Medium</td>
+    <td>Hard</td>
+    <td>Hardest</td>
+    <td>Hard</td>
+  </tr>
+  <tr>
+    <th>Rounds</th>
+    <td>1</td>
+    <td>1</td>
+    <td>10</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <th>Fee</th>
+    <td>0</td>
+    <td>0</td>
+    <td>100,000</td>
+    <td>30,000</td>
+  </tr>
+  <tr>
+    <th>Battle Earnings*</th>
+    <td>8,100</td>
+    <td>20,520</td>
+    <td>39,600</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <th>Item Reward Sale Value</th>
+    <td>0</td>
+    <td>0</td>
+    <td>100,000</td>
+    <td>40,000</td>
+  </tr>
+  <tr>
+    <th>Net Profit w/o Items*</th>
+    <td>8,100</td>
+    <td>20,520</td>
+    <td>-60,400</td>
+    <td>-30,000</td>
+  </tr>
+  <tr>
+    <th>Net Profit w/ Items*</th>
+    <td>8,100</td>
+    <td>20,520</td>
+    <td>39,600</td>
+    <td>10,000</td>
+  </tr>
+  <tr>
+    <th>Minutes per Round*</th>
+    <td>1.75 minutes</td>
+    <td>1.83 minutes**</td>
+    <td>10 minutes</td>
+    <td>2.25 minutes</td>
+  </tr>
+  <tr>
+    <th>Profit (w/o Items) per Hour*</th>
+    <td>278,000 per hour</td>
+    <td>671,600 per hour</td>
+    <td>-362,400 per hour</td>
+    <td>-800,000 per hour</td>
+  </tr>
+  <tr>
+    <th>Profit (w/ Items) per Hour*</th>
+    <td>278,000 per hour</td>
+    <td>671,000 per hour</td>
+    <td>237,600 per hour</td>
+    <td>266,667 per hour</td>
+  </tr>
+  <tr>
+    <th>Other Rewards</th>
+    <td>None</td>
+    <td>None</td>
+    <td>10 Exp Candy L</td>
+    <td>1 Seed of Mastery</td>
+  </tr>
+  <tr>
+    <th>Exp Gain</th>
+    <td>High</td>
+    <td>High</td>
+    <td>Highest</td>
+    <td>High</td>
+  </tr>
+</Table>
+
+\* Values are estimates with 3 Gold Canari Plush. Time estimates are taken from optimized runs with quick KOs and a single Pokémon  
+\*\* DLC Jacinthe takes slightly longer to battle on average due to higher level Pokémon and needing to use Shell Bell
 
 ### Notes
 
@@ -72,6 +169,8 @@ In both modes, if your Pokémon faints, it will automatically timeout and switch
 - Due to randomness during battle, occasionally the program may fail to beat Jacinthe. The program will recover from the defeat and continue fighting her. Unlike the restaurants, it costs nothing to challenge her. So you won't lose money by leaving the program running unattended.
 
 - Once the program fails the battle, the starting Pokémon may likely not be your strongest counter against Jacinthe any more, reducing farming efficiency until the counter becomes the starting Pokémon again. If you don't care about earning exp, you can bring only counter(s) in your party to address this.
+
+- _Pay Day_ and _Make it Rain_ do not generate enough extra profit to offset the extra time it would take to use them
 
 ### Aim for Highest Streak!
 
