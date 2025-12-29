@@ -30,7 +30,7 @@ Make donuts and reset until a donut with the desired flavor powers is found.
 2. Start the program.
 
 ### Notes and Example
-When filling in the Flavor Powers table, make sure your donut is possible by using a donut calculator first.
+When filling in the Flavor Powers table, make sure your donut is possible by using a [donut calculator](https://rotomlabs.net/legends-z-a/donut-maker) first.
 
 Setup Example:
 
