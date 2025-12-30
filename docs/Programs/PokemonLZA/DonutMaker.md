@@ -40,7 +40,7 @@ The target donut is:
 - Item Power: Berries (Lv. 3)
 - No Power/Power does not matter
 
-Number of Powers to Match is set to 2, becuase only two powers are targeted.
+Number of Powers to Match is set to 2, because only two powers are targeted.
 
 The Flavor Powers table has the following set:
 
