@@ -338,6 +338,7 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | [In-Place Catcher](PokemonLZA/InPlaceCatcher.md) {.nowrap}                      | Catch everything in one place to fill your boxes.      | Video + Audio | All |
 | [Wigglytuff Farmer (beta only)](PokemonLZA/WigglytuffFarmer.md) {.nowrap}                   | Farm the Rich Boy's Wigglytuff for exp and money.      | Video + Audio | All |
 | [Hyperspace Reward Reset (beta only)](PokemonLZA/HyperspaceRewardReset.md) {.nowrap}        | Reset in front of a Hyperspace Battle Zone trainer to receive a specific reward. | Video | All |
+| [Donut Maker (beta only)](PokemonLZA/DonutMaker.md) {.nowrap}        | Make donuts and reset until desired flavor powers are found. | Video | All |
 ||
 | **Shiny Hunting:** |
 | [Bench Sit](PokemonLZA/ShinyHunt-BenchSit.md) {.nowrap}                      | Shiny hunt using the bench reset method.               | Video + Audio | All |
