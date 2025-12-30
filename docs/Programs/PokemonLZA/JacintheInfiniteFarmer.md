@@ -66,8 +66,8 @@ In both modes, if your Pokémon faints, it will automatically timeout and switch
 <Table>
   <tr>
     <th></th>
-    <th>Le Super-Tournoi de Jacinthe Infinite</th>
-    <th>Le Super-Tournoi de Jacinthe Infinite (DLC)</th>
+    <th>Jacinthe Infinite</th>
+    <th>Jacinthe Infinite (DLC)</th>
     <th>Restaurant Le Wow</th>
     <th>Sushi High Roller</th>
   </tr>
@@ -187,6 +187,7 @@ In both modes, if your Pokémon faints, it will automatically timeout and switch
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
