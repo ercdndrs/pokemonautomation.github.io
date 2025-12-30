@@ -29,12 +29,12 @@ By capturing the video and audio using a capture card, a computer can see (and h
 
 To control the Switch, we create our own 3rd party gamepad using a programmable microcontroller:
 
-- Using a Raspberry Pi Pico W or an ESP32 microcontroller, we can make a joycon using the Bluetooth gamepad protocol.
+- Using an ESP32 or a Raspberry Pi Pico W, we can make a joycon using the Bluetooth gamepad protocol.
 - Using an ESP32-S3, we can make a wired pro controller using the USB gamepad protocol.
 
 These custom controllers behave just like regular controllers. But rather than having buttons and joysticks that are pressed by a human, they are controlled electronically by a computer.
 
-Since the computer can both see and control the Switch, it can take the place of a human player. But unlike a human, a computer doesn't eat or sleep. And it never gets tired or bored. So you can run it 24/7 for months on end hunting shinies for you!
+Since the computer can both see and control the Switch, it can take the place of a human player. But unlike a human, a computer never gets tired or bored. So you can run it 24/7 for months on end hunting shinies for you!
 
 <img src="Images/ControllerSetup-PicoW-USB-Setup.jpg" width="500"> <img src="Images/ControllerSetup-PicoW-USB-SetupCloseup-Annotated-Small.jpg" width="500">
 
@@ -145,6 +145,7 @@ Do not try to profit from these programs. It's just a game; keep the money out o
 For all other uses, please reach out to the administrators of the Pokémon Automation discord server.
 
 This software is provided "as is" and the developers disclaim all warranties with regard to this software including all implied warranties of merchantability and fitness. In no event shall the developers be liable for any special, direct, indirect, or consequential damages, or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software.
+
 
 
 
