@@ -42,10 +42,13 @@ Here is an example of a full setup using a Raspberry Pi Pico W microcontroller:
 
 You need a full computer to run CC programs. A phone or tablet will not work.
 
-Specifically, the computer must:
+**Windows:**
 
-1. Be running 64-bit Windows 10 or later on an x64 CPU. (An Intel or an AMD CPU. You cannot use a Qualcomm Snapdragon.)
-2. Be sufficiently powerful.*
+If you are running Windows, your computer must:
+
+1. Be running 64-bit Windows 10 or later.
+2. An x64 CPU. (An Intel or an AMD CPU. You cannot use a Qualcomm Snapdragon.)
+3. Be sufficiently powerful.*
 
 *We recommend a quad-core CPU of 3+ GHz, no older than 2015. If you intend to control more than 1 switch, you will need a more powerful CPU with more cores. If you want to run 4 Switches all with feedback, we recommend a modern 8-core computer.*
 
@@ -53,19 +56,15 @@ You will also need 2 spare USB ports. (or 2 ports per Switch if you intend to ru
 
 **macOS:**
 
-CC is functional on macOS albeit missing a few features present on Windows. A distributable is available for Intel and M1 Macs on macOS Sequoia (15) or later. For macOS Sonoma (14) and earlier, you will need to follow an extra set of instructions to build CC from source code.
+For Macs, we support both x64 and M1 Macs. For x64 Mac, it will need to be one the last models or it's likely not powerful enough.
+
+Our macOS support is missing a few features present on Windows. A distributable is available for Intel and M1 Macs on macOS Sequoia (15) or later. For macOS Sonoma (14) and earlier, you will need to follow an extra set of instructions to build CC from source code.
 
 If you are an experienced developer with macOS, your help in making macOS feature-complete would be greatly appreciated!
 
-**Other Platforms:**
+**Linux:**
 
-Due to lack of developer support, our support of Linux is limited. While you can set these programs up on Linux, you will need to know how to run command-line build scripts.
-
-If you are not willing to do that or you have no idea what this means, then stop. Unfortunately, you will not be able to run these programs unless you can go to Windows.
-
-If you are willing and able to go down this rabbit hole:
-
-- Linux builds have broken video and are thus not usable. We would love some help here!
+We don't officially support Linux. Though if you are a developer, you can build from source and try it anyway. There is one major video display problem that prevents Linux from being usable without significant workarounds for the video issue.
 
 
 ### The Nintendo Switch
@@ -116,7 +115,7 @@ While we support quite a few different setups, these are the 3 that we recommend
 | Runs nearly all programs - including LGPE.* | Runs all programs - including LGPE.* | Cannot run LGPE.*<br>sbb3: Runs most other programs.<br>sbb2: Cannot run timing precise programs. |
 | Slower and less reliable than wired. | Fastest and most reliable. | sbb3: Identical to wired controllers.<br>sbb2: Very slow and unreliable. |
 | Not recommended for remote access.<br>Not recommended for high density setups due to wireless interference. | Very good for remote access.<br>Very good for high density setups. | Not recommended for remote access. |
-| Recommended for first time users. | Recommended for heavy users who want maximum reliability. | Recommended for existing CFW users who want to try CC programs with minimal investment. |
+| Recommended for first time users due to ease of setup.| Recommended for heavy users who want maximum reliability. | Recommended for existing CFW users who want to try CC programs with minimal investment. |
 
 For a complete list of setups - including older ones we no longer recommend, see our [Controller List](../ControllerList.md).
 
@@ -124,17 +123,18 @@ For a complete list of setups - including older ones we no longer recommend, see
 
 ### **Recommendations:**
 
+These recommendations are not mutually exclusive. Feel free to get multiple setups!
+
 | **User Type** | **Recommendation** | **Comments** |
 | --- | --- | --- |
-| You are completely new to automation. | Pico W | Cheapest. Easiest to setup. |
-| You want to automate LGPE. | Pico W, ESP32, or ESP32-S3 | LGPE requires joycons. |
-| You are a heavy user of automation with multiple Switches running 24/7. | ESP32-S3 | Most stable and reliable. No hassle after setup. |
-| You are an existing Computer Control user who already has the Arduino/Teensy setup. | Keep what you have. | See the [Controller List](../ControllerList.md) to find the guide to re-setup your hardware. |
-| You are an experienced CFW user. | sys-botbase 3 | This setup is designed specifically for you at no additional cost (beyond a capture card)! |
+| You are completely new to automation. | Pico W {.nowrap} | Cheapest. Easiest to setup. |
+| You are a heavy user of automation with multiple Switches running 24/7. | ESP32-S3 {.nowrap} | Most stable and reliable. No hassle after setup. |
+| You are a frequent traveler. | Pico W or ESP32 {.nowrap} | Fewer cables = less hassle |
+| You are an existing Computer Control user who already has the Arduino/Teensy setup. | Keep what you have. {.nowrap} | See the [Controller List](../ControllerList.md) to find the guide to re-setup your hardware. |
+| You are coming from another automation project that uses ATmega MCUs. (Arduino, Teensy 2.0, Pro Micro) | Keep what you have. {.nowrap} | We support your setup! See the [Controller List](../ControllerList.md) to find the appropriate guide. |
+| You are an experienced CFW user. | sys-botbase 3 {.nowrap} | This setup is designed specifically for you at no additional cost (beyond a capture card)! |
 
 A full comparison of prices and difficulty of setup can be found on the [Controller List](../ControllerList.md#setup-comparison-table).
-
-Also, don't be afraid to get both wired and wireless setups! Many of us do exactly this!
 
 ## Step 2: General Setup: (setting up everything except the controller)
 
@@ -195,6 +195,7 @@ Here are some misc. tips/tricks, and other hidden features of the CC programs!
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
