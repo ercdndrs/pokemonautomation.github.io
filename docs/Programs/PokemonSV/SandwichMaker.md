@@ -176,6 +176,8 @@ Go to the Switch Home to idle when finished.
 ## Credits
 
 - **Author:** kichithewolf
+- **Egg Hatching/Sandwiches/Sandwich infra:** Gin, Pif
+- **Recipes:** Nymphea
 
 
 <hr>
@@ -183,4 +185,5 @@ Go to the Switch Home to idle when finished.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
