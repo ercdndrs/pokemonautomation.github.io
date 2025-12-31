@@ -35,7 +35,7 @@ Just bring up any Switch menu that has a keyboard or a numberpad, and the HID ke
 
 The default keyboard layout is the US QWERTY layout. If either your computer or your Switch is not QWERTY, what you type into your keyboard will not be what shows up on the Switch.
 
-If your computer's keyboard layout does is not QWERTY, you will need to change the option in the settings:
+If your computer's keyboard layout is not QWERTY, you will need to change the option in the settings:
 
 - Settings (bottom left corner of the program) -> "System Keyboard Layout"
 
