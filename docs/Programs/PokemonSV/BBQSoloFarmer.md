@@ -20,6 +20,7 @@ Farm Blueberry Quests in the Terarium for BP.
 **Program Settings:**
 
 1. Video Resolution: 1080p or higher
+2. Audio Input must be set
 
 **Game Settings:**
 
@@ -69,17 +70,20 @@ Depending on weather and lag, certain quests (some more sensitive than others) m
 Shiny checking: Shiny checks only happen on encounters, the program cannot see overworld shinies. Program will stop on any encountered shiny. Tera Raid quest does not include a shiny check.
 
 **Low number TMs with easy materials:**
+
 * TM001: Lechonk Hair, Yungoos Fur
 * TM005: Wooper Slime
 * TM007: Lechonk Hair, Scatterbug Powder
 
 **Pokemon targeted in combat:** Targets were selected based on location and ease of navigation.
+
 * Battle a wild Tera Pokémon: Stellar Tera Skarmory, which has a chance of being changed to Graveler, Girafarig, Altaria, Magnezone, Scrafty, Cinccino, Golurk, Malamar, or Minior.
 * Terastallize your Pokémon to defeat a wild Pokémon: Kleavor
 * Catch 1 Pokémon/Catch 1 [TYPE]-type Pokémon: Pyroar, Duosion, Exeggutor-A, Golett, Snubbull, Hitmontop (Tera Ice), Kleavor, Vullaby/Mandibuzz, Geodude-A, Dugtrio-A, Muk-A, Lapras (Tera Bug)
 * Defeat 10/30 wild Pokémon using Auto Battle: Pokemon in Chargestone Cavern
 
 **Sandwich recipes used:** Preset recipes were used to avoid encounter powers and to keep the options neat.
+
 * Sour - Apple, Marmalade: Catch Flying 1, Item Drop Ice 1, Egg 1
 * Sweet - Apple, Butter: Egg 1, Item Drop Ice 1, Raid Steel 1
 * Spicy - Apple, Curry Powder: Raid Steel 1, Item Drop Ice 1, Teensy Flying 1
@@ -157,5 +161,6 @@ Go to the Switch Home to idle when finished.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
