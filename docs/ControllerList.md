@@ -21,7 +21,7 @@ This table lists all the device and controller combinations that we support in t
 | <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-USB.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(USB Mode) {.nowrap} | NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | 1 | [Guide](SetupGuide/Controllers/Controller-PicoW-USB.md) {.nowrap} |
 | <img src="SetupGuide/Images/ESP32/ControllerSetup-ESP32-WROOM.jpg" width="200"> | ESP32 {.nowrap} | NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | 3 | [Windows](SetupGuide/Controllers/Controller-ESP32-WROOM.md)<br>[Mac](SetupGuide/Controllers/Controller-ESP32-WROOM-MacOS.md)<br>[Video Tutorial](https://youtu.be/YzGyQQOGjl8) {.nowrap} |
 | <img src="SetupGuide/Images/ESP32-S3/ControllerSetup-ESP32-S3.jpg" width="200"> | ESP32-S3 {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | 3 | [Windows](SetupGuide/Controllers/Controller-ESP32-S3.md)<br>[Video Tutorial](https://youtu.be/ezBuwk48z8w) {.nowrap} |
-| <img src="SetupGuide/Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 3 {.nowrap} | NS1: Wired Pro Controller {.nowrap} | 2 | [Guide](SetupGuide/Controllers/Controller-sys-botbase.md) {.nowrap} |
+| <img src="SetupGuide/Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 3 {.nowrap} | NS1: Wired Controller {.nowrap} | 2 | [Guide](SetupGuide/Controllers/Controller-sys-botbase.md) {.nowrap} |
 | <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-UART.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon<br>NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | 5 | [Guide](SetupGuide/Controllers/Controller-PicoW-UART.md) {.nowrap} |
 | <img src="SetupGuide/Images/PicoW/ControllerSetup-PicoW-Advanced.jpg" width="200"> | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(Advanced UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon<br>NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | 10 | [Guide](SetupGuide/Controllers/Controller-PicoW-Advanced.md) {.nowrap} |
 
@@ -35,7 +35,7 @@ These are older setups that are still supported, but no longer recommended for n
 | <img src="SetupGuide/Images/ArduinoLeonardo/ControllerSetup-Leonardo.jpg" width="200"> | Arduino Leonardo {.nowrap} | NS2: Wired Controller<br>(compatible with Switch 1) {.nowrap} | 6 | [Guide](SetupGuide/Controllers/Controller-ArduinoLeonardo.md) {.nowrap} |
 | <img src="SetupGuide/Images/ProMicro/ControllerSetup-ProMicro-HammerHeaders.jpg" width="200"> | Pro Micro {.nowrap} | NS2: Wired Controller<br>(compatible with Switch 1) {.nowrap} | 7 - (Mini Grabber)<br>9 - (Hammer Header) {.nowrap} | [Mini-Grabbers](SetupGuide/Controllers/Controller-ProMicro-MiniGrabbers.md)<br>[Hammer Headers](SetupGuide/Controllers/Controller-ProMicro-HammerHeaders.md) {.nowrap} |
 | <img src="SetupGuide/Images/Teensy2/ControllerSetup-Teensy2-HammerHeaders.jpg" width="200"> | Teensy 2.0<br>Teensy++ 2.0 {.nowrap} | NS2: Wired Controller<br>(compatible with Switch 1) {.nowrap} | 7 - (Mini Grabber)<br>9 - (Hammer Header) {.nowrap} | [Mini-Grabbers](SetupGuide/Controllers/Controller-Teensy2-MiniGrabbers.md)<br>[Hammer Headers](SetupGuide/Controllers/Controller-Teensy2-HammerHeaders.md) {.nowrap} |
-| <img src="SetupGuide/Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 2 {.nowrap} | NS1: Wired Pro Controller {.nowrap} | 2 | [Guide](SetupGuide/Controllers/Controller-sys-botbase.md) {.nowrap} |
+| <img src="SetupGuide/Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 2 {.nowrap} | NS1: Wired Controller {.nowrap} | 2 | [Guide](SetupGuide/Controllers/Controller-sys-botbase.md) {.nowrap} |
 
 ### Setup Comparison Table:
 
@@ -109,7 +109,7 @@ Wired controllers are by far the most stable with a button timing accuracy of < 
 | --- | --- |
 | ESP32-S3<br>Pico 1/2 W (UART mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} |
 | Arduino Uno R3<br>Arduino Leonardo<br>Pro Micro<br>Teensy 2.0<br>Teensy++ 2.0 {.nowrap} | NS2: Wired Controller {.nowrap} |
-| sys-botbase 3 (sbb3) {.nowrap} | NS1: Wired Pro Controller {.nowrap} |
+| sys-botbase 3 (sbb3) {.nowrap} | NS1: Wired Controller {.nowrap} |
 
 
 ### Wireless:
@@ -131,7 +131,7 @@ With the launch of sys-botbase 3 (sbb3), this setup has been deprecated.
 
 | **Device** | **Controller** |
 | --- | --- |
-| sys-botbase 2 (sbb2) {.nowrap} | NS1: Wired Pro Controller {.nowrap} |
+| sys-botbase 2 (sbb2) {.nowrap} | NS1: Wired Controller {.nowrap} |
 
 
 <hr>
@@ -140,6 +140,7 @@ With the launch of sys-botbase 3 (sbb3), this setup has been deprecated.
 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
