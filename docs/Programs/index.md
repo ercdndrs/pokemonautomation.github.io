@@ -22,9 +22,9 @@ This is a list of all the computer-control programs. To run these programs, you 
 
 **Controller Categories:**
 
-| **Wired Controller** | **Wireless Controller** | **Other** |
-| --- | --- | --- |
-| - ESP32-S3<br>- Pico W (wired controller)<br>- Pico 2 W (wired controller)<br>- sys-botbase 3 (sbb3)<br>- Arduino Uno R3<br>- Arduino Leonardo<br>- Teensy 2.0<br>- Teensy++ 2.0<br>- Pro Micro {.nowrap} | - ESP32<br>- Pico W (wireless controller)<br>- Pico 2 W (wireless controller)<br><br><br><br><br><br><br> {.nowrap} | - sys-botbase 2.4 (sbb2)<br><br><br><br><br><br><br><br><br> {.nowrap} |
+| **Wired Controller** | **Wireless Controller** |
+| --- | --- |
+| - ESP32-S3<br>- Pico W (wired controller)<br>- Pico 2 W (wired controller)<br>- sys-botbase 3 (sbb3)<br>- Arduino Uno R3<br>- Arduino Leonardo<br>- Teensy 2.0<br>- Teensy++ 2.0<br>- Pro Micro {.nowrap} | - ESP32<br>- Pico W (wireless controller)<br>- Pico 2 W (wireless controller)<br><br><br><br><br><br> {.nowrap}
 
 Read more about [Controller Performance Categories](../ControllerList.md#controller-performance-classes).
 
@@ -40,7 +40,7 @@ Read more about [Controller Performance Categories](../ControllerList.md#control
 | [Turbo Button](NintendoSwitch/TurboButton.md) {.nowrap}                   |     | All |
 | [Turbo Macro](NintendoSwitch/TurboMacro.md) {.nowrap}                     |     | All |
 | [Prevent Sleep](NintendoSwitch/PreventSleep.md) {.nowrap}                 |     | All |
-| [Friend Code Adder](NintendoSwitch/FriendCodeAdder.md) {.nowrap}          |     | All (Degraded: sbb2) |
+| [Friend Code Adder](NintendoSwitch/FriendCodeAdder.md) {.nowrap}          |     | All |
 | [Friend Delete](NintendoSwitch/FriendDelete.md) {.nowrap}                 |     | All |
 | [Record Keyboard Controller](NintendoSwitch/RecordKeyboardController.md) {.nowrap} |     | All |
 
@@ -49,7 +49,7 @@ Read more about [Controller Performance Categories](../ControllerList.md#control
 | **Program** | **Feedback** | **Controllers** |
 | --- | --- | --- |
 | [Page Swap](PokemonHome/PageSwap.md) {.nowrap}             |       | All |
-| [Box Sorter](PokemonHome/BoxSorter.md) {.nowrap}           | Video | Wired, Wireless |
+| [Box Sorter](PokemonHome/BoxSorter.md) {.nowrap}           | Video | All |
 
 ## Pokémon Let's Go Pikachu/Eevee (LGPE)
 
@@ -60,13 +60,13 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | Game Settings | --- | --- |
 ||
 | **General:** |
-| [Daily Item Farmer](PokemonLGPE/DailyItemFarmer.md) {.nowrap} | Video         | Wired, Wireless |
+| [Daily Item Farmer](PokemonLGPE/DailyItemFarmer.md) {.nowrap} | Video         | All |
 ||
 | **Shiny Hunting:** |
-| [Alolan Trade](PokemonLGPE/AlolanTrade.md) {.nowrap}          | Video         | Wired, Wireless |
-| [Fossil Revival](PokemonLGPE/FossilRevival.md) {.nowrap}      | Video         | Wired, Wireless |
-| [Gift Reset](PokemonLGPE/GiftReset.md) {.nowrap}              | Video         | Wired, Wireless |
-| [Legendary Reset](PokemonLGPE/LegendaryReset.md) {.nowrap}    | Video + Audio | Wired, Wireless |
+| [Alolan Trade](PokemonLGPE/AlolanTrade.md) {.nowrap}          | Video         | All |
+| [Fossil Revival](PokemonLGPE/FossilRevival.md) {.nowrap}      | Video         | All |
+| [Gift Reset](PokemonLGPE/GiftReset.md) {.nowrap}              | Video         | All |
+| [Legendary Reset](PokemonLGPE/LegendaryReset.md) {.nowrap}    | Video + Audio | All |
 
 
 
@@ -77,47 +77,47 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | [Game Settings](PokemonSwSh/PokemonSettings.md)        | --- | --- | --- |
 ||
 | **QoL Macros:** |
-| [Fast Code Entry (FCE)](PokemonSwSh/FastCodeEntry.md) {.nowrap} |              |                  | All (Degraded: Wireless, sbb2) |
+| [Fast Code Entry (FCE)](PokemonSwSh/FastCodeEntry.md) {.nowrap} |              |                  | All (Degraded: Wireless) |
 | [Friend Search Disconnect](PokemonSwSh/FriendSearchDisconnect.md) {.nowrap} |  |                  | All |
 ||
 | **General Programs:** |
-| [Mass Release](PokemonSwSh/MassRelease.md) {.nowrap} |                       |                  | All (Degraded: sbb2) |
-| [Surprise Trade](PokemonSwSh/SurpriseTrade.md) {.nowrap} |                   |                  | Wired, Wireless |
-| [Trade Bot](PokemonSwSh/TradeBot.md) {.nowrap} |                             |                  | Wired, Wireless |
+| [Mass Release](PokemonSwSh/MassRelease.md) {.nowrap} |                       |                  | All |
+| [Surprise Trade](PokemonSwSh/SurpriseTrade.md) {.nowrap} |                   |                  | All |
+| [Trade Bot](PokemonSwSh/TradeBot.md) {.nowrap} |                             |                  | All |
 | [Clothing Buyer](PokemonSwSh/ClothingBuyer.md) {.nowrap} |                   |                  | All |
 | [Autonomous Ball Thrower](PokemonSwSh/AutonomousBallThrower.md) {.nowrap} |  | Video            | All |
-| [Dex Rec Finder](PokemonSwSh/DexRecFinder.md) {.nowrap} |                    | Video (Optional) | All (Degraded: sbb2) |
-| [Box Reorder National Dex](PokemonSwSh/BoxReorderNationalDex.md) {.nowrap} | | Video            | Wired, Wireless |
+| [Dex Rec Finder](PokemonSwSh/DexRecFinder.md) {.nowrap} |                    | Video (Optional) | All |
+| [Box Reorder National Dex](PokemonSwSh/BoxReorderNationalDex.md) {.nowrap} | | Video            | All |
 ||
 | **Date-Spam Farmers:** |
-| [Date Spam: Watt Farmer](PokemonSwSh/DateSpam-WattFarmer.md) {.nowrap} | Farm watts. To farm money, use watts to buy Luxury balls, then sell them. || All (Degraded: Wireless, sbb2) |
-| [Date Spam: Berry Farmer](PokemonSwSh/DateSpam-BerryFarmer.md) {.nowrap} | Farm berries.                                                           || All (Degraded: Wireless, sbb2) |
-| [Date Spam: Berry Farmer 2](PokemonSwSh/DateSpam-BerryFarmer2.md) {.nowrap} | Farm berries using audio/video feedback                              | Video + Audio | All (Degraded: sbb2) |
-| [Date Spam: Loto Farmer](PokemonSwSh/DateSpam-LotoFarmer.md) {.nowrap} |                          || All (Degraded: sbb2) |
-| [Date Spam: Stow-On-Side Farmer](PokemonSwSh/DateSpam-StowOnSideFarmer.md) {.nowrap} |            || All (Degraded: sbb2) |
-| [Date Spam: Daily Highlight Farmer](PokemonSwSh/DateSpam-DailyHighlightFarmer.md) {.nowrap} |     || All (Degraded: sbb2) |
-| [Date Spam: Poké Jobs Farmer](PokemonSwSh/DateSpam-PokeJobsFarmer.md) {.nowrap} |                 || All (Degraded: sbb2) |
+| [Date Spam: Watt Farmer](PokemonSwSh/DateSpam-WattFarmer.md) {.nowrap} | Farm watts. To farm money, use watts to buy Luxury balls, then sell them. || All (Degraded: Wireless) |
+| [Date Spam: Berry Farmer](PokemonSwSh/DateSpam-BerryFarmer.md) {.nowrap} | Farm berries.                                                           || All (Degraded: Wireless) |
+| [Date Spam: Berry Farmer 2](PokemonSwSh/DateSpam-BerryFarmer2.md) {.nowrap} | Farm berries using audio/video feedback                              | Video + Audio | All |
+| [Date Spam: Loto Farmer](PokemonSwSh/DateSpam-LotoFarmer.md) {.nowrap} |                          || All |
+| [Date Spam: Stow-On-Side Farmer](PokemonSwSh/DateSpam-StowOnSideFarmer.md) {.nowrap} |            || All |
+| [Date Spam: Daily Highlight Farmer](PokemonSwSh/DateSpam-DailyHighlightFarmer.md) {.nowrap} |     || All |
+| [Date Spam: Poké Jobs Farmer](PokemonSwSh/DateSpam-PokeJobsFarmer.md) {.nowrap} |                 || All |
 ||
 | **Den Hunting:** |
 | [Purple Beam Finder](PokemonSwSh/PurpleBeamFinder.md) {.nowrap} |         | Video            | All |
 | [Event Beam Finder](PokemonSwSh/EventBeamFinder.md) {.nowrap} |           |                  | All |
-| [Day Skipper (JPN)](PokemonSwSh/DaySkipperJPN.md) {.nowrap} |             |                  | Switch 1: Wired, Wireless (Degraded: Wireless)<br>Switch 2: Wired Only |
-| [Day Skipper (EU)](PokemonSwSh/DaySkipperEU.md) {.nowrap} |               |                  | Switch 1: Wired, Wireless (Degraded: Wireless)<br>Switch 2: Wired Only |
-| [Day Skipper (US)](PokemonSwSh/DaySkipperUS.md) {.nowrap} |               |                  | Switch 1: Wired, Wireless (Degraded: Wireless)<br>Switch 2: Wired Only |
+| [Day Skipper (JPN)](PokemonSwSh/DaySkipperJPN.md) {.nowrap} |             |                  | Switch 1: All (Degraded: Wireless)<br>Switch 2: Wired Only |
+| [Day Skipper (EU)](PokemonSwSh/DaySkipperEU.md) {.nowrap} |               |                  | Switch 1: All (Degraded: Wireless)<br>Switch 2: Wired Only |
+| [Day Skipper (US)](PokemonSwSh/DaySkipperUS.md) {.nowrap} |               |                  | Switch 1: All (Degraded: Wireless)<br>Switch 2: Wired Only |
 | [Day Skipper (JPN) - 7.8k](PokemonSwSh/DaySkipperJPN-7.8k.md) {.nowrap} | |                  | Switch 1: Wired Only<br>Switch 2: None |
 ||
 | **Hosting:** |
-| [Den Roller](PokemonSwSh/DenRoller.md) {.nowrap} |                    | Video (Optional) | All (Degraded: sbb2) |
-| [Auto-Host Rolling](PokemonSwSh/AutoHost-Rolling.md) {.nowrap} |      | Video (Optional) | All (Degraded: sbb2) |
-| [Auto-Host Multi-Game](PokemonSwSh/AutoHost-MultiGame.md) {.nowrap} | | Video (Optional) | All (Degraded: sbb2) |
+| [Den Roller](PokemonSwSh/DenRoller.md) {.nowrap} |                    | Video (Optional) | All |
+| [Auto-Host Rolling](PokemonSwSh/AutoHost-Rolling.md) {.nowrap} |      | Video (Optional) | All |
+| [Auto-Host Multi-Game](PokemonSwSh/AutoHost-MultiGame.md) {.nowrap} | | Video (Optional) | All |
 ||
 | **Eggs:** |
 | [Egg Fetcher 2](PokemonSwSh/EggFetcher2.md) {.nowrap} |                              |       | All |
 | [Egg Fetcher Multiple](PokemonSwSh/EggFetcherMultiple.md) {.nowrap} |                |       | All |
 | [Egg Hatcher](PokemonSwSh/EggHatcher.md) {.nowrap} |                                 |       | All |
 | [Egg Autonomous](PokemonSwSh/EggAutonomous.md) {.nowrap} |                           | Video | All |
-| [God Egg Item Duplication](PokemonSwSh/GodEggItemDuplication.md) {.nowrap} |         |       | All (Degraded: sbb2) |
-| [God Egg Duplication (developer only)](PokemonSwSh/GodEggDuplication.md) {.nowrap} | |       | All (Degraded: sbb2) |
+| [God Egg Item Duplication](PokemonSwSh/GodEggItemDuplication.md) {.nowrap} |         |       | All |
+| [God Egg Duplication (developer only)](PokemonSwSh/GodEggDuplication.md) {.nowrap} | |       | All |
 ||
 | **Non-Shiny Hunting:** |
 | [Stats Reset](PokemonSwSh/StatsReset.md) {.nowrap} |                   | Video | All |
@@ -126,25 +126,25 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | [Stats Reset - Regi](PokemonSwSh/StatsReset-Regi.md) {.nowrap} |       | Video | All |
 ||
 | **Shiny Hunting:** |
-| [Multi-Game Fossil Revive](PokemonSwSh/MultiGameFossil.md) {.nowrap} |                                      |                  | All (Degraded: sbb2) |
-| [Curry Hunter](PokemonSwSh/CurryHunter.md) {.nowrap} |                                                      | Video (Optional) | Wired, Wireless |
-| [Shiny Hunt Autonomous - Regi](PokemonSwSh/ShinyHuntAutonomous-Regi.md) {.nowrap} |                         | Video | All (Degraded: sbb2) |
+| [Multi-Game Fossil Revive](PokemonSwSh/MultiGameFossil.md) {.nowrap} |                                      |                  | All |
+| [Curry Hunter](PokemonSwSh/CurryHunter.md) {.nowrap} |                                                      | Video (Optional) | All |
+| [Shiny Hunt Autonomous - Regi](PokemonSwSh/ShinyHuntAutonomous-Regi.md) {.nowrap} |                         | Video | All |
 | [Shiny Hunt Autonomous - Swords Of Justice](PokemonSwSh/ShinyHuntAutonomous-SwordsOfJustice.md) {.nowrap} | | Video | All |
 | [Shiny Hunt Autonomous - Strong Spawn](PokemonSwSh/ShinyHuntAutonomous-StrongSpawn.md) {.nowrap} |          | Video | All |
 | [Shiny Hunt Autonomous - Regigigas2](PokemonSwSh/ShinyHuntAutonomous-Regigigas2.md) {.nowrap} |             | Video | All |
 | [Shiny Hunt Autonomous - IoA Trade](PokemonSwSh/ShinyHuntAutonomous-IoATrade.md) {.nowrap} |                | Video | All |
-| [Shiny Hunt Autonomous - Berry Tree](PokemonSwSh/ShinyHuntAutonomous-BerryTree.md) {.nowrap} |              | Video | All (Degraded: sbb2) |
+| [Shiny Hunt Autonomous - Berry Tree](PokemonSwSh/ShinyHuntAutonomous-BerryTree.md) {.nowrap} |              | Video | All |
 | [Shiny Hunt Autonomous - Whistling](PokemonSwSh/ShinyHuntAutonomous-Whistling.md) {.nowrap} |               | Video | All |
 | [Shiny Hunt Autonomous - Fishing](PokemonSwSh/ShinyHuntAutonomous-Fishing.md) {.nowrap} |                   | Video | All |
 | [Shiny Hunt Autonomous - Overworld](PokemonSwSh/ShinyHuntAutonomous-Overworld.md) {.nowrap} |               | Video | All |
 ||
 | **RNG:** |
 | [RNG Seed Finder](PokemonSwSh/SeedFinder.md) {.nowrap} | Finds the current state to be used for manual RNG manipulation      | Video | All |
-| [Cram-o-matic RNG](PokemonSwSh/CramomaticRNG.md) {.nowrap} | Farm apriballs using RNG manip of Cram-o-matic                  | Video | All (Degraded: sbb2) |
+| [Cram-o-matic RNG](PokemonSwSh/CramomaticRNG.md) {.nowrap} | Farm apriballs using RNG manip of Cram-o-matic                  | Video | All |
 ||
 | **Multi-Switch Programs:** |
-| Synchronized Spinning {.nowrap} |                                                    || All (Degraded: sbb2) |
-| [Raid Item Farmer (OHKO)](PokemonSwSh/RaidItemFarmerOHKO.md) {.nowrap}  |            || Wired, Wireless |
+| Synchronized Spinning {.nowrap} |                                                    || All |
+| [Raid Item Farmer (OHKO)](PokemonSwSh/RaidItemFarmerOHKO.md) {.nowrap}  |            || All |
 ||
 | [**Auto Max Lair 2.0:**](PokemonSwSh/MaxLair.md) {.nowrap} |
 | [Max Lair: Standard](PokemonSwSh/MaxLair-Standard.md) {.nowrap} | Run Dynamax Adventures until a shiny Legendary is found.               | Video | All |
@@ -154,14 +154,14 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | **Deprecated Programs:** |
 ||
 | [Ball Thrower](PokemonSwSh/BallThrower.md) {.nowrap} |                               |       | All |
-| [Beam Reset](PokemonSwSh/BeamReset.md) {.nowrap} |                                   |       | Wired, Wireless |
-| [Egg Combined 2](PokemonSwSh/EggCombined2.md) {.nowrap} |                            |       | Wired, Wireless |
-| [Egg Super-Combined 2](PokemonSwSh/EggSuperCombined2.md) {.nowrap} |                 |       | Wired, Wireless |
-| [Shiny Hunt Unattended - Regi](PokemonSwSh/ShinyHuntUnattended-Regi.md) {.nowrap} |                         |                  | Wired, Wireless |
-| [Shiny Hunt Unattended - Swords Of Justice](PokemonSwSh/ShinyHuntUnattended-SwordsOfJustice.md) {.nowrap} | |                  | Wired, Wireless |
-| [Shiny Hunt Unattended - Strong Spawn](PokemonSwSh/ShinyHuntUnattended-StrongSpawn.md) {.nowrap} |          |                  | Wired, Wireless |
-| [Shiny Hunt Unattended - Regigigas2](PokemonSwSh/ShinyHuntUnattended-Regigigas2.md) {.nowrap} |             |                  | Wired, Wireless |
-| [Shiny Hunt Unattended - IoA Trade](PokemonSwSh/ShinyHuntUnattended-IoATrade.md) {.nowrap} |                |                  | Wired, Wireless |
+| [Beam Reset](PokemonSwSh/BeamReset.md) {.nowrap} |                                   |       | All |
+| [Egg Combined 2](PokemonSwSh/EggCombined2.md) {.nowrap} |                            |       | All |
+| [Egg Super-Combined 2](PokemonSwSh/EggSuperCombined2.md) {.nowrap} |                 |       | All |
+| [Shiny Hunt Unattended - Regi](PokemonSwSh/ShinyHuntUnattended-Regi.md) {.nowrap} |                         |                  | All |
+| [Shiny Hunt Unattended - Swords Of Justice](PokemonSwSh/ShinyHuntUnattended-SwordsOfJustice.md) {.nowrap} | |                  | All |
+| [Shiny Hunt Unattended - Strong Spawn](PokemonSwSh/ShinyHuntUnattended-StrongSpawn.md) {.nowrap} |          |                  | All |
+| [Shiny Hunt Unattended - Regigigas2](PokemonSwSh/ShinyHuntUnattended-Regigigas2.md) {.nowrap} |             |                  | All |
+| [Shiny Hunt Unattended - IoA Trade](PokemonSwSh/ShinyHuntUnattended-IoATrade.md) {.nowrap} |                |                  | All |
 
 
 ## Pokémon Brilliant Diamond/Shining Pearl
@@ -179,12 +179,12 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | [Self Touch Trade](PokemonBDSP/SelfTouchTrade.md) {.nowrap}                    | Video | All |
 ||
 | **Farming:** |
-| [Money Farmer (Route 212)](PokemonBDSP/MoneyFarmerRoute212.md) {.nowrap}        | Video | Wired, Wireless |
-| [Money Farmer (Route 210)](PokemonBDSP/MoneyFarmerRoute210.md) {.nowrap}       | Video | Wired, Wireless |
-| [Double Battle Leveling](PokemonBDSP/DoublesLeveling.md) {.nowrap}             | Video | All |
+| [Money Farmer (Route 212)](PokemonBDSP/MoneyFarmerRoute212.md) {.nowrap}        | Video | All |
+| [Money Farmer (Route 210)](PokemonBDSP/MoneyFarmerRoute210.md) {.nowrap}        | Video | All |
+| [Double Battle Leveling](PokemonBDSP/DoublesLeveling.md) {.nowrap}              | Video | All |
 | [Amity Square Pick Up Farmer](PokemonBDSP/AmitySquarePickUpFarmer.md) {.nowrap} |       | All |
-| [Gift Berry Reset](PokemonBDSP/GiftBerryReset.md) {.nowrap}                    | Video | All |
-| [Poffin Cooker](PokemonBDSP/PoffinCooker.md) {.nowrap}                          | Video | All (Degraded: sbb2) |
+| [Gift Berry Reset](PokemonBDSP/GiftBerryReset.md) {.nowrap}                     | Video | All |
+| [Poffin Cooker](PokemonBDSP/PoffinCooker.md) {.nowrap}                          | Video | All |
 ||
 | **Shiny Hunting:** |
 | [Starter Reset](PokemonBDSP/StarterReset.md) {.nowrap}                         | Video | All |
@@ -199,11 +199,11 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | [Egg Autonomous](PokemonBDSP/EggAutonomous.md) {.nowrap}                       | Video | All |
 ||
 | **Glitches (v1.1.3):** |
-| [Activate Menu Glitch (1.1.3)](PokemonBDSP/ActivateMenuGlitch-113.md) {.nowrap}    | Video | Wired, Wireless |
-| [Clone Items (Box Copy Method 2)](PokemonBDSP/CloneItemsBoxCopy2.md) {.nowrap}     | Video | Wired, Wireless |
+| [Activate Menu Glitch (1.1.3)](PokemonBDSP/ActivateMenuGlitch-113.md) {.nowrap}    | Video | All |
+| [Clone Items (Box Copy Method 2)](PokemonBDSP/CloneItemsBoxCopy2.md) {.nowrap}     | Video | All |
 ||
 | **Glitches (v1.1.2):** |
-| [Activate Menu Glitch (1.1.2)](PokemonBDSP/ActivateMenuGlitch-Poketch.md) {.nowrap} | Video | Wired, Wireless |
+| [Activate Menu Glitch (1.1.2)](PokemonBDSP/ActivateMenuGlitch-Poketch.md) {.nowrap} | Video | All |
 
 
 ## Pokémon Legends Arceus
@@ -237,11 +237,11 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | [Alpha Crobat Hunter](PokemonLA/AlphaCrobatHunter.md) {.nowrap}                | Video + Audio | All |
 | [Alpha Gallade Hunter](PokemonLA/AlphaGalladeHunter.md) {.nowrap}              | Video + Audio | All |
 | [Alpha Froslass Hunter](PokemonLA/AlphaFroslassHunter.md) {.nowrap}            | Video + Audio | All |
-| [Burmy Hunter](PokemonLA/BurmyHunter.md) {.nowrap}                             | Video + Audio | All (Degraded: sbb2) |
+| [Burmy Hunter](PokemonLA/BurmyHunter.md) {.nowrap}                             | Video + Audio | All |
 | [Unown Hunter](PokemonLA/UnownHunter.md) {.nowrap}                             | Video + Audio | All |
 | [Shiny Hunt - Flag Pin](PokemonLA/ShinyHunt-FlagPin.md) {.nowrap}              | Video + Audio | All |
 | [Post-MMO Spawn Reset](PokemonLA/PostMMOSpawnReset.md) {.nowrap}               | Video + Audio | All |
-| [Shiny Hunt - Custom Path](PokemonLA/ShinyHunt-CustomPath.md) {.nowrap}        | Video + Audio | All (Degraded: sbb2) |
+| [Shiny Hunt - Custom Path](PokemonLA/ShinyHunt-CustomPath.md) {.nowrap}        | Video + Audio | All |
 
 
 ## Pokémon Scarlet and Violet
@@ -263,17 +263,17 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | [Mass Attach Items](PokemonSV/MassAttachItems.md) {.nowrap} | Mass attach items to Pokemon.  | Video         | All |
 ||
 | **Farming:** |
-| [LP Farmer](PokemonSV/LPFarmer.md) {.nowrap} | Farm LP by day skipping Tera raids.                                                            | Video         | All (Degraded: sbb2) |
-| [Gimmighoul Roaming Farmer](PokemonSV/GimmighoulRoamingFarmer.md) {.nowrap} | Farm roaming Gimmighoul for coins.                              | Video         | All (Degraded: sbb2) |
-| [Gimmighoul Chest Farmer](PokemonSV/GimmighoulChestFarmer.md) {.nowrap} | Farm chest Gimmighoul for coins.                                    | Video         | Wired, Wireless |
-| [Auction Farmer](PokemonSV/AuctionFarmer.md) {.nowrap} | Farm special Pokeballs (now superceded by Item Printer RNG), EV reset berries, feathers | Video      | All (Degraded: sbb2) |
+| [LP Farmer](PokemonSV/LPFarmer.md) {.nowrap} | Farm LP by day skipping Tera raids.                                                            | Video         | All |
+| [Gimmighoul Roaming Farmer](PokemonSV/GimmighoulRoamingFarmer.md) {.nowrap} | Farm roaming Gimmighoul for coins.                              | Video         | All |
+| [Gimmighoul Chest Farmer](PokemonSV/GimmighoulChestFarmer.md) {.nowrap} | Farm chest Gimmighoul for coins.                                    | Video         | All |
+| [Auction Farmer](PokemonSV/AuctionFarmer.md) {.nowrap} | Farm special Pokeballs (now superceded by Item Printer RNG), EV reset berries, feathers | Video      | All |
 | [ESP Training](PokemonSV/ESPTraining.md) {.nowrap} | Farm EV reset berries          	                                                        | Video         | All |
 | [Tournament Farmer](PokemonSV/TournamentFarmer.md) {.nowrap} | Farm money (now superceded by Item Printer RNG)                                | Video         | All |
 | [Tournament Farmer 2](PokemonSV/TournamentFarmer2.md) {.nowrap} | Farm money (now superceded by Item Printer RNG)                             | Video         | All |
-| [Flying Trial Farmer](PokemonSV/FlyingTrialFarmer.md) {.nowrap} | Farm Blueberry points (BP) with the Flying trial                            | Video         | Wired, Wireless |
-| [BBQ Farmer](PokemonSV/BBQSoloFarmer.md) {.nowrap} | Farm Blueberry points (BP) with Blueberry quests                                        | Video + Audio | Wired, Wireless |
+| [Flying Trial Farmer](PokemonSV/FlyingTrialFarmer.md) {.nowrap} | Farm Blueberry points (BP) with the Flying trial                            | Video         | All |
+| [BBQ Farmer](PokemonSV/BBQSoloFarmer.md) {.nowrap} | Farm Blueberry points (BP) with Blueberry quests                                         | Video + Audio | All |
 | [Material Farmer](PokemonSV/MaterialFarmer.md) {.nowrap} | Farm Happiny dust                                                                  | Video + Audio | All |
-| [Item Printer RNG](PokemonSV/ItemPrinterRNG.md) {.nowrap} | Farm rare items (e.g. Ability Patch, PP Max, EXP Candy, rare Pokeballs, Tera shards). To farm money, farm and sell Ability Patches. | Video + Audio | All (Degraded: sbb2) |
+| [Item Printer RNG](PokemonSV/ItemPrinterRNG.md) {.nowrap} | Farm rare items (e.g. Ability Patch, PP Max, EXP Candy, rare Pokeballs, Tera shards). To farm money, farm and sell Ability Patches. | Video + Audio | All |
 ||
 | **Eggs:** |
 | [Egg Fetcher](PokemonSV/EggFetcher.md) {.nowrap} | Fetch eggs from a picnic.                         | Video         | All |
@@ -282,14 +282,14 @@ This game cannot be played with a Pro Controller and instead requires the use of
 ||
 | **Tera Raids:** |
 | [Auto-Host](PokemonSV/AutoHost.md) {.nowrap} | Auto-host a Tera raid.                                                                     | Video         | All |
-| [Tera Roller](PokemonSV/TeraRoller.md) {.nowrap} | Roll Tera raids to find shiny Pokemon.                                                 | Video         | All (Degraded: sbb2) |
-| [Tera Self Farmer](PokemonSV/TeraSelfFarmer.md) {.nowrap} | Farm items and Pokemon from Tera raids. Hunt for shiny and high reward raids. | Video         | All (Degraded: sbb2) |
+| [Tera Roller](PokemonSV/TeraRoller.md) {.nowrap} | Roll Tera raids to find shiny Pokemon.                                                 | Video         | All |
+| [Tera Self Farmer](PokemonSV/TeraSelfFarmer.md) {.nowrap} | Farm items and Pokemon from Tera raids. Hunt for shiny and high reward raids. | Video         | All |
 | [Tera Multi-Farmer](PokemonSV/TeraMultiFarmer.md) {.nowrap} | Farm items and Pokemon from your own Tera raid using multiple Switches.     | Video         | All |
 ||
 | **Fast Code Entry:** |
-| [Fast Code Entry (FCE)](PokemonSV/FastCodeEntry.md) {.nowrap} | Quickly enter a 4, 6, 8 digit link code.                                                      |               | All (Degraded, Wireless, sbb2) |
-| [Clipboard Fast Code Entry (C-FCE)](PokemonSV/ClipboardFastCodeEntry.md) {.nowrap} | Quickly enter a 4, 6, 8 digit link code from clipboard.                  |               | All (Degraded, Wireless, sbb2) |
-| [Video Fast Code Entry (V-FCE)](PokemonSV/VideoFastCodeEntry.md) {.nowrap} | Read a 4, 6, 8 digit link code from someone on your screen and enter it quickly. |               | All (Degraded, Wireless, sbb2) |
+| [Fast Code Entry (FCE)](PokemonSV/FastCodeEntry.md) {.nowrap} | Quickly enter a 4, 6, 8 digit link code.                                                      |               | All (Degraded, Wireless) |
+| [Clipboard Fast Code Entry (C-FCE)](PokemonSV/ClipboardFastCodeEntry.md) {.nowrap} | Quickly enter a 4, 6, 8 digit link code from clipboard.                  |               | All (Degraded, Wireless) |
+| [Video Fast Code Entry (V-FCE)](PokemonSV/VideoFastCodeEntry.md) {.nowrap} | Read a 4, 6, 8 digit link code from someone on your screen and enter it quickly. |               | All (Degraded, Wireless) |
 ||
 | **Stats Hunting:** |
 | [Stats Reset](PokemonSV/StatsReset.md) {.nowrap} | Repeatedly catch static encounters (e.g. Legendaries) until you get the stats you wish.         | Video         | All |
@@ -303,8 +303,8 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | [Wild Item Farmer (cloning glitch)](PokemonSV/WildItemFarmer.md) {.nowrap} | Farm an item held by a cloned wild Pokemon. (glitch patched) | Video         | All |
 ||
 | **Glitches (v1.0.1):** |
-| [Ride Cloner (1.0.1)](PokemonSV/RideCloner-101.md) {.nowrap} | Clone your ride legendary and its item using the add-to-party glitch. (glitch patched) | Video         | Wired, Wireless |
-| [Clone Items (1.0.1)](PokemonSV/CloneItems-101.md) {.nowrap} | Clone items using the add-to-party glitch. (glitch patched)                            | Video         | Wired, Wireless |
+| [Ride Cloner (1.0.1)](PokemonSV/RideCloner-101.md) {.nowrap} | Clone your ride legendary and its item using the add-to-party glitch. (glitch patched) | Video         | All |
+| [Clone Items (1.0.1)](PokemonSV/CloneItems-101.md) {.nowrap} | Clone items using the add-to-party glitch. (glitch patched)                            | Video         | All |
 ||
 | **Beta/WIP Programs:** |
 | [AutoStory](PokemonSV/AutoStory.md) {.nowrap} | Progress through the tutorial and mainstory of Scarlet/Violet | Video         | Wired (Wireless untested) |
@@ -356,10 +356,10 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | **Program** | **Feedback** | **Controllers** |
 | --- | --- | --- |
 | **Glitches (v1.1.1):** |
-| [Bow Item Duper](ZeldaTotK/BowItemDuper.md) {.nowrap}             |                  | Wired, Wireless |
-| [Paraglide Item Duper](ZeldaTotK/ParaglideItemDuper.md) {.nowrap} |                  | Wired, Wireless |
-| [Shield Surf Item Duper](ZeldaTotK/SurfItemDuper.md) {.nowrap}    |                  | Wired, Wireless |
-| [Mineru Item Duper](ZeldaTotK/MineruItemDuper.md) {.nowrap}       |                  | Wired, Wireless |
+| [Bow Item Duper](ZeldaTotK/BowItemDuper.md) {.nowrap}             |                  | All |
+| [Paraglide Item Duper](ZeldaTotK/ParaglideItemDuper.md) {.nowrap} |                  | All |
+| [Shield Surf Item Duper](ZeldaTotK/SurfItemDuper.md) {.nowrap}    |                  | All |
+| [Mineru Item Duper](ZeldaTotK/MineruItemDuper.md) {.nowrap}       |                  | All |
 
 <hr>
 
@@ -367,6 +367,7 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
