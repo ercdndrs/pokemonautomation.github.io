@@ -35,13 +35,18 @@ These are older setups that are still supported, but no longer recommended for n
 | <img src="SetupGuide/Images/ArduinoLeonardo/ControllerSetup-Leonardo.jpg" width="200"> | Arduino Leonardo {.nowrap} | NS2: Wired Controller<br>(compatible with Switch 1) {.nowrap} | 6 | [Guide](SetupGuide/Controllers/Controller-ArduinoLeonardo.md) {.nowrap} |
 | <img src="SetupGuide/Images/ProMicro/ControllerSetup-ProMicro-HammerHeaders.jpg" width="200"> | Pro Micro {.nowrap} | NS2: Wired Controller<br>(compatible with Switch 1) {.nowrap} | 7 - (Mini Grabber)<br>9 - (Hammer Header) {.nowrap} | [Mini-Grabbers](SetupGuide/Controllers/Controller-ProMicro-MiniGrabbers.md)<br>[Hammer Headers](SetupGuide/Controllers/Controller-ProMicro-HammerHeaders.md) {.nowrap} |
 | <img src="SetupGuide/Images/Teensy2/ControllerSetup-Teensy2-HammerHeaders.jpg" width="200"> | Teensy 2.0<br>Teensy++ 2.0 {.nowrap} | NS2: Wired Controller<br>(compatible with Switch 1) {.nowrap} | 7 - (Mini Grabber)<br>9 - (Hammer Header) {.nowrap} | [Mini-Grabbers](SetupGuide/Controllers/Controller-Teensy2-MiniGrabbers.md)<br>[Hammer Headers](SetupGuide/Controllers/Controller-Teensy2-HammerHeaders.md) {.nowrap} |
-| <img src="SetupGuide/Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 2 {.nowrap} | NS1: Wired Controller {.nowrap} | 2 | [Guide](SetupGuide/Controllers/Controller-sys-botbase.md) {.nowrap} |
+
+### Discontinued Setups:
+
+| | **Device Type** | **Supported Controllers** | **Recommended Replacement** |
+| --- | --- | --- | --- |
+| <img src="SetupGuide/Images/sys-botbase/ControllerSetup-sbb.jpg" width="200"> | CFW: sys-botbase 2 {.nowrap} | NS1: Wired Controller {.nowrap} | CFW: sys-botbase 3 {.nowrap} |
 
 ### Setup Comparison Table:
 
 | Setup | **Supported Controllers** | **Price (per Unit)** | **Setup Difficulty<br>(Scale 1-10)** | **Notes:** |
 | --- | --- | --- | --- | --- |
-| Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(USB Mode) {.nowrap} | NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | Single: $8<br>Volume: $7 {.nowrap} | 1 | Upgradable to UART mode.<br><br>Unresolved Bugs:<br>- [Issue 818](https://github.com/PokemonAutomation/Arduino-Source/issues/800) {.nowrap} |
+| Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(USB Mode) {.nowrap} | NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | Single: $8<br>Volume: $7 {.nowrap} | 1 | Upgradable to UART mode. {.nowrap} |
 | ESP32 {.nowrap} | NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | Single: $10<br>Volume: $4 {.nowrap} | 3 | Unresolved Bugs:<br>- [Issue 800](https://github.com/PokemonAutomation/Arduino-Source/issues/800)<br>- [Issue 694](https://github.com/PokemonAutomation/Arduino-Source/issues/694) {.nowrap} |
 | ESP32-S3 {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon {.nowrap} | Single: $15<br>Volume: $8 {.nowrap} | 3 | Best wired setup by far.<br>Workhorse for most seasoned users. {.nowrap} |
 | Raspberry Pi Pico W<br>Raspberry Pi Pico 2 W<br>(UART Mode) {.nowrap} | HID: Keyboard<br>NS1: Wired Controller<br>NS2: Wired Controller<br>NS1: Wired Pro Controller<br>NS1: Wired Left Joycon<br>NS1: Wired Right Joycon<br>NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} | Single: $19<br>Volume: $10 {.nowrap} | 5 | [Vulnerable to power glitching.](PowerGlitching.md)<br>Exposed pins can be annoying. {.nowrap} |
@@ -93,11 +98,10 @@ A "controller" (not to be confused with the microcontrollers above) refers to a 
 
 ## Controller Performance Classes
 
-For the purposes of program compatibility, each setup/device + controller combination is placed into one of 3 performance categories:
+For the purposes of program compatibility, each setup/device + controller combination is placed into one of 2 performance categories:
 
 - Wired
 - Wireless
-- sys-botbase 2
 
 Programs that are speed-critical will have separate execution paths optimized for each performance category. (i.e. date spam, Fast Code Entry...)
 
@@ -122,24 +126,13 @@ The main issue with wireless is that it can only reliably connect to the Switch 
 | --- | --- |
 | ESP32<br>Pico 1/2 W (both modes) {.nowrap} | NS1: Wireless Pro Controller<br>NS1: Wireless Left Joycon<br>NS1: Wireless Right Joycon {.nowrap} |
 
-
-### sys-botbase 2:
-
-This category exists simply because sys-botbase 2 (sbb2) is extremely unstable with timing variations upwards of 150ms along with massive throughput issues due to backpressure. As a result, many programs written for the above wired and wireless controllers do not work on sbb2.
-
-With the launch of sys-botbase 3 (sbb3), this setup has been deprecated.
-
-| **Device** | **Controller** |
-| --- | --- |
-| sys-botbase 2 (sbb2) {.nowrap} | NS1: Wired Controller {.nowrap} |
-
-
 <hr>
 
 **Discord Server:** 
 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
