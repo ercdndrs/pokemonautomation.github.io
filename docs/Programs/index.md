@@ -307,8 +307,8 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | [Clone Items (1.0.1)](PokemonSV/CloneItems-101.md) {.nowrap} | Clone items using the add-to-party glitch. (glitch patched)                            | Video         | All |
 ||
 | **Beta/WIP Programs:** |
-| [AutoStory](PokemonSV/AutoStory.md) {.nowrap} | Progress through the tutorial and mainstory of Scarlet/Violet | Video         | Wired (Wireless untested) |
-| [Claim Mystery Gift](PokemonSV/ClaimMysteryGift.md) {.nowrap} | Claim the Mystery Gift in Scarlet/Violet | Video              | Wired (Wireless untested) |
+| [AutoStory](PokemonSV/AutoStory.md) {.nowrap} | Progress through the tutorial and mainstory of Scarlet/Violet | Video         | All |
+| [Claim Mystery Gift](PokemonSV/ClaimMysteryGift.md) {.nowrap} | Claim the Mystery Gift in Scarlet/Violet | Video              | All |
 ||
 | **Deprecated Programs:** |
 | [Autonomous Item Printer](PokemonSV/AutoItemPrinter.md) {.nowrap}              || Video         | All |
@@ -367,6 +367,7 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
