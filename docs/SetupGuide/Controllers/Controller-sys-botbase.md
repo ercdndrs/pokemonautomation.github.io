@@ -1,6 +1,7 @@
 # sys-botbase
 
-***Update August 9, 2025: This guide has been updated for sys-botbase 3 (sbb3).***
+***Update August 9, 2025: This guide has been updated for sys-botbase 3 (sbb3).***<br>
+***Update January 1, 2026: sys-botbase 2 (sbb2) is no longer supported. Please upgrade to sys-botbase 3 (sbb3).***
 
 This sys-botbase setup is intended for experienced CFW (custom firmware) Switch users who want to try out our computer-control (CC) programs without buying all the additional hardware that is needed.
 
@@ -181,6 +182,7 @@ Using ethernet instead of wireless does not solve this problem as local communic
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
