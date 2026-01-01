@@ -26,7 +26,8 @@ The program helps you create your living dex and remove redundant regular and sh
 
 1. Enter your box system.
 2. You are on the "BOXES" view, not "HELD ITEMS" or "BATLE TEAMS" view.
-3. Move the cursor to the first box you want to start sorting. Don't let the cursor hold any Pokémon.
+3. You are not in the "Select Multiple" mode.
+4. Move the cursor to the first box you want to start sorting. Don't let the cursor hold any Pokémon.
 
 ## Options
 
