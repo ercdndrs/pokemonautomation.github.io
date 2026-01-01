@@ -112,8 +112,8 @@ While we support quite a few different setups, these are the 3 that we recommend
 | **Recommended Microcontrollers:**<br>- Raspberry Pi Pico W<br>- Raspberry Pi Pico 2 W<br>- ESP32 | **Recommended Microcontrollers:**<br>- ESP32-S3<br><br><br> | **Recommended Microcontrollers:**<br>- None required.<br><br><br> |
 | Cheapest. Easiest to setup.<br>Harder to use after setup. | More Expensive. Harder to setup.<br>Easiest to use after setup. | Requires a hacked Switch running custom firmware (CFW). |
 | Works on Switch 2. | Works on Switch 2. | Does not work on Switch 2 due to lack of CFW. |
-| Runs nearly all programs - including LGPE.* | Runs all programs - including LGPE.* | Cannot run LGPE.*<br>sbb3: Runs most other programs.<br>sbb2: Cannot run timing precise programs. |
-| Slower and less reliable than wired. | Fastest and most reliable. | sbb3: Identical to wired controllers.<br>sbb2: Very slow and unreliable. |
+| Runs nearly all programs - including LGPE.* | Runs all programs - including LGPE.* | Cannot run LGPE.*<br>Runs most other programs. |
+| Slower and less reliable than wired. | Fastest and most reliable. | Identical to wired controllers. |
 | Not recommended for remote access.<br>Not recommended for high density setups due to wireless interference. | Very good for remote access.<br>Very good for high density setups. | Not recommended for remote access. |
 | Recommended for first time users due to ease of setup.| Recommended for heavy users who want maximum reliability. | Recommended for existing CFW users who want to try CC programs with minimal investment. |
 
@@ -195,6 +195,7 @@ Here are some misc. tips/tricks, and other hidden features of the CC programs!
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
