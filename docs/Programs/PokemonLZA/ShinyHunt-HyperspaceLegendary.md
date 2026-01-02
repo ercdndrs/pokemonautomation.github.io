@@ -40,7 +40,7 @@ Currently only support Terrakion and Virizion.
 
 1. Enter a 5-star hyperspace legendary wild zone.
 2. Based on the legendary you want to hunt, move to the location shown below.
-3. Set enough calories in option **Minimum Cal. Reserved to Catch Legendary**.
+3. Set enough calories in option **Minimum Cal. Reserved to Catch Legendary**. A 5-star hyperspace burns 10 calories per second.
 4. Save the game at the location described below.
 5. Start the program.
 
@@ -94,7 +94,7 @@ Which Legendary you are hunting.
 
 ### Minimum Cal. Reserved to Catch Legendary
 
-Minimum amount of calories you need to catch the legendary after the program find it shiny.
+Minimum amount of calories you need to catch the legendary after the program find it shiny. It burns 10 calories per second in those 5-star legendary Hyperspace Wild Zones.
 
 - Virizion: the program will drop the player character into the courtyard to draw Virizion's aggression. Prepare enough time to fight it in the courtyard. Kill any other Pokémon following you into the courtyard first. Once you defeat Virizion, save in front of it and use the [Post-Kill Catcher](PostKillCatcher.md) program to catch it. If you prefer to save before battling it, add more calories to have time leaving the courtyard, drop aggro, save and return to battle it.
 
