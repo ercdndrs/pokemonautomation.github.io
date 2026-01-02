@@ -27,9 +27,9 @@ The HID keyboard is just a standard USB keyboard. Since it is not a controller, 
 
 ### How to Connect:
 
-Since the HID keyboard is not a game controller, it does connect through the grip menu. Instead, it connects automatically whenever it's physically connected to the Switch.
+Since the HID keyboard is not a game controller, it does not connect through the grip menu. Instead, it connects automatically whenever it's physically connected to the Switch.
 
-Just bring up any Switch menu that has a keyboard or a numberpad, and the HID keyboard will work. Programs that do code entry (such as Fast Code Entry) will enter the code right away. If your window has keyboard controls active, just begin typing into your keyboard and it will show up on the Switch's text field.
+Just bring up any Switch menu that has a keyboard or a numberpad, and the HID keyboard will work. Programs that do code entry (such as Fast Code Entry) will enter the code right away. Unlike the regular wired controllers, you do not need to press a button to connect. If your window has keyboard controls active, just begin typing into your keyboard and it will show up on the Switch's text field.
 
 ### Keyboard Layouts:
 
