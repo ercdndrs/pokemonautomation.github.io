@@ -1,4 +1,4 @@
-# Wigglytuff Farmer (Currently In Beta. Not Released to Public Yet)
+# Wigglytuff Farmer
 
 ## Program Description
 
@@ -83,6 +83,7 @@ Code for Wigglytuff Farmer heavily relies on [Restraurant Farmer](RestaurantFarm
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
