@@ -330,6 +330,7 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | [Box Sorter](PokemonLZA/BoxSorter.md) {.nowrap}                                 | Sort your boxes.                                       | Video         | All |
 | [Weather Finder](PokemonLZA/WeatherFinder.md) {.nowrap}                         | Reset the day until you get the desired weather.       | Video         | All |
 | [Hyperspace Reward Reset](PokemonLZA/HyperspaceRewardReset.md) {.nowrap}        | Reset in front of a Hyperspace Battle Zone trainer to receive a specific reward. | Video | All |
+| [Donut Maker](PokemonLZA/DonutMaker.md) {.nowrap}                               | Make donuts and reset until desired flavor powers are found. | Video | All |
 ||
 | **Farming:** |
 | [Restaurant Farmer](PokemonLZA/RestaurantFarmer.md) {.nowrap}                   | Farm the restaurant battles for exp, items, and money. | Video         | All |
@@ -338,7 +339,6 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | [Friendship Farmer](PokemonLZA/FriendshipFarmer.md) {.nowrap}                   | Farm friendship via cafes or benches.                  | Video         | All |
 | [In-Place Catcher](PokemonLZA/InPlaceCatcher.md) {.nowrap}                      | Catch everything in one place to fill your boxes.      | Video + Audio | All |
 | [Wigglytuff Farmer](PokemonLZA/WigglytuffFarmer.md) {.nowrap}                   | Farm the Rich Boy's Wigglytuff for exp and money.      | Video + Audio | All |
-| [Donut Maker](PokemonLZA/DonutMaker.md) {.nowrap}        | Make donuts and reset until desired flavor powers are found. | Video | All |
 ||
 | **Shiny Hunting:** |
 | [Bench Sit](PokemonLZA/ShinyHunt-BenchSit.md) {.nowrap}                      | Shiny hunt using the bench reset method.               | Video + Audio | All |
@@ -367,6 +367,7 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
