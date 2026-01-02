@@ -4,7 +4,7 @@
 
 Reset in front of a Hyperspace Battle Zone trainer to receive a specific reward. Go to Switch Home screen when the reward is found.
 
-<img src="images/HyperspaceRewardReset.png">
+<img src="images/HyperspaceRewardReset.jpg">
 
 
 ### Setup of Settings
