@@ -1,4 +1,4 @@
-# Weather Finder (Currently In Development. Not Released to Public Yet)
+# Weather Finder
 
 ## Program Description
 
@@ -60,6 +60,7 @@ When program finishes, whether to go to Switch home screen.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
