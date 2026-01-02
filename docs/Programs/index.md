@@ -29,6 +29,7 @@ This is a list of all the computer-control programs. To run these programs, you 
 Read more about [Controller Performance Categories](../ControllerList.md#controller-performance-classes).
 
 
+
 ## General Nintendo Switch Programs
 
 | **Program** | **Feedback** | **Controllers** |
@@ -44,12 +45,16 @@ Read more about [Controller Performance Categories](../ControllerList.md#control
 | [Friend Delete](NintendoSwitch/FriendDelete.md) {.nowrap}                 |     | All |
 | [Record Keyboard Controller](NintendoSwitch/RecordKeyboardController.md) {.nowrap} |     | All |
 
+
+
 ## Pokémon Home
 
 | **Program** | **Feedback** | **Controllers** |
 | --- | --- | --- |
 | [Page Swap](PokemonHome/PageSwap.md) {.nowrap}             |       | All |
 | [Box Sorter](PokemonHome/BoxSorter.md) {.nowrap}           | Video | All |
+
+
 
 ## Pokémon Let's Go Pikachu/Eevee (LGPE)
 
@@ -150,18 +155,7 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | [Max Lair: Standard](PokemonSwSh/MaxLair-Standard.md) {.nowrap} | Run Dynamax Adventures until a shiny Legendary is found.               | Video | All |
 | [Max Lair: Strong Boss](PokemonSwSh/MaxLair-StrongBoss.md) {.nowrap} | Run Dynamax Adventures and intelligently reset to keep paths with high win rates (for Legendaries that are hard to beat) | Video | All |
 | [Max Lair: Boss Finder](PokemonSwSh/MaxLair-BossFinder.md) {.nowrap} | Run Dynamax Adventures until you find the boss you want.          | Video | All |
-||
-| **Deprecated Programs:** |
-||
-| [Ball Thrower](PokemonSwSh/BallThrower.md) {.nowrap} |                               |       | All |
-| [Beam Reset](PokemonSwSh/BeamReset.md) {.nowrap} |                                   |       | All |
-| [Egg Combined 2](PokemonSwSh/EggCombined2.md) {.nowrap} |                            |       | All |
-| [Egg Super-Combined 2](PokemonSwSh/EggSuperCombined2.md) {.nowrap} |                 |       | All |
-| [Shiny Hunt Unattended - Regi](PokemonSwSh/ShinyHuntUnattended-Regi.md) {.nowrap} |                         |                  | All |
-| [Shiny Hunt Unattended - Swords Of Justice](PokemonSwSh/ShinyHuntUnattended-SwordsOfJustice.md) {.nowrap} | |                  | All |
-| [Shiny Hunt Unattended - Strong Spawn](PokemonSwSh/ShinyHuntUnattended-StrongSpawn.md) {.nowrap} |          |                  | All |
-| [Shiny Hunt Unattended - Regigigas2](PokemonSwSh/ShinyHuntUnattended-Regigigas2.md) {.nowrap} |             |                  | All |
-| [Shiny Hunt Unattended - IoA Trade](PokemonSwSh/ShinyHuntUnattended-IoATrade.md) {.nowrap} |                |                  | All |
+
 
 
 ## Pokémon Brilliant Diamond/Shining Pearl
@@ -206,6 +200,7 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | [Activate Menu Glitch (1.1.2)](PokemonBDSP/ActivateMenuGlitch-Poketch.md) {.nowrap} | Video | All |
 
 
+
 ## Pokémon Legends Arceus
 
 | **Program** | **Feedback** | **Controllers** |
@@ -242,6 +237,7 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | [Shiny Hunt - Flag Pin](PokemonLA/ShinyHunt-FlagPin.md) {.nowrap}              | Video + Audio | All |
 | [Post-MMO Spawn Reset](PokemonLA/PostMMOSpawnReset.md) {.nowrap}               | Video + Audio | All |
 | [Shiny Hunt - Custom Path](PokemonLA/ShinyHunt-CustomPath.md) {.nowrap}        | Video + Audio | All |
+
 
 
 ## Pokémon Scarlet and Violet
@@ -314,6 +310,7 @@ This game cannot be played with a Pro Controller and instead requires the use of
 | [Autonomous Item Printer](PokemonSV/AutoItemPrinter.md) {.nowrap}              || Video         | All |
 
 
+
 ## Pokémon Legends ZA
 
 See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md)
@@ -351,6 +348,7 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | [Stats Reset](PokemonLZA/StatsReset.md) {.nowrap}                            | Reset for stats on gift Pokémon like Eternal Flower Floette. | Video         | All |
 
 
+
 ## Zelda: Tears of the Kingdom
 
 | **Program** | **Feedback** | **Controllers** |
@@ -367,6 +365,7 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
