@@ -2,7 +2,7 @@
 
 ## Program Description
 
-This is the "overworld encounter bot". It is the fastest and most advanced of the autonomous encounter bots that this package currently has.
+This is the "overworld encounter bot". It is the fastest and most advanced of the autonomous encounter bots for this game.
 
 This program will randomly seek out and encounter overworld Pokémon until it finds a shiny.
 
@@ -70,7 +70,7 @@ By default, the program is configured to randomly target everything. Here are so
 | Overworld (Fleeing) | Ralts - reacts with '!', then flees | `Prioritize Exclamation Marks` | `Whistle 3 times, then circle once.` |
 | Overworld (No Reaction) | Hattrem - walks up to you, but no reaction mark | `Question Marks Only (Ignore Exclamation Marks)` | `Circle 3 times, then whistle 3 times.` |
 | "Fan Favorite" | Sinistea (Old Cemetery) | `No Preference` | `Circle 3 times, then whistle 3 times.` |
-| "Fan Favorite"" | Sinistea (Glimwood*) | `No Preference` | `Horizontal Line Only`, `Max Target Alpha = 0` |
+| "Fan Favorite" | Sinistea (Glimwood*) | `No Preference` | `Horizontal Line Only`, `Max Target Alpha = 0` |
 
 *Needs to be in this specific location:<br>
 <img src="images/ShinyHuntAutonomous-Overworld-Glimwood.png" width="800">
@@ -169,6 +169,7 @@ After moving towards a Pokémon, make a circle. This increases the chance of enc
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
