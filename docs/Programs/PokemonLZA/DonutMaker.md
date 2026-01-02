@@ -1,4 +1,4 @@
-# Donut Maker (Currently In Beta. Not Released to Public Yet)
+# Donut Maker
 
 ## Program Description
 
