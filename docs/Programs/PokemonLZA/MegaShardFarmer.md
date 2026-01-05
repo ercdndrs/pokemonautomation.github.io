@@ -26,11 +26,17 @@ Farm Mega Shards in the alley behind Restaurant Le Yeah.
 3. Make sure you have unlocked Restaurant Le Yeah as a fly spot.
 4. Start the program in front of Restaurant Le Yeah.
 
+**Notes:**
+
+- If a battle area spawns into the area, the program won't break, but it will do nothing until it spawns away on the next day/night change.
+- If a hyperspace portal spawns in the hallway, the program will get stuck until the next day/night change to despawn it.
+
 ## Credits
 
 - **Author:** Kuroneko/Mysticial
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
