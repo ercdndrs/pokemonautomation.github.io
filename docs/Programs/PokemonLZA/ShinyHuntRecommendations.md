@@ -49,7 +49,7 @@ Numel has a chance to be alpha and will agro the moment you enter the gate. Need
 | Numel<br>Camerupt (Alpha)<br> Drilbur<br> Sandile<br>Krokorok<br> Machop<br> Gible | **Wild Zone 8**<br> **Walk Time in Zone:** 2000 ms<br> Remember to check the alley mentioned above for shiny Trubbish/Garbodor | <img src="images/ShinyHuntLocations/WildZone8-Camerupt.png" width="300"> | 
 -->
 
-## Shiny Hunt - Fly Spot Reset (Still In Beta, Not Released Yet)
+## Shiny Hunt - Fly Spot Reset
 
 Program: [Shiny Hunt - Fly Spot Reset](ShinyHunt-FlySpotReset.md)
 
