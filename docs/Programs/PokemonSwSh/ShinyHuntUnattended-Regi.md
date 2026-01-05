@@ -1,6 +1,6 @@
-# Shiny Hunt (Unattended) - Regi (deprecated)
+# Shiny Hunt (Unattended) - Regi (removed)
 
-***This program is deprecated and is no longer maintained. Please use [Shiny Hunt Autonomous: Regi](ShinyHuntAutonomous-Regi.md) instead.***
+***This program has been removed as of v0.61.4. Please use [Shiny Hunt Autonomous: Regi](ShinyHuntAutonomous-Regi.md) instead.***
 
 -----
 

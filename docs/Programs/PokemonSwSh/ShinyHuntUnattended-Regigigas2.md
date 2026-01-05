@@ -1,6 +1,6 @@
-# Shiny Hunt (Unattended) - Regigigas 2 (deprecated)
+# Shiny Hunt (Unattended) - Regigigas 2 (removed)
 
-***This program is deprecated and is no longer maintained. Please use [Shiny Hunt Autonomous: Regigigas2](ShinyHuntAutonomous-Regigigas2.md) instead.***
+***This program has been removed as of v0.61.4. Please use [Shiny Hunt Autonomous: Regigigas2](ShinyHuntAutonomous-Regigigas2.md) instead.***
 
 -----
 

@@ -1,6 +1,6 @@
-# Beam Reset (deprecated)
+# Beam Reset (removed)
 
-***This program is deprecated and is no longer maintained. Please use [Purple Beam Finder](PurpleBeamFinder.md) instead.***
+***This program has been removed as of v0.61.4. Please use [Purple Beam Finder](PurpleBeamFinder.md) instead.***
 
 -----
 

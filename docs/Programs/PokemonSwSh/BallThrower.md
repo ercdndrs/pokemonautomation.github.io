@@ -1,6 +1,6 @@
-# Ball Thrower (deprecated)
+# Ball Thrower (removed)
 
-***This program is deprecated and is no longer maintained. Please use [Autonomous Ball Thrower](AutonomousBallThrower.md) instead.***
+***This program has been removed as of v0.61.4. Please use [Autonomous Ball Thrower](AutonomousBallThrower.md) instead.***
 
 -----
 

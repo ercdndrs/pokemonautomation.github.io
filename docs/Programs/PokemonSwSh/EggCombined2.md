@@ -1,6 +1,6 @@
-# Egg Combined 2 (deprecated)
+# Egg Combined 2 (removed)
 
-***This program is deprecated and is no longer maintained. Please use [Egg Autonomous](EggAutonomous.md) instead.***
+***This program has been removed as of v0.61.4. Please use [Egg Autonomous](EggAutonomous.md) instead.***
 
 -----
 

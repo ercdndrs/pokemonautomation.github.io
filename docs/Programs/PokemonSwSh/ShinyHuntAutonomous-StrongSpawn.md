@@ -1,11 +1,5 @@
 # Shiny Hunt (Autonomous) - Strong Spawn
 
-**Related Programs:**
-
-- [Shiny Hunt Unattended: Strong Spawn](ShinyHuntUnattended-StrongSpawn.md)
-- [Shiny Hunt Autonomous: Strong Spawn](ShinyHuntAutonomous-StrongSpawn.md) (this program)
-
-
 ## Program Description
 
 This is the autonomous version of [ShinyHuntUnattended-StrongSpawn](ShinyHuntUnattended-StrongSpawn.md).

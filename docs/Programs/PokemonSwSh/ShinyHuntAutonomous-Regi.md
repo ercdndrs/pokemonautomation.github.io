@@ -1,11 +1,5 @@
 # Shiny Hunt (Autonomous) - Regi
 
-**Related Programs:**
-
-- [Shiny Hunt Unattended: Regi](ShinyHuntUnattended-Regi.md)
-- [Shiny Hunt Autonomous: Regi](ShinyHuntAutonomous-Regi.md) (this program)
-
-
 ## Program Description
 
 This is the autonomous version of [ShinyHuntUnattended-Regi](ShinyHuntUnattended-Regi.md).

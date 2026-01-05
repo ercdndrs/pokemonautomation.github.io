@@ -1,11 +1,5 @@
 # Autonomous Ball Thrower
 
-**Related Programs:**
-
-- [Ball Thrower](BallThrower.md)
-- [Autonomous Ball Thrower](AutonomousBallThrower.md) (this program)
-
-
 ## Program Description
 
 Keep throwing ball until you catch the Pokémon you're fighting. In case of failure to catch the Pokémon (in case your Pokémon or the opposing Pokémon faint, you run out of balls, etc) it will reset the game and wait until a pokémon attacks you.

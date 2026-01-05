@@ -1,11 +1,5 @@
 # Shiny Hunt (Autonomous) - IoA Trade
 
-**Related Programs:**
-
-- [Shiny Hunt Unattended: IoA Trade](ShinyHuntUnattended-IoATrade.md)
-- [Shiny Hunt Autonomous: IoA Trade](ShinyHuntAutonomous-IoATrade.md) (this program)
-
-
 ## Program Description
 
 This is the autonomous version of [ShinyHuntUnattended-IoATrade](ShinyHuntUnattended-IoATrade.md).

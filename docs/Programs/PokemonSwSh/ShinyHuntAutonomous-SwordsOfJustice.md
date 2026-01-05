@@ -1,11 +1,5 @@
 # Shiny Hunt (Autonomous) - Swords of Justice
 
-**Related Programs:**
-
-- [Shiny Hunt Unattended: Swords of Justice](ShinyHuntUnattended-SwordsOfJustice.md)
-- [Shiny Hunt Autonomous: Swords of Justice](ShinyHuntAutonomous-SwordsOfJustice.md) (this program)
-
-
 ## Program Description
 
 This is the autonomous version of [ShinyHuntUnattended-SwordsOfJustice](ShinyHuntUnattended-SwordsOfJustice.md).

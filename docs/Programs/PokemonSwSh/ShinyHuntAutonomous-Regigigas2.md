@@ -1,11 +1,5 @@
 # Shiny Hunt (Autonomous) - Regigigas 2
 
-**Related Programs:**
-
-- [Shiny Hunt Unattended: Regigigas2](ShinyHuntUnattended-Regigigas2.md)
-- [Shiny Hunt Autonomous: Regigigas2](ShinyHuntAutonomous-Regigigas2.md) (this program)
-
-
 ## Program Description
 
 This is the autonomous version of [ShinyHuntUnattended-Regigigas2](ShinyHuntUnattended-Regigigas2.md).

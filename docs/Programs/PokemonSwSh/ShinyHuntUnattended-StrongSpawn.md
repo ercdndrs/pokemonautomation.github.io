@@ -1,6 +1,6 @@
-# Shiny Hunt (Unattended) - Strong Spawn (deprecated)
+# Shiny Hunt (Unattended) - Strong Spawn (removed)
 
-***This program is deprecated and is no longer maintained. Please use [Shiny Hunt Autonomous: Strong Spawn](ShinyHuntAutonomous-StrongSpawn.md) instead.***
+***This program has been removed as of v0.61.4. Please use [Shiny Hunt Autonomous: Strong Spawn](ShinyHuntAutonomous-StrongSpawn.md) instead.***
 
 -----
 
