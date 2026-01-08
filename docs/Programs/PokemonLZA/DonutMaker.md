@@ -74,6 +74,11 @@ One berry per line. To use a berry more than once, select it in multiple rows.
 
 How many of a created donut's powers must be in the the table below (number of hits). Minimum one, maximum three.
 
+### Number of Donuts:
+
+The program continues resetting and making donuts of required powers until this many donuts of required powers are made.
+Make sure you have enough berries to make this many donuts. The program will fail when not given enough berries.
+
 ### Flavor Powers Table:
 
 Add your desired flavor powers to this table. Note that "All Types" means the all types power in-game. If you want all Pokemon types, they will all have to be added individually.
