@@ -335,7 +335,7 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 | [Jacinthe Infinite Farmer](PokemonLZA/JacintheInfiniteFarmer.md) {.nowrap}      | Repeatedly battle Jacinthe for exp and money.          | Video         | All |
 | [Friendship Farmer](PokemonLZA/FriendshipFarmer.md) {.nowrap}                   | Farm friendship via cafes or benches.                  | Video         | All |
 | [In-Place Catcher](PokemonLZA/InPlaceCatcher.md) {.nowrap}                      | Catch everything in one place to fill your boxes.      | Video + Audio | All |
-| [Wigglytuff Farmer](PokemonLZA/WigglytuffFarmer.md) {.nowrap}                   | Farm the Rich Boy's Wigglytuff for exp and money.      | Video + Audio | All |
+| [Wigglytuff Farmer](PokemonLZA/WigglytuffFarmer.md) {.nowrap}                   | Farm the Rich Boy's Wigglytuff for exp and money.      | Video         | All |
 ||
 | **Shiny Hunting:** |
 | [Bench Sit](PokemonLZA/ShinyHunt-BenchSit.md) {.nowrap}                      | Shiny hunt using the bench reset method.               | Video + Audio | All |
@@ -365,6 +365,7 @@ See also: [Shiny Hunting Recommendations](PokemonLZA/ShinyHuntRecommendations.md
 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
