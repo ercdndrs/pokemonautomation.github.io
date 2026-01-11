@@ -8,7 +8,10 @@ Shiny huntable legendary Pokémon are Latias, Latios, Cobalion, Terrakion, and V
 
 Shiny odds for the legendaries are affected by the Shiny Charm and Sparkling Power donuts but the size and IVs are fixed.
 
-Currently, only Cobalion, Terrakion, and Virizion are supported.
+Currently, only Latios, Latias, Cobalion, Terrakion, and Virizion are supported.
+
+<img src="images/ShinyHunt-HyperspaceLegendary-TerrakionShiny.jpg">
+
 
 ### Setup of Settings
 
