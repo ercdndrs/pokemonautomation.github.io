@@ -41,16 +41,16 @@ Currently, only Cobalion, Terrakion, and Virizion are supported.
 
 1. Enter a 5-star hyperspace legendary wild zone.
 2. Based on the legendary you want to hunt, move to the location shown below.
-3. Set enough calories in option **Minimum Cal. Reserved to Catch Legendary**. A 5-star hyperspace burns 10 calories per second.
+3. If hunting Swords of Justice, set enough calories in option **Minimum Cal. Reserved to Catch Legendary**. A 5-star hyperspace burns 10 calories per second.
 4. Save the game at the location described below.
 5. Start the program.
 
 Movement for each legendary:
 
-#### Eon Duo
-<img src="images/ShinyHunt-HyperspaceLegendary-EonMap.jpg">
+<!-- #### Eon Duo
+<img src="images/ShinyHunt-HyperspaceLegendary-EonMap.jpg"> -->
 
-Not yet implemented
+<!-- Not yet implemented -->
 
 #### Swords of Justice
 <img src="images/ShinyHunt-HyperspaceLegendary-SwordsMap.jpg">
@@ -60,6 +60,10 @@ Not yet implemented
 | **Cobalion**<br>- From the entrance, run forwards and right and drop into the alley<br>- Go down the stairs<br>- At the bottom of the stairs, turn left towards the bridge, and take the ramps down to the canal level<br>- Move onto the ice <br>- Go under the bridge while on the ice <br>- Make sure your character is beneath the very center of the bridge and that your camera is directly facing the wall | [<img src="images/ShinyHunt-HyperspaceLegendary-CobalionStart.jpg" width="300">](images/ShinyHunt-HyperspaceLegendary-CobalionStart.jpg) [<img src="images/ShinyHunt-HyperspaceLegendary-CobalionStart2.jpg" width="300">](images/ShinyHunt-HyperspaceLegendary-CobalionStart2.jpg) |
 | **Terrakion**<br>- Go left from the entrance<br>- Go halfway down the stairs<br>- Turn right onto the grass<br>- Take the warp pad up to the roof<br>- Turn towards the right and go to the warp panel that points towards the scaffolding near the entrance<br>- Make sure the warp pad "A" button is visible | <img src="images/ShinyHunt-HyperspaceLegendary-TerrakionStart.jpg" width="600">
 | **Virizion**<br>- From the entrance, run forward and right and drop into the alley<br>- Climb the ladder on the far right side<br>- Climb onto the roof, and move to the plank on the right<br>- Cross the plank and climb onto the roof<br>- Use the Rotom Glide to jump onto the building toward the right, the one with a warp pad<br>- Move to the ladder at the end, face the ladder with the "A" button visible | <img src="images/ShinyHunt-HyperspaceLegendary-VirizionStart.jpg" width="600"> |
+| **Latios**<br>- Stand on the Holovator pad that leads to the roof top where Latios resides. <br>- Make sure you have enough Calories left to catch it. | [<img src="images//ShinyHunt-HyperspaceLegendary-LatiosStart.jpg" width="600">](images//ShinyHunt-HyperspaceLegendary-LatiosStart.jpg) |
+| **Latias**<br>- To be implemented. | |
+
+
 
 ## Options
 
@@ -85,7 +89,7 @@ When a shiny is detected, wait this long before you take a screenshot and record
 
 Which Legendary you are hunting.
 
-### Minimum Cal. Reserved to Catch Legendary
+### Minimum Cal. Reserved to Catch Legendary (Only For Hunting Sword of Justice)
 
 Minimum amount of calories you need to catch the legendary after the program find it shiny. It burns 10 calories per second in those 5-star legendary Hyperspace Wild Zones.
 
