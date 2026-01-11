@@ -1,4 +1,4 @@
-# Box Sorter (Currently In Development. Not Released to Public Yet)
+# Box Sorter
 
 ## Program Description
 
@@ -67,3 +67,4 @@ This is useful for exporting your Pokémon data.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
