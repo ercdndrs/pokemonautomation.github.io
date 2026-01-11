@@ -7,8 +7,12 @@ This program will automate the Scarlet/Violet story.
 
 The program has two sections: the tutorial and the main story. After it finishes the tutorial, the program will pause. If you want to automate the main story, you will need to ensure that your party has a level 100 Gardevoir, and two other strong pokemon (see below for more details). This allows us to focus on automating the story elements, without also having to consider training up the team or dealing with the battle AI.
 
+**Video demos:**
+
 Tutorial (Part 1 of 3): https://youtu.be/lDQ3mu9bnkI
+
 Main Story (Part 2 of 3): https://youtu.be/DxftCbFn1k4
+
 Area Zero (Part 3 of 3): https://youtu.be/n3G1z2--5Ao
 
 ### Setup of Settings
@@ -140,6 +144,7 @@ End the autostory program at this segment in the story.
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
