@@ -42,10 +42,11 @@ In contrast, hacked Pokémon are not always legal or safe to use. An incorrectly
 
 **Not Supported:**
 
-- **Linux on x64:** This is not officially supported yet because it has issues involving capture card flickering. It is also missing some features. To use this setup, you will need to build from source.
+- **Linux on x64:** Not officially supported. The project will compile and run on Linux. But there are numerous issues with the biggest being video capture flicker.
 - **Windows on ARM:** Not supported. You may be able to run the x64 binaries via emulation, but it will come with performance issues. Also expect lots of issues involving drivers.
 - **Linux on ARM:** Not supported.
 
+Platform/OS support is basically dictated by what the developers use. This project started in Windows. Then some Mac users (who were also developers) joined and made it work for Mac. But this has not happened for Linux yet. If you would like to be that person for Linux, please join us! We are open to contributions!
 
 
 ### Can I use a Raspberry Pi instead of a computer?
