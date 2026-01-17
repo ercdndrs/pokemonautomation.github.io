@@ -90,6 +90,7 @@ Main Page: [FAQ](FAQ.md)
 - [Does this work on the Switch 2?](FAQ.md#does-this-work-on-the-switch-2)
 - [Is there any ban risk of this project?](FAQ.md#is-there-any-ban-risk-of-this-project)
 - [Are Pokémon caught with this project safe to use?](FAQ.md#are-pokemon-caught-with-this-project-safe-to-use)
+- [What platforms and operating systems are supported?](FAQ.md#what-platforms-and-operating-systems-are-supported)
 - [Can I use a Raspberry Pi instead of a computer?](FAQ.md#can-i-use-a-raspberry-pi-instead-of-a-computer)
 - [Can I use a phone or a tablet instead of a computer?](FAQ.md#can-i-use-a-phone-or-a-tablet-instead-of-a-computer)
 - [I'm an old user returning after a long absence. Is my Arduino/Teensy still good?](FAQ.md#im-an-old-user-returning-after-a-long-absence-is-my-arduinoteensy-still-good)
@@ -145,6 +146,7 @@ Do not try to profit from these programs. It's just a game; keep the money out o
 For all other uses, please reach out to the administrators of the Pokémon Automation discord server.
 
 This software is provided "as is" and the developers disclaim all warranties with regard to this software including all implied warranties of merchantability and fitness. In no event shall the developers be liable for any special, direct, indirect, or consequential damages, or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software.
+
 
 
 
