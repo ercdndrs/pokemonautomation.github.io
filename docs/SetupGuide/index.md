@@ -115,7 +115,7 @@ While we support quite a few different setups, these are the 3 that we recommend
 | Runs nearly all programs - including LGPE.* | Runs all programs - including LGPE.* | Cannot run LGPE.*<br>Runs most other programs. |
 | Slower and less reliable than wired. | Fastest and most reliable. | Identical to wired controllers. |
 | Not recommended for remote access.<br>Not recommended for high density setups due to wireless interference. | Very good for remote access.<br>Very good for high density setups. | Not recommended for remote access. |
-| Recommended for first time users due to ease of setup.| Recommended for heavy users who want maximum reliability. | Recommended for existing CFW users who want to try CC programs with minimal investment. |
+| Recommended for first time users due to ease of setup.| Recommended for heavy users who want to automate multiple Switches with maximum reliability. | Recommended for existing CFW users who want to try CC programs with minimal investment. |
 
 For a complete list of setups - including older ones we no longer recommend, see our [Controller List](../ControllerList.md).
 
@@ -195,6 +195,7 @@ Here are some misc. tips/tricks, and other hidden features of the CC programs!
 **Discord Server:** 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
 
 
 
