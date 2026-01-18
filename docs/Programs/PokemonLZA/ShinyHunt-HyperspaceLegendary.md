@@ -39,7 +39,7 @@ Shiny odds for the legendaries are affected by the Shiny Charm and Sparkling Pow
 
 1. Enter a 5-star hyperspace legendary wild zone.
 2. Based on the legendary you want to hunt, move to the location shown on the maps below. Written instructions are also provided if needed.
-3. If hunting Latias or Swords of Justice, set enough calories in option **Minimum Cal. Reserved to Catch Legendary**. A 5-star hyperspace burns 10 calories per second.
+3. If hunting Latias (shuttle run method only) or Swords of Justice, set enough calories in option **Minimum Cal. Reserved to Catch Legendary**. A 5-star hyperspace burns 10 calories per second.
 4. Save the game at the location described below.
 5. Start the program.
 
@@ -50,7 +50,8 @@ Movement for each legendary:
 
 | Pokémon | Image |
 | --- | --- |
-| **Latias**<br>- From the entrance, make a hard right and follow the street<br>- The building on the left side of the street has a tunnel into a courtyard, enter the courtyard<br>- Immediately after the tunnel, turn right and climb the ladder to the top and climb onto the roof<br>- Go left, and climb onto the roof with the Noibat/Noivern<br>- Once you're on that roof, climb onto the higher roof on your right<br>- Go to up to the ladder that leads up to Latias, don't climb it<br>- Stand in front of the ladder with the "A" button prompt visible<br><br>Note: You may need to defeat or de-aggro Noibat/Noivern to save | [<img src="images//ShinyHunt-HyperspaceLegendary-LatiasStart.jpg" width="600">](images//ShinyHunt-HyperspaceLegendary-LatiasStart.jpg) |
+| **Latias Shuttle Run**<br>- From the entrance, make a hard right and follow the street<br>- The building on the left side of the street has a tunnel into a courtyard, enter the courtyard<br>- Immediately after the tunnel, turn right and climb the ladder to the top and climb onto the roof<br>- Go left, and climb onto the roof with the Noibat/Noivern<br>- Once you're on that roof, climb onto the higher roof on your right<br>- Go to up to the ladder that leads up to Latias, don't climb it<br>- Stand in front of the ladder with the "A" button prompt visible<br><br>Note: You may need to defeat or de-aggro Noibat/Noivern to save | [<img src="images//ShinyHunt-HyperspaceLegendary-LatiasStart.jpg" width="600">](images//ShinyHunt-HyperspaceLegendary-LatiasStart.jpg) |
+| **Latias Game Reset**<br>- From the entrance, make a hard right and follow the street<br>- The building on the left side of the street has a tunnel into a courtyard, enter the courtyard<br>- Immediately after the tunnel, turn right and climb the ladder to the top and climb onto the roof<br>- Go left, and climb onto the roof with the Noibat/Noivern<br>- Once you're on that roof, climb onto the higher roof on your right<br>- Turn away from the ladder and hop onto the roof with Munna on it.<br>- Turning around, you should be able to see Latias in the distance.<br>**- IMPORTANT: You must now despawn Latias by running to the right and returning to the spot shown in the screenshot below. You will never get a shiny if this step is skipped.**<br>- Return to the location shown in the image while staying far enough away from Latias' location to avoid it spawning. Ensure your character (not just your camera) is pointed directly at the spawn platform, then save the game and go to the map.<br><br>Note: Make sure you have enough Calories left to catch it.<br><br>The program will execute a forward roll, which should force Latias to spawn. It will then visually check for the presence of Latias or shiny Latias. If a shiny is observed or a non-shiny is not observed, the program will go to the home screen. Ensure your configuration is correct if it doesn't reset the game as expected. | [<img src="images//ShinyHunt-HyperspaceLegendary-LatiasGameResetStart.jpg" width="600">](images//ShinyHunt-HyperspaceLegendary-LatiasGameResetStart.jpg) |
 | **Latios**<br>- From the entrance, make a hard right and follow the street<br>- The building on the left side of the street has a tunnel into a courtyard, enter the courtyard<br>- Immediately after the tunnel, turn right and climb the ladder to the top and climb onto the roof<br>- Go left, and climb onto the roof with the Hawlucha<br>- Go towards the left, past the Hawlucha<br>- Drop onto the roof with the chimneys and use the Holovator pad on the far end to get across the canal<br>- Go towards and climb onto the roof that is higher<br>- Cross the bridge that is ahead, clearing the vines in the way<br>- Climb the ladder to the right<br>- Walk across the web<br>- After crossing the web, drop off the roof onto the terrace that's straight ahead<br> - Stand on the Holovator pad that leads to the roof top where Latios resides, with the "A" button prompt visible<br><br>Note: Make sure you have enough Calories left to catch it. | [<img src="images//ShinyHunt-HyperspaceLegendary-LatiosStart.jpg" width="600">](images//ShinyHunt-HyperspaceLegendary-LatiosStart.jpg) |
 
 
@@ -66,6 +67,8 @@ Movement for each legendary:
 
 
 ## Options
+
+- Note: Most settings do not apply to the Latias Game Reset program.
 
 ### Shiny Sound Detected Action
 
@@ -97,7 +100,7 @@ The program will likely aggro the legendary, prepare enough time to fight it. Ki
 
 ## Credits
 
-- **Author:** Gin, Gimikyu, Cryson, theAstrogoth
+- **Author:** Gin, Gimikyu, Cryson, theAstrogoth, ConkelDers
 
 
 <hr>
@@ -106,3 +109,4 @@ The program will likely aggro the legendary, prepare enough time to fight it. Ki
 
 
 [<img src="https://canary.discordapp.com/api/guilds/695809740428673034/widget.png?style=banner2">](https://discord.gg/cQ4gWxN)
+
